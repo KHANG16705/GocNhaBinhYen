@@ -1,0 +1,68 @@
+# ==============================================================================
+# Góc Nhà Bình Yên — Line endings & Binary file rules
+# ==============================================================================
+
+* text=auto eol=lf
+
+# Unity & Code text files
+*.cs        text diff=csharp
+*.shader    text
+*.cginc     text
+*.hlsl      text
+*.compute   text
+*.json      text
+*.xml       text
+*.yaml      text
+*.yml       text
+*.md        text
+*.txt       text
+*.html      text
+*.css       text
+*.js        text
+*.uss       text
+*.uxml      text
+*.asmdef    text
+*.asmref    text
+
+# Unity YAML serialized assets (Force Text)
+*.meta       text
+*.unity      text
+*.prefab     text
+*.asset      text
+*.mat        text
+*.anim       text
+*.controller text
+*.overrideController text
+*.physicMaterial2D   text
+*.preset     text
+*.mixer      text
+*.lighting   text
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary art, audio, fonts & Office documents (never diff/alter line endings)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.psd  binary
+*.wav  binary
+*.ogg  binary
+*.mp3  binary
+*.ttf  binary
+*.otf  binary
+*.docx binary
+*.pdf  binary
+*.zip  binary
+
+# Optional Git LFS note:
+# Hiện tại tổng repo ~71 MB (tệp lớn nhất ~8 MB) nên dùng Git thường để tránh
+# giới hạn băng thông 1 GB/tháng của GitHub LFS Free.
+# Nếu sau này thêm file nặng (>50 MB như video/nhạc lossless), hãy bật LFS riêng:
+#   git lfs install
+#   git lfs track "*.mp4" "*.psd"

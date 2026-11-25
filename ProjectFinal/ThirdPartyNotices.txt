@@ -1,0 +1,29 @@
+THIRD-PARTY NOTICES — Góc Nhà Bình Yên (ProjectFinal v1.9)
+============================================================
+
+1. Fonts
+--------
+- Noto Sans Regular (4_Data_and_Fonts/Fonts/NotoSans-Regular.ttf)
+- Noto Sans SemiBold (4_Data_and_Fonts/Fonts/NotoSans-SemiBold.ttf)
+  Author/Source: Google Noto Fonts (https://github.com/notofonts/noto-fonts)
+  License: SIL Open Font License 1.1 (see 4_Data_and_Fonts/Fonts/OFL.txt)
+
+2. 2D Artwork & UI Assets
+-------------------------
+- Map, 16 wall segments, 48 furniture/decor/architecture items, 2 characters,
+  10 plant species, fish pond, living room aquarium, large aquarium background,
+  6 fish species, chore props, and world icons:
+  Origin: Original project artwork generated via built-in image generation tools
+  and post-processed programmatically specifically for Góc Nhà Bình Yên (ProjectFinal).
+  No watermarked or third-party copyrighted sprite packs included.
+- UI 9-slice components and icons (1_2D_Art/UI/Components/, 1_2D_Art/UI/Icons/):
+  Origin: Programmatically generated original vector-to-PNG assets for this project.
+
+3. Audio (BGM & SFX)
+--------------------
+- BGM/HomeLoop.ogg
+- SFX/Click.wav, Coin.wav, Place.wav, Sweep.wav, Water.wav
+- SFX/PestCatch.wav, Wipe.wav, Cloth.wav, Ready.wav, WashLoop.wav
+- SFX/Cast.wav, FishBite.wav, CatchFish.wav
+  Origin: 100% procedurally synthesized specifically for Góc Nhà Bình Yên;
+  no external third-party audio samples used.

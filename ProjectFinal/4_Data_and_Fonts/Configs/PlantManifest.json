@@ -1,0 +1,321 @@
+{
+    "schemaVersion":  "1.9-PF",
+    "speciesCount":  10,
+    "stages":  [
+                   "Seedling",
+                   "Growing",
+                   "Mature"
+               ],
+    "framePixels":  [
+                        112,
+                        112
+                    ],
+    "wiltVisualTints":  {
+                            "healthy":  "#FFFFFF",
+                            "wilt1":  "#E2D5A3",
+                            "wilt2":  "#B89B6E",
+                            "dead":  "#7D756C"
+                        },
+    "plants":  [
+                   {
+                       "species":  "Daisy",
+                       "nameVi":  "Hoa cúc",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Daisy_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Daisy",
+                       "nameVi":  "Hoa cúc",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Daisy_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Daisy",
+                       "nameVi":  "Hoa cúc",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Daisy_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Rose",
+                       "nameVi":  "Hoa hồng",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Rose_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Rose",
+                       "nameVi":  "Hoa hồng",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Rose_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Rose",
+                       "nameVi":  "Hoa hồng",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Rose_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Sunflower",
+                       "nameVi":  "Hướng dương",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Sunflower_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Sunflower",
+                       "nameVi":  "Hướng dương",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Sunflower_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Sunflower",
+                       "nameVi":  "Hướng dương",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Sunflower_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Apple",
+                       "nameVi":  "Táo",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Apple_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Apple",
+                       "nameVi":  "Táo",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Apple_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Apple",
+                       "nameVi":  "Táo",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Apple_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Pear",
+                       "nameVi":  "Lê",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Pear_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Pear",
+                       "nameVi":  "Lê",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Pear_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Pear",
+                       "nameVi":  "Lê",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Pear_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Mango",
+                       "nameVi":  "Xoài",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Mango_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Mango",
+                       "nameVi":  "Xoài",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Mango_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Mango",
+                       "nameVi":  "Xoài",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Mango_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Ornamental",
+                       "nameVi":  "Cây cảnh",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Ornamental_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Ornamental",
+                       "nameVi":  "Cây cảnh",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Ornamental_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Ornamental",
+                       "nameVi":  "Cây cảnh",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Ornamental_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Bonsai",
+                       "nameVi":  "Bonsai",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_Bonsai_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Bonsai",
+                       "nameVi":  "Bonsai",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_Bonsai_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "Bonsai",
+                       "nameVi":  "Bonsai",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_Bonsai_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "MutantOrchid",
+                       "nameVi":  "Lan đột biến",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_MutantOrchid_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "MutantOrchid",
+                       "nameVi":  "Lan đột biến",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_MutantOrchid_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "MutantOrchid",
+                       "nameVi":  "Lan đột biến",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_MutantOrchid_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "MoneyTree",
+                       "nameVi":  "Kim tiền",
+                       "stage":  "Seedling",
+                       "file":  "2_Animations/Plants/Plant_MoneyTree_Seedling.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "MoneyTree",
+                       "nameVi":  "Kim tiền",
+                       "stage":  "Growing",
+                       "file":  "2_Animations/Plants/Plant_MoneyTree_Growing.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   },
+                   {
+                       "species":  "MoneyTree",
+                       "nameVi":  "Kim tiền",
+                       "stage":  "Mature",
+                       "file":  "2_Animations/Plants/Plant_MoneyTree_Mature.png",
+                       "pivotPixels":  [
+                                           56,
+                                           104
+                                       ]
+                   }
+               ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "method": "Native browser UI checks and visual review of rendered PNGs",
+  "checks": [
+    "Furniture rotate button changes Down to Right and displays matching sprite",
+    "Character selector switches from Male to Female sheet",
+    "Pause and resume animation controls work",
+    "Character Left direction selects Walk_Left clip",
+    "Map toggle switches between empty architecture and furnished demo",
+    "Transparent sprite silhouettes render cleanly over checkerboard",
+    "Furniture catalog and map preview were visually inspected"
+  ],
+  "notTested": ["Engine import", "Gameplay collision", "Character movement synchronization"]
+}

@@ -1,0 +1,789 @@
+{
+  "schemaVersion": "1.0",
+  "pack": "DecorExpansion",
+  "items": [
+    {
+      "id": "ComputerDesk",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "desk",
+        "monitor",
+        "keyboard",
+        "mouse"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "desk",
+        "monitor",
+        "keyboard",
+        "mouse"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "OfficeChair",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "single",
+      "includes": [
+        "chair"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "chair"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "TrashBin",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "single",
+      "includes": [
+        "bin"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "bin"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "TVConsole",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "cabinet",
+        "TV",
+        "shelf books"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "cabinet",
+        "TV",
+        "shelf books"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "DiningTableSet",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "table",
+        "tablecloth",
+        "flower vase"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "table",
+        "tablecloth",
+        "flower vase"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "KitchenCounterSet",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "counter cabinet",
+        "mug",
+        "jar"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "counter cabinet",
+        "mug",
+        "jar"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "KitchenWallShelf",
+      "category": "wall",
+      "requiredSupport": "wall",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "shelf",
+        "rail",
+        "3 pans",
+        "2 cups",
+        "jar"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "shelf",
+        "rail",
+        "3 pans",
+        "2 cups",
+        "jar"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "EntryConsoleSet",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "console",
+        "photo frame",
+        "books",
+        "2 potted plants"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "console",
+        "photo frame",
+        "books",
+        "2 potted plants"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "WallPainting",
+      "category": "wall",
+      "requiredSupport": "wall",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "frame",
+        "botanical print"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "frame",
+        "botanical print"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "PhotoFrame",
+      "category": "surface",
+      "requiredSupport": "tabletop",
+      "gridStepPixels": 4,
+      "rotateWithParent": true,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "frame",
+        "picture"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "frame",
+        "picture"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "ReadingTray",
+      "category": "surface",
+      "requiredSupport": "tabletop",
+      "gridStepPixels": 4,
+      "rotateWithParent": true,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "tray",
+        "2 books",
+        "mug",
+        "paper"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "tray",
+        "2 books",
+        "mug",
+        "paper"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "TableLamp",
+      "category": "surface",
+      "requiredSupport": "tabletop",
+      "gridStepPixels": 4,
+      "rotateWithParent": true,
+      "independentCollision": false,
+      "groupMode": "single",
+      "includes": [
+        "lamp"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "lamp"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "LongSofa",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "sofa",
+        "sage pillow",
+        "mustard pillow"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "sofa",
+        "sage pillow",
+        "mustard pillow"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "ThrowPillow",
+      "category": "seat",
+      "requiredSupport": "seat",
+      "gridStepPixels": 4,
+      "rotateWithParent": true,
+      "independentCollision": false,
+      "groupMode": "single",
+      "includes": [
+        "pillow"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "pillow"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "CatBedSet",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "pet bed",
+        "sleeping cat (static)"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "pet bed",
+        "sleeping cat (static)"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "Slippers",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "left slipper",
+        "right slipper"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "left slipper",
+        "right slipper"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "RoundRug",
+      "category": "ground",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": false,
+      "groupMode": "single",
+      "includes": [
+        "rug"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "rug"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "FloralRug",
+      "category": "ground",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": false,
+      "groupMode": "single",
+      "includes": [
+        "rug"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "rug"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "StudyRug",
+      "category": "ground",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": false,
+      "groupMode": "single",
+      "includes": [
+        "rug"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "rug"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "BathroomVanity",
+      "category": "floor",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "vanity",
+        "basin",
+        "faucet"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "vanity",
+        "basin",
+        "faucet"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "TrailingPlant",
+      "category": "surface_edge",
+      "requiredSupport": "cabinet_top_edge",
+      "gridStepPixels": 4,
+      "rotateWithParent": true,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "pot",
+        "ivy vines"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "pot",
+        "ivy vines"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "FlowerVase",
+      "category": "surface",
+      "requiredSupport": "tabletop",
+      "gridStepPixels": 4,
+      "rotateWithParent": true,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "vase",
+        "daisies"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "vase",
+        "daisies"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "SmallPlant",
+      "category": "surface",
+      "requiredSupport": "tabletop",
+      "gridStepPixels": 4,
+      "rotateWithParent": true,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "pot",
+        "plant"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "pot",
+        "plant"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "DoorMat",
+      "category": "ground",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": false,
+      "groupMode": "single",
+      "includes": [
+        "mat"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "mat"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "DoorClosed",
+      "category": "doorway",
+      "requiredSupport": "doorway",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "door frame",
+        "closed leaf"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "door frame",
+        "closed leaf"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "DoorOpen",
+      "category": "doorway",
+      "requiredSupport": "doorway",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "door frame",
+        "open leaf"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "door frame",
+        "open leaf"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "CurtainedWindow",
+      "category": "wall",
+      "requiredSupport": "wall",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": false,
+      "groupMode": "baked_set",
+      "includes": [
+        "window frame",
+        "glass",
+        "curtain"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "window frame",
+        "glass",
+        "curtain"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    },
+    {
+      "id": "FenceSegment",
+      "category": "boundary",
+      "requiredSupport": "ground",
+      "gridStepPixels": 16,
+      "rotateWithParent": false,
+      "independentCollision": true,
+      "groupMode": "baked_set",
+      "includes": [
+        "3 pickets",
+        "posts",
+        "rails"
+      ],
+      "excludeFromAutomaticAttachments": [
+        "3 pickets",
+        "posts",
+        "rails"
+      ],
+      "placementAnchor": "pivotPixels",
+      "note": "Data for implementing placement, not an engine component."
+    }
+  ],
+  "groupedSets": [
+    {
+      "id": "ComputerDesk",
+      "includes": [
+        "desk",
+        "monitor",
+        "keyboard",
+        "mouse"
+      ]
+    },
+    {
+      "id": "TVConsole",
+      "includes": [
+        "cabinet",
+        "TV",
+        "shelf books"
+      ]
+    },
+    {
+      "id": "DiningTableSet",
+      "includes": [
+        "table",
+        "tablecloth",
+        "flower vase"
+      ]
+    },
+    {
+      "id": "KitchenCounterSet",
+      "includes": [
+        "counter cabinet",
+        "mug",
+        "jar"
+      ]
+    },
+    {
+      "id": "KitchenWallShelf",
+      "includes": [
+        "shelf",
+        "rail",
+        "3 pans",
+        "2 cups",
+        "jar"
+      ]
+    },
+    {
+      "id": "EntryConsoleSet",
+      "includes": [
+        "console",
+        "photo frame",
+        "books",
+        "2 potted plants"
+      ]
+    },
+    {
+      "id": "WallPainting",
+      "includes": [
+        "frame",
+        "botanical print"
+      ]
+    },
+    {
+      "id": "PhotoFrame",
+      "includes": [
+        "frame",
+        "picture"
+      ]
+    },
+    {
+      "id": "ReadingTray",
+      "includes": [
+        "tray",
+        "2 books",
+        "mug",
+        "paper"
+      ]
+    },
+    {
+      "id": "LongSofa",
+      "includes": [
+        "sofa",
+        "sage pillow",
+        "mustard pillow"
+      ]
+    },
+    {
+      "id": "CatBedSet",
+      "includes": [
+        "pet bed",
+        "sleeping cat (static)"
+      ]
+    },
+    {
+      "id": "Slippers",
+      "includes": [
+        "left slipper",
+        "right slipper"
+      ]
+    },
+    {
+      "id": "BathroomVanity",
+      "includes": [
+        "vanity",
+        "basin",
+        "faucet"
+      ]
+    },
+    {
+      "id": "TrailingPlant",
+      "includes": [
+        "pot",
+        "ivy vines"
+      ]
+    },
+    {
+      "id": "FlowerVase",
+      "includes": [
+        "vase",
+        "daisies"
+      ]
+    },
+    {
+      "id": "SmallPlant",
+      "includes": [
+        "pot",
+        "plant"
+      ]
+    },
+    {
+      "id": "DoorClosed",
+      "includes": [
+        "door frame",
+        "closed leaf"
+      ]
+    },
+    {
+      "id": "DoorOpen",
+      "includes": [
+        "door frame",
+        "open leaf"
+      ]
+    },
+    {
+      "id": "CurtainedWindow",
+      "includes": [
+        "window frame",
+        "glass",
+        "curtain"
+      ]
+    },
+    {
+      "id": "FenceSegment",
+      "includes": [
+        "3 pickets",
+        "posts",
+        "rails"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "base": "Desk",
+      "dressed": "ComputerDesk"
+    },
+    {
+      "base": "CoffeeTable",
+      "dressed": "DiningTableSet",
+      "note": "Different purpose and dimensions; not a state swap"
+    },
+    {
+      "base": "Sofa",
+      "dressed": "LongSofa",
+      "note": "Different footprint"
+    }
+  ],
+  "supportRules": {
+    "surface": "Parent small decor to a tabletop socket and use the parent sort anchor plus a child draw offset. Recompute local offset for each direction.",
+    "surface_edge": "Use per-frame pot-base pivot for TrailingPlant. Vines hang below support; do not align vine tips with tabletop.",
+    "seat": "Attach to a sofa/chair cushion socket; avoid seats with baked pillows.",
+    "wall": "Attach to a wall plane. Do not allow arbitrary floor drops. Left/Right architectural views are oblique artwork, not a modular tile wall kit.",
+    "ground": "Rugs render under furniture and actors; do not add solid colliders."
+  },
+  "attachmentNote": "This pack defines categories and pivots. Furniture-specific attachment sockets, snapping and collision logic still need to be implemented in the game engine.",
+  "recommendedCombinations": [
+    {
+      "primary": "ComputerDesk",
+      "separate": [
+        "OfficeChair",
+        "TrashBin"
+      ],
+      "alreadyIncluded": [
+        "monitor",
+        "keyboard",
+        "mouse"
+      ]
+    },
+    {
+      "primary": "DiningTableSet",
+      "separate": [
+        "Chair",
+        "Chair"
+      ],
+      "alreadyIncluded": [
+        "tablecloth",
+        "flower vase"
+      ]
+    },
+    {
+      "primary": "TVConsole",
+      "separate": [
+        "LongSofa",
+        "CoffeeTable"
+      ],
+      "alreadyIncluded": [
+        "TV"
+      ]
+    },
+    {
+      "primary": "BedsideTable",
+      "separate": [
+        "TableLamp"
+      ]
+    },
+    {
+      "primary": "CoffeeTable",
+      "separate": [
+        "ReadingTray"
+      ]
+    },
+    {
+      "primary": "Wardrobe",
+      "separate": [
+        "TrailingPlant"
+      ]
+    }
+  ]
+}

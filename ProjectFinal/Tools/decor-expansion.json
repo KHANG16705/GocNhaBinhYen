@@ -1,0 +1,680 @@
+{
+  "schemaVersion": "1.0",
+  "generator": "Built-in imagegen",
+  "generatedRoot": "C:/Users/nongk/.codex/generated_images/01a0c9e5-59f3-7a83-8f91-81352fd2bdff",
+  "sourceColumnOrder": "Reviewed per row, source often renders Left/Right contrary to prompt; mappings below are authoritative.",
+  "groups": [
+    {
+      "key": "work_media",
+      "source": "exec-a24a2cd6-101c-41a3-aa12-faa4c58e0651.png",
+      "items": [
+        {
+          "id": "ComputerDesk",
+          "name": "Bàn làm việc + máy tính",
+          "width": 185,
+          "height": 155,
+          "footprint": [
+            3.5,
+            1.8
+          ],
+          "placement": "floor",
+          "includes": [
+            "desk",
+            "monitor",
+            "keyboard",
+            "mouse"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "OfficeChair",
+          "name": "Ghế văn phòng",
+          "width": 70,
+          "height": 106,
+          "footprint": [
+            1.2,
+            1.2
+          ],
+          "placement": "floor",
+          "includes": [
+            "chair"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "TrashBin",
+          "name": "Thùng rác",
+          "width": 38,
+          "height": 48,
+          "footprint": [
+            0.65,
+            0.65
+          ],
+          "placement": "floor",
+          "includes": [
+            "bin"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "TVConsole",
+          "name": "Kệ + TV",
+          "width": 180,
+          "height": 163,
+          "footprint": [
+            3.4,
+            1.4
+          ],
+          "placement": "floor",
+          "includes": [
+            "cabinet",
+            "TV",
+            "shelf books"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dining_kitchen",
+      "source": "exec-0ed84028-11c1-4b5b-bbef-c216b0d0a022.png",
+      "items": [
+        {
+          "id": "DiningTableSet",
+          "name": "Bàn ăn + khăn + lọ hoa",
+          "width": 165,
+          "height": 135,
+          "footprint": [
+            3.2,
+            2.2
+          ],
+          "placement": "floor",
+          "includes": [
+            "table",
+            "tablecloth",
+            "flower vase"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "KitchenCounterSet",
+          "name": "Tủ bếp + cốc + hũ",
+          "width": 146,
+          "height": 132,
+          "footprint": [
+            2.8,
+            1.5
+          ],
+          "placement": "floor",
+          "includes": [
+            "counter cabinet",
+            "mug",
+            "jar"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "KitchenWallShelf",
+          "name": "Kệ bếp + chảo treo",
+          "width": 150,
+          "height": 115,
+          "footprint": [
+            2.8,
+            0.5
+          ],
+          "placement": "wall",
+          "includes": [
+            "shelf",
+            "rail",
+            "3 pans",
+            "2 cups",
+            "jar"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "EntryConsoleSet",
+          "name": "Bàn lối vào + bộ trang trí",
+          "width": 174,
+          "height": 130,
+          "footprint": [
+            3.4,
+            1.4
+          ],
+          "placement": "floor",
+          "includes": [
+            "console",
+            "photo frame",
+            "books",
+            "2 potted plants"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "key": "small_decor",
+      "source": "exec-b10c64be-fa92-4369-8844-2c1c0631248b.png",
+      "items": [
+        {
+          "id": "WallPainting",
+          "name": "Tranh lá treo tường",
+          "width": 56,
+          "height": 68,
+          "footprint": [
+            1,
+            0.2
+          ],
+          "placement": "wall",
+          "includes": [
+            "frame",
+            "botanical print"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "PhotoFrame",
+          "name": "Khung ảnh để bàn",
+          "width": 27,
+          "height": 32,
+          "footprint": [
+            0.45,
+            0.3
+          ],
+          "placement": "surface",
+          "includes": [
+            "frame",
+            "picture"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "ReadingTray",
+          "name": "Khay sách + cốc + giấy",
+          "width": 62,
+          "height": 36,
+          "footprint": [
+            1.1,
+            0.65
+          ],
+          "placement": "surface",
+          "includes": [
+            "tray",
+            "2 books",
+            "mug",
+            "paper"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "TableLamp",
+          "name": "Đèn ngủ để bàn",
+          "width": 42,
+          "height": 58,
+          "footprint": [
+            0.65,
+            0.65
+          ],
+          "placement": "surface",
+          "includes": [
+            "lamp"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bedroom_soft",
+      "source": "exec-d499225a-398d-4c97-a074-37bc6aef887f.png",
+      "items": [
+        {
+          "id": "LongSofa",
+          "name": "Sofa dài + gối",
+          "width": 240,
+          "height": 175,
+          "footprint": [
+            4.5,
+            1.8
+          ],
+          "placement": "floor",
+          "includes": [
+            "sofa",
+            "sage pillow",
+            "mustard pillow"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "ThrowPillow",
+          "name": "Gối trang trí rời",
+          "width": 37,
+          "height": 38,
+          "footprint": [
+            0.6,
+            0.5
+          ],
+          "placement": "seat",
+          "includes": [
+            "pillow"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "CatBedSet",
+          "name": "Ổ đệm + mèo ngủ",
+          "width": 89,
+          "height": 73,
+          "footprint": [
+            1.6,
+            1.4
+          ],
+          "placement": "floor",
+          "includes": [
+            "pet bed",
+            "sleeping cat (static)"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "Slippers",
+          "name": "Đôi dép",
+          "width": 37,
+          "height": 30,
+          "footprint": [
+            0.65,
+            0.6
+          ],
+          "placement": "floor",
+          "includes": [
+            "left slipper",
+            "right slipper"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rugs_bath",
+      "source": "exec-ef62267f-2dc2-4220-a3c8-7fc7452e618e.png",
+      "items": [
+        {
+          "id": "RoundRug",
+          "name": "Thảm tròn đan",
+          "width": 94,
+          "height": 82,
+          "footprint": [
+            1.8,
+            1.8
+          ],
+          "placement": "ground",
+          "includes": [
+            "rug"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "FloralRug",
+          "name": "Thảm hoa phòng ngủ",
+          "width": 244,
+          "height": 212,
+          "footprint": [
+            4.5,
+            3.2
+          ],
+          "placement": "ground",
+          "includes": [
+            "rug"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "StudyRug",
+          "name": "Thảm caro góc làm việc",
+          "width": 205,
+          "height": 185,
+          "footprint": [
+            3.8,
+            2.8
+          ],
+          "placement": "ground",
+          "includes": [
+            "rug"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "BathroomVanity",
+          "name": "Lavabo phòng tắm",
+          "width": 81,
+          "height": 110,
+          "footprint": [
+            1.5,
+            1.3
+          ],
+          "placement": "floor",
+          "includes": [
+            "vanity",
+            "basin",
+            "faucet"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "key": "plants_accents",
+      "source": "exec-4c3f2ef7-0116-409c-bf55-969557ea5cae.png",
+      "items": [
+        {
+          "id": "TrailingPlant",
+          "name": "Chậu cây dây rủ",
+          "width": 54,
+          "height": 120,
+          "footprint": [
+            0.8,
+            0.65
+          ],
+          "placement": "surface_edge",
+          "includes": [
+            "pot",
+            "ivy vines"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "FlowerVase",
+          "name": "Lọ hoa cúc",
+          "width": 36,
+          "height": 49,
+          "footprint": [
+            0.5,
+            0.5
+          ],
+          "placement": "surface",
+          "includes": [
+            "vase",
+            "daisies"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "SmallPlant",
+          "name": "Chậu cây nhỏ",
+          "width": 34,
+          "height": 38,
+          "footprint": [
+            0.5,
+            0.5
+          ],
+          "placement": "surface",
+          "includes": [
+            "pot",
+            "plant"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "DoorMat",
+          "name": "Thảm chùi chân",
+          "width": 102,
+          "height": 70,
+          "footprint": [
+            1.9,
+            1.1
+          ],
+          "placement": "ground",
+          "includes": [
+            "mat"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "key": "architecture",
+      "source": "exec-1f0187de-15e4-499f-9e2e-8d79e8d51516.png",
+      "items": [
+        {
+          "id": "DoorClosed",
+          "name": "Cửa gỗ — đóng",
+          "width": 101,
+          "height": 152,
+          "footprint": [
+            1.8,
+            0.4
+          ],
+          "placement": "doorway",
+          "includes": [
+            "door frame",
+            "closed leaf"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "DoorOpen",
+          "name": "Cửa gỗ — mở",
+          "width": 101,
+          "height": 152,
+          "footprint": [
+            1.8,
+            0.4
+          ],
+          "placement": "doorway",
+          "includes": [
+            "door frame",
+            "open leaf"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "CurtainedWindow",
+          "name": "Cửa sổ + rèm",
+          "width": 137,
+          "height": 111,
+          "footprint": [
+            2.5,
+            0.3
+          ],
+          "placement": "wall",
+          "includes": [
+            "window frame",
+            "glass",
+            "curtain"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "FenceSegment",
+          "name": "Đoạn hàng rào",
+          "width": 132,
+          "height": 114,
+          "footprint": [
+            2.5,
+            0.4
+          ],
+          "placement": "boundary",
+          "includes": [
+            "3 pickets",
+            "posts",
+            "rails"
+          ],
+          "sourceColumns": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "key": "work_media",
+      "prompt": "Use case: stylized-concept. ProjectFinal DECOR GAME expansion atlas. Reference 1 is the target cozy home aesthetic, reference 2 shows existing compatible furniture. Warm walnut wood, sage/olive green, ivory cream, softly shaded crisp pixel art with thin brown edges, orthographic elevated 3/4 top-down RPG viewpoint, NO isometric diagonal ground axes. 1536x1536 square canvas. EXACT 4 ROWS x 4 COLUMNS, 16 isolated full objects, equal regular cells, at least 25 px clear transparent gutters at all cell boundaries. Each ROW is ONE consistent identical item in four cardinal views. Columns: 1 DOWN front toward viewer, 2 RIGHT front facing screen-right, 3 LEFT front facing screen-left, 4 UP rear toward viewer. Correct physical rotation around vertical axis, NEVER rotate the image in the picture plane. Same size, materials and construction across views. Strong side-view silhouettes; back views show actual rear of objects. Genuine transparent alpha background, no checkerboard or background color, no gradient, no cast shadows beyond silhouette, no text/labels/grid lines. Complete silhouettes fully inside cells. Larger objects large enough for detail; small objects naturally smaller, not huge. The items within a combined furniture set remain attached consistently across ALL four views. ROW1 a walnut writing desk with one drawer pedestal, computer monitor displaying a green landscape, keyboard and mouse neatly sitting on desk, as ONE combined placeable furniture item. No chair, no trash bin included. ROW2 a separate dark charcoal padded swivel OFFICE CHAIR with five caster wheels. ROW3 one small dark grey rectangular open-top wastebasket. ROW4 a low walnut TV cabinet with a slim flat-screen TV mounted centrally on top and one small book in shelf, as ONE combined item; screen dark subtle reflection, no plant, no lamp. Rear view shows backs of monitor/TV and simple discreet cables."
+    },
+    {
+      "key": "dining_kitchen",
+      "prompt": "Use case: stylized-concept. ProjectFinal DECOR GAME expansion atlas. Reference 1 is the target cozy home aesthetic, reference 2 shows existing compatible furniture. Warm walnut wood, sage/olive green, ivory cream, softly shaded crisp pixel art with thin brown edges, orthographic elevated 3/4 top-down RPG viewpoint, NO isometric diagonal ground axes. 1536x1536 square canvas. EXACT 4 ROWS x 4 COLUMNS, 16 isolated full objects, equal regular cells, at least 25 px clear transparent gutters at all cell boundaries. Each ROW is ONE consistent identical item in four cardinal views. Columns: 1 DOWN front toward viewer, 2 RIGHT front facing screen-right, 3 LEFT front facing screen-left, 4 UP rear toward viewer. Correct physical rotation around vertical axis, NEVER rotate the image in the picture plane. Same size, materials and construction across views. Strong side-view silhouettes; back views show actual rear of objects. Genuine transparent alpha background, no checkerboard or background color, no gradient, no cast shadows beyond silhouette, no text/labels/grid lines. Complete silhouettes fully inside cells. Larger objects large enough for detail; small objects naturally smaller, not huge. The items within a combined furniture set remain attached consistently across ALL four views. ROW1 rectangular walnut DINING TABLE with sage-and-cream gingham tablecloth and ONE small white vase of daisies centered on top, all combined. Absolutely no chairs in table sprite. ROW2 a two-door sage lower kitchen COUNTER CABINET with walnut countertop, one cream mug and one small brown jar on top combined, NO sink or stove. ROW3 one floating walnut wall SHELF with two small ceramic cups and a brown jar on top, with black metal rail below and three hanging dark iron pans, all attached as ONE wall decor unit; show brackets and backs in rear view. ROW4 a separate long low walnut entry CONSOLE table with drawers, a small framed picture, stack of books and two little potted plants as one dressed furniture unit."
+    },
+    {
+      "key": "small_decor",
+      "prompt": "Use case: stylized-concept. ProjectFinal DECOR GAME expansion atlas. Reference 1 is the target cozy home aesthetic, reference 2 shows existing compatible furniture. Warm walnut wood, sage/olive green, ivory cream, softly shaded crisp pixel art with thin brown edges, orthographic elevated 3/4 top-down RPG viewpoint, NO isometric diagonal ground axes. 1536x1536 square canvas. EXACT 4 ROWS x 4 COLUMNS, 16 isolated full objects, equal regular cells, at least 25 px clear transparent gutters at all cell boundaries. Each ROW is ONE consistent identical item in four cardinal views. Columns: 1 DOWN front toward viewer, 2 RIGHT front facing screen-right, 3 LEFT front facing screen-left, 4 UP rear toward viewer. Correct physical rotation around vertical axis, NEVER rotate the image in the picture plane. Same size, materials and construction across views. Strong side-view silhouettes; back views show actual rear of objects. Genuine transparent alpha background, no checkerboard or background color, no gradient, no cast shadows beyond silhouette, no text/labels/grid lines. Complete silhouettes fully inside cells. Larger objects large enough for detail; small objects naturally smaller, not huge. The items within a combined furniture set remain attached consistently across ALL four views. ROW1 a framed botanical WALL PAINTING, small sage green leaf illustration on ivory paper in walnut frame; front shows painting, rear shows wood back and hanging hook. ROW2 one small walnut TABLETOP PHOTO FRAME on kickstand, contains simple scenic landscape, rear shows kickstand. ROW3 a small low serving TRAY holding two books, one ivory coffee mug and a single loose sheet of paper, ONE tabletop decoration group. ROW4 compact bedside TABLE LAMP with small cream pleated shade and short warm brass base, clearly a tabletop lamp not a floor lamp. All four objects separate by cell, full transparent gutters; no tables under these tabletop decorations."
+    },
+    {
+      "key": "bedroom_soft",
+      "prompt": "Use case: stylized-concept. ProjectFinal DECOR GAME expansion atlas. Reference 1 is the target cozy home aesthetic, reference 2 shows existing compatible furniture. Warm walnut wood, sage/olive green, ivory cream, softly shaded crisp pixel art with thin brown edges, orthographic elevated 3/4 top-down RPG viewpoint, NO isometric diagonal ground axes. 1536x1536 square canvas. EXACT 4 ROWS x 4 COLUMNS, 16 isolated full objects, equal regular cells, at least 25 px clear transparent gutters at all cell boundaries. Each ROW is ONE consistent identical item in four cardinal views. Columns: 1 DOWN front toward viewer, 2 RIGHT front facing screen-right, 3 LEFT front facing screen-left, 4 UP rear toward viewer. Correct physical rotation around vertical axis, NEVER rotate the image in the picture plane. Same size, materials and construction across views. Strong side-view silhouettes; back views show actual rear of objects. Genuine transparent alpha background, no checkerboard or background color, no gradient, no cast shadows beyond silhouette, no text/labels/grid lines. Complete silhouettes fully inside cells. Larger objects large enough for detail; small objects naturally smaller, not huge. The items within a combined furniture set remain attached consistently across ALL four views. ROW1 a long ivory upholstered THREE-SEAT SOFA with walnut base, one sage green square pillow and one mustard small cushion integrated. Longer than the existing two-seater. ROW2 a single detached sage green square throw PILLOW, no sofa underneath. ROW3 a dark blue round cushioned PET BED with an orange tabby CAT sleeping curled up inside, bed and cat combined as one static decorative item. All views keep cat inside bed; no walking animation. ROW4 a neatly paired set of brown house SLIPPERS, TWO slippers treated as a single decoration, toes face the indicated cardinal direction."
+    },
+    {
+      "key": "rugs_bath",
+      "prompt": "Use case: stylized-concept. ProjectFinal DECOR GAME expansion atlas. Reference 1 is the target cozy home aesthetic, reference 2 shows existing compatible furniture. Warm walnut wood, sage/olive green, ivory cream, softly shaded crisp pixel art with thin brown edges, orthographic elevated 3/4 top-down RPG viewpoint, NO isometric diagonal ground axes. 1536x1536 square canvas. EXACT 4 ROWS x 4 COLUMNS, 16 isolated full objects, equal regular cells, at least 25 px clear transparent gutters at all cell boundaries. Each ROW is ONE consistent identical item in four cardinal views. Columns: 1 DOWN front toward viewer, 2 RIGHT front facing screen-right, 3 LEFT front facing screen-left, 4 UP rear toward viewer. Correct physical rotation around vertical axis, NEVER rotate the image in the picture plane. Same size, materials and construction across views. Strong side-view silhouettes; back views show actual rear of objects. Genuine transparent alpha background, no checkerboard or background color, no gradient, no cast shadows beyond silhouette, no text/labels/grid lines. Complete silhouettes fully inside cells. Larger objects large enough for detail; small objects naturally smaller, not huge. The items within a combined furniture set remain attached consistently across ALL four views. ROW1 a flat round woven beige JUTE RUG on the ground, circular concentric woven pattern, round rotationally symmetric. ROW2 a rectangular ivory BEDROOM RUG with delicate sage leafy and tiny peach flower border, long rectangular ground footprint. ROW3 a rectangular cream and warm grey CHECKERED STUDY RUG for under an office desk. ROW4 a small freestanding pale grey BATHROOM VANITY with white washbasin, single metal faucet and two small cabinet doors; distinct from a kitchen sink. For all rugs: DOWN/UP show long side horizontally, RIGHT/LEFT show long side receding vertically along ground plane. NOT upright wall panels. Actual physically correct projected floor orientation; no thick raised rug pedestal. Large and small views keep same texture design."
+    },
+    {
+      "key": "plants_accents",
+      "prompt": "Use case: stylized-concept. ProjectFinal DECOR GAME expansion atlas. Reference 1 is the target cozy home aesthetic, reference 2 shows existing compatible furniture. Warm walnut wood, sage/olive green, ivory cream, softly shaded crisp pixel art with thin brown edges, orthographic elevated 3/4 top-down RPG viewpoint, NO isometric diagonal ground axes. 1536x1536 square canvas. EXACT 4 ROWS x 4 COLUMNS, 16 isolated full objects, equal regular cells, at least 25 px clear transparent gutters at all cell boundaries. Each ROW is ONE consistent identical item in four cardinal views. Columns: 1 DOWN front toward viewer, 2 RIGHT front facing screen-right, 3 LEFT front facing screen-left, 4 UP rear toward viewer. Correct physical rotation around vertical axis, NEVER rotate the image in the picture plane. Same size, materials and construction across views. Strong side-view silhouettes; back views show actual rear of objects. Genuine transparent alpha background, no checkerboard or background color, no gradient, no cast shadows beyond silhouette, no text/labels/grid lines. Complete silhouettes fully inside cells. Larger objects large enough for detail; small objects naturally smaller, not huge. The items within a combined furniture set remain attached consistently across ALL four views. ROW1 a potted TRAILING IVY PLANT with lush small green leaves and long vines flowing down below a small terracotta pot, intended to sit on a wardrobe edge (do not include wardrobe or shelf). ROW2 a small white ceramic FLOWER VASE holding white daisies and a few yellow-green leaves, tabletop size, no table. ROW3 a small leafy succulent HOUSEPLANT in a cream ceramic pot, tabletop size, distinct compact silhouette. ROW4 a small rectangular sage DOORMAT with plain cream border, flat on floor. For doormat side orientations swap footprint width/depth with proper foreshortening. Genuine alpha transparency, no brown backgrounds and no detached cast shadows. All objects complete inside own cells."
+    },
+    {
+      "key": "architecture",
+      "prompt": "Use case: stylized-concept. ProjectFinal DECOR GAME expansion atlas. Reference 1 is the target cozy home aesthetic, reference 2 shows existing compatible furniture. Warm walnut wood, sage/olive green, ivory cream, softly shaded crisp pixel art with thin brown edges, orthographic elevated 3/4 top-down RPG viewpoint, NO isometric diagonal ground axes. 1536x1536 square canvas. EXACT 4 ROWS x 4 COLUMNS, 16 isolated full objects, equal regular cells, at least 25 px clear transparent gutters at all cell boundaries. Each ROW is ONE consistent identical item in four cardinal views. Columns: 1 DOWN front toward viewer, 2 RIGHT front facing screen-right, 3 LEFT front facing screen-left, 4 UP rear toward viewer. Correct physical rotation around vertical axis, NEVER rotate the image in the picture plane. Same size, materials and construction across views. Strong side-view silhouettes; back views show actual rear of objects. Genuine transparent alpha background, no checkerboard or background color, no gradient, no cast shadows beyond silhouette, no text/labels/grid lines. Complete silhouettes fully inside cells. Larger objects large enough for detail; small objects naturally smaller, not huge. The items within a combined furniture set remain attached consistently across ALL four views. Architectural objects as independent decor sprites, NOT an entire building. ROW1 a CLOSED walnut interior DOOR inside its simple walnut frame, brass knob, ivory threshold, no surrounding wall. ROW2 the EXACT SAME DOOR AND FRAME with the door OPEN 70 degrees, keep identical frame size, hinge side and floor pivot per corresponding view; show transparent empty doorway, NO black void and no room beyond. ROW3 a wide walnut-framed double WINDOW with cream gathered curtain and a subtle green outdoor view through glass, isolated, no surrounding wall; the rear view is the exterior wood frame/glass with curtain visible behind glass. ROW4 a short straight three-picket GARDEN FENCE segment with two posts and horizontal rails, warm weathered walnut. Rotation side views should show depth and short end with vertical plane receding along screen y, absolutely do not rotate object as a flat card in image plane. All 16 sprites complete with generous alpha gutters."
+    },
+    {
+      "key": "tray_fix",
+      "prompt": "Use case: precise-object-edit. Edit ONLY sprite in ROW 3 COLUMN 4 (rightmost third row) of this 4x4 transparent furniture atlas. It is currently an EMPTY BACK of a wooden tray. Correct it to show the SAME tray with TWO BOOKS, cream COFFEE MUG and one paper sheet still inside when viewed from the opposite rear direction. The slightly elevated RPG camera must still see the contents from behind; books and cup must NOT disappear when rotating. Reverse their arrangement consistently from row3 column1: mug on viewer-left and books on viewer-right, blank reverse of paper visible. Keep tray dimensions within original cell and clear gutters. Do not change the other 15 sprites, positions, sizes, colors or transparency. Transparent alpha background preserved. No text or labels."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.9-PF",
+  "reference": [1280, 720],
+  "letterbox": true,
+  "fontRegular": "4_Data_and_Fonts/Fonts/NotoSans-Regular.ttf",
+  "fontSemiBold": "4_Data_and_Fonts/Fonts/NotoSans-SemiBold.ttf",
+  "colors": {
+    "panel": "#FFF5DF",
+    "panelBorder": "#8C6E4A",
+    "card": "#FAF0D7",
+    "text": "#28342B",
+    "primary": "#52724E",
+    "primaryHover": "#62865D",
+    "primaryPressed": "#3F5A3C",
+    "secondary": "#E2D5B9",
+    "error": "#A23B32",
+    "disabled": "#D8D5CC",
+    "focus": "#D5A848",
+    "aquariumWaterTint": "#5E9EA8"
+  },
+  "typePx": {
+    "title": 30,
+    "body": 22,
+    "secondary": 18
+  },
+  "buttonMin": [160, 48],
+  "iconTargetMin": [44, 44],
+  "aquariumViewRect": [160, 90, 960, 500],
+  "components": {
+    "panelCream": "1_2D_Art/UI/Components/Panel_Cream.png",
+    "panelHud": "1_2D_Art/UI/Components/Panel_HUD.png",
+    "panelCard": "1_2D_Art/UI/Components/Panel_Card.png",
+    "panelToast": "1_2D_Art/UI/Components/Panel_Toast.png",
+    "buttonPrimary": "1_2D_Art/UI/Components/Button_Primary.png",
+    "buttonPrimaryHover": "1_2D_Art/UI/Components/Button_Primary_Hover.png",
+    "buttonPrimaryPressed": "1_2D_Art/UI/Components/Button_Primary_Pressed.png",
+    "buttonSecondary": "1_2D_Art/UI/Components/Button_Secondary.png",
+    "buttonDisabled": "1_2D_Art/UI/Components/Button_Disabled.png",
+    "buttonDanger": "1_2D_Art/UI/Components/Button_Danger.png",
+    "focusRing": "1_2D_Art/UI/Components/Focus_Ring.png",
+    "tabActive": "1_2D_Art/UI/Components/Tab_Active.png",
+    "tabInactive": "1_2D_Art/UI/Components/Tab_Inactive.png"
+  },
+  "icons": {
+    "morning": "1_2D_Art/UI/Icons/Icon_Phase_Morning.png",
+    "afternoon": "1_2D_Art/UI/Icons/Icon_Phase_Afternoon.png",
+    "evening": "1_2D_Art/UI/Icons/Icon_Phase_Evening.png",
+    "night": "1_2D_Art/UI/Icons/Icon_Phase_Night.png",
+    "handbook": "1_2D_Art/UI/Icons/Icon_Book_Handbook.png",
+    "decor": "1_2D_Art/UI/Icons/Icon_Decor_Mode.png",
+    "basket": "1_2D_Art/UI/Icons/Icon_Basket.png",
+    "washer": "1_2D_Art/UI/Icons/Icon_Washer.png",
+    "dryer": "1_2D_Art/UI/Icons/Icon_Dryer.png",
+    "fish": "1_2D_Art/UI/Icons/Icon_Fish_Badge.png",
+    "eyeView": "1_2D_Art/UI/Icons/Icon_Eye_View.png"
+  }
+}

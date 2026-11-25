@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 9,
+  "mapRevision": "1.9-PF",
+  "start": {
+    "day": 1,
+    "phase": "Morning",
+    "phaseSecondsRemaining": 120,
+    "money": 20,
+    "character": "Male",
+    "spawnGrid": [
+      8.8,
+      11.6
+    ],
+    "soilBeds": 2,
+    "slotsPerBed": 3,
+    "totalPlantSlots": 6,
+    "aquariumCapacity": 8
+  },
+  "dayCycle": {
+    "phases": [
+      {
+        "id": "Morning",
+        "label": "Sáng",
+        "durationSeconds": 120,
+        "countsDown": true
+      },
+      {
+        "id": "Afternoon",
+        "label": "Chiều",
+        "durationSeconds": 120,
+        "countsDown": true
+      },
+      {
+        "id": "Evening",
+        "label": "Chiều tối",
+        "durationSeconds": 120,
+        "countsDown": true
+      },
+      {
+        "id": "Night",
+        "label": "Đêm",
+        "durationSeconds": 0,
+        "countsDown": false
+      }
+    ],
+    "sleepOnlyAtNight": true,
+    "sleepResetsChores": false,
+    "sleepAdvancesLaundry": false
+  },
+  "player": {
+    "speed": 3.5,
+    "interactionRadius": 1.25,
+    "groundColliderSize": [
+      0.5,
+      0.4
+    ],
+    "spriteSheetMale": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+    "spriteSheetFemale": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+    "framePixels": [
+      96,
+      112
+    ],
+    "pivotPixels": [
+      48,
+      104
+    ],
+    "idleFps": 2,
+    "walkFps": 8
+  },
+  "actions": {
+    "directActionSeconds": 0.5,
+    "allowHoldRepeat": false,
+    "finishStartedActionAtPhaseZero": true
+  },
+  "camera": {
+    "orthographicSize": 9,
+    "aspect": 1.7777777777777777,
+    "followHalfLifeSeconds": 0.12,
+    "decorPanSpeedTilesPerSecond": 8.0,
+    "centerClampWorld": [
+      -8,
+      -9,
+      8,
+      9
+    ]
+  },
+  "chores": {
+    "dust": {
+      "room": "living_hall",
+      "maxActive": 5,
+      "respawnSeconds": 180,
+      "reward": 2,
+      "pointIds": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05"
+      ]
+    },
+    "dirtyClothes": {
+      "room": "bedroom",
+      "maxActive": 3,
+      "respawnSeconds": 180,
+      "pickupReward": 0,
+      "pointIds": [
+        "C01",
+        "C02",
+        "C03"
+      ]
+    },
+    "kitchenStain": {
+      "room": "kitchen",
+      "maxActive": 3,
+      "respawnSeconds": 240,
+      "reward": 3,
+      "pointIds": [
+        "K01",
+        "K02",
+        "K03"
+      ]
+    },
+    "laundry": {
+      "basketCapacity": 3,
+      "minBatchItems": 1,
+      "maxBatchItems": 3,
+      "washSeconds": 30,
+      "drySeconds": 60,
+      "rewardPerItemOnCollectDry": 6,
+      "spoilOvernight": false
+    }
+  },
+  "plants": {
+    "allUnlockedAtStart": true,
+    "independentSlots": true,
+    "mixedSpeciesPerBed": true,
+    "wiltDeathMissedWaterStreak": 3,
+    "hideWaterPromptOnMap": true,
+    "species": [
+      {
+        "id": "Daisy",
+        "nameVi": "Hoa cúc",
+        "seedPrice": 10,
+        "sellPrice": 16,
+        "requiredCycles": 1,
+        "waterPhases": [
+          "Morning"
+        ],
+        "pestPhases": [
+          "Afternoon"
+        ]
+      },
+      {
+        "id": "Rose",
+        "nameVi": "Hoa hồng",
+        "seedPrice": 20,
+        "sellPrice": 32,
+        "requiredCycles": 2,
+        "waterPhases": [
+          "Morning"
+        ],
+        "pestPhases": [
+          "Evening"
+        ]
+      },
+      {
+        "id": "Sunflower",
+        "nameVi": "Hướng dương",
+        "seedPrice": 40,
+        "sellPrice": 64,
+        "requiredCycles": 3,
+        "waterPhases": [
+          "Morning"
+        ],
+        "pestPhases": [
+          "Evening"
+        ]
+      },
+      {
+        "id": "Apple",
+        "nameVi": "Táo",
+        "seedPrice": 80,
+        "sellPrice": 128,
+        "requiredCycles": 4,
+        "waterPhases": [
+          "Morning"
+        ],
+        "pestPhases": [
+          "Evening"
+        ]
+      },
+      {
+        "id": "Pear",
+        "nameVi": "Lê",
+        "seedPrice": 150,
+        "sellPrice": 240,
+        "requiredCycles": 5,
+        "waterPhases": [
+          "Morning"
+        ],
+        "pestPhases": [
+          "Evening"
+        ]
+      },
+      {
+        "id": "Mango",
+        "nameVi": "Xoài",
+        "seedPrice": 250,
+        "sellPrice": 400,
+        "requiredCycles": 6,
+        "waterPhases": [
+          "Morning"
+        ],
+        "pestPhases": [
+          "Evening"
+        ]
+      },
+      {
+        "id": "Ornamental",
+        "nameVi": "Cây cảnh",
+        "seedPrice": 400,
+        "sellPrice": 640,
+        "requiredCycles": 7,
+        "waterPhases": [
+          "Afternoon"
+        ],
+        "pestPhases": [
+          "Afternoon"
+        ]
+      },
+      {
+        "id": "Bonsai",
+        "nameVi": "Bonsai",
+        "seedPrice": 800,
+        "sellPrice": 1280,
+        "requiredCycles": 8,
+        "waterPhases": [
+          "Morning",
+          "Afternoon"
+        ],
+        "pestPhases": [
+          "Morning"
+        ]
+      },
+      {
+        "id": "MutantOrchid",
+        "nameVi": "Lan đột biến",
+        "seedPrice": 1500,
+        "sellPrice": 2400,
+        "requiredCycles": 10,
+        "waterPhases": [
+          "Morning"
+        ],
+        "pestPhases": [
+          "Evening"
+        ]
+      },
+      {
+        "id": "MoneyTree",
+        "nameVi": "Kim tiền",
+        "seedPrice": 2000,
+        "sellPrice": 3200,
+        "requiredCycles": 12,
+        "waterPhases": [
+          "Afternoon"
+        ],
+        "pestPhases": [
+          "Afternoon"
+        ]
+      }
+    ]
+  },
+  "fishing": {
+    "pondId": "POND_01",
+    "aquariumId": "AQUARIUM_01",
+    "allowedAtNight": true,
+    "castSeconds": 0.5,
+    "biteMinSeconds": 6.0,
+    "biteMaxSeconds": 10.0,
+    "hookWindowBySpecies": true,
+    "hookWindowDefaultSeconds": 2.0,
+    "reelSeconds": 0.5,
+    "aquariumCapacity": 8,
+    "fishDieOrNeedFeeding": false,
+    "species": [
+      {
+        "id": "FISH_GOLD_CARP",
+        "nameVi": "Chép vàng",
+        "rarity": "Phổ thông",
+        "weight": 32,
+        "hookWindowSeconds": 2.6,
+        "escapeChance": 0.0,
+        "sellPrice": 5,
+        "swimLayer": "middle",
+        "swimSpeed": 0.9,
+        "sprite": "1_2D_Art/Fishing/Fish_GoldCarp.png"
+      },
+      {
+        "id": "FISH_GUPPY",
+        "nameVi": "Cá bảy màu",
+        "rarity": "Phổ thông",
+        "weight": 26,
+        "hookWindowSeconds": 2.3,
+        "escapeChance": 0.05,
+        "sellPrice": 8,
+        "swimLayer": "top",
+        "swimSpeed": 1.35,
+        "sprite": "1_2D_Art/Fishing/Fish_Guppy.png"
+      },
+      {
+        "id": "FISH_PARADISE",
+        "nameVi": "Cá cờ",
+        "rarity": "Khá hiếm",
+        "weight": 18,
+        "hookWindowSeconds": 2.0,
+        "escapeChance": 0.12,
+        "sellPrice": 12,
+        "swimLayer": "middle",
+        "swimSpeed": 1.15,
+        "sprite": "1_2D_Art/Fishing/Fish_ParadiseFish.png"
+      },
+      {
+        "id": "FISH_OCTOPUS",
+        "nameVi": "Bạch tuộc",
+        "rarity": "Hiếm",
+        "weight": 12,
+        "hookWindowSeconds": 1.7,
+        "escapeChance": 0.25,
+        "sellPrice": 22,
+        "swimLayer": "bottom",
+        "swimSpeed": 0.78,
+        "sprite": "1_2D_Art/Fishing/Fish_Octopus.png"
+      },
+      {
+        "id": "FISH_SEAHORSE",
+        "nameVi": "Cá ngựa",
+        "rarity": "Rất hiếm",
+        "weight": 8,
+        "hookWindowSeconds": 1.4,
+        "escapeChance": 0.4,
+        "sellPrice": 38,
+        "swimLayer": "middle",
+        "swimSpeed": 0.62,
+        "sprite": "1_2D_Art/Fishing/Fish_Seahorse.png"
+      },
+      {
+        "id": "FISH_DOLPHIN",
+        "nameVi": "Cá heo",
+        "rarity": "Cực hiếm",
+        "weight": 4,
+        "hookWindowSeconds": 1.2,
+        "escapeChance": 0.55,
+        "sellPrice": 70,
+        "swimLayer": "top",
+        "swimSpeed": 1.1,
+        "sprite": "1_2D_Art/Fishing/Fish_Dolphin.png"
+      }
+    ],
+    "preserveCastAcrossPhaseBoundary": true,
+    "allowSwapWhenAquariumFull": true,
+    "collectionAlbumInHandbook": true,
+    "collectionIsOptionalNoQuota": true
+  },
+  "shop": {
+    "shopStationId": "SHOP_01",
+    "maxOwnedPerItem": 1,
+    "refundOnStore": false,
+    "categories": [
+      {
+        "id": "work_media",
+        "nameVi": "Làm việc / TV"
+      },
+      {
+        "id": "dining_kitchen",
+        "nameVi": "Bếp / Lối vào"
+      },
+      {
+        "id": "small_decor",
+        "nameVi": "Đồ trang trí nhỏ"
+      },
+      {
+        "id": "bedroom_soft",
+        "nameVi": "Sofa / Phòng ngủ"
+      },
+      {
+        "id": "rugs_bath",
+        "nameVi": "Thảm / Lavabo"
+      },
+      {
+        "id": "plants_accents",
+        "nameVi": "Cây / Phụ kiện"
+      }
+    ],
+    "items": [
+      {
+        "id": "ComputerDesk",
+        "nameVi": "Bàn máy tính",
+        "category": "work_media",
+        "price": 180
+      },
+      {
+        "id": "OfficeChair",
+        "nameVi": "Ghế văn phòng",
+        "category": "work_media",
+        "price": 65
+      },
+      {
+        "id": "TrashBin",
+        "nameVi": "Thùng rác",
+        "category": "work_media",
+        "price": 20
+      },
+      {
+        "id": "TVConsole",
+        "nameVi": "Kệ TV",
+        "category": "work_media",
+        "price": 220
+      },
+      {
+        "id": "DiningTableSet",
+        "nameVi": "Bộ bàn ăn",
+        "category": "dining_kitchen",
+        "price": 160
+      },
+      {
+        "id": "KitchenCounterSet",
+        "nameVi": "Tủ bếp có phụ kiện",
+        "category": "dining_kitchen",
+        "price": 140
+      },
+      {
+        "id": "KitchenWallShelf",
+        "nameVi": "Kệ bếp treo tường",
+        "category": "dining_kitchen",
+        "price": 75
+      },
+      {
+        "id": "EntryConsoleSet",
+        "nameVi": "Bàn console lối vào",
+        "category": "dining_kitchen",
+        "price": 150
+      },
+      {
+        "id": "WallPainting",
+        "nameVi": "Tranh lá treo tường",
+        "category": "small_decor",
+        "price": 35
+      },
+      {
+        "id": "PhotoFrame",
+        "nameVi": "Khung ảnh để bàn",
+        "category": "small_decor",
+        "price": 20
+      },
+      {
+        "id": "ReadingTray",
+        "nameVi": "Khay đọc sách",
+        "category": "small_decor",
+        "price": 30
+      },
+      {
+        "id": "TableLamp",
+        "nameVi": "Đèn ngủ để bàn",
+        "category": "small_decor",
+        "price": 45
+      },
+      {
+        "id": "LongSofa",
+        "nameVi": "Sofa dài kèm gối",
+        "category": "bedroom_soft",
+        "price": 240
+      },
+      {
+        "id": "ThrowPillow",
+        "nameVi": "Gối trang trí rời",
+        "category": "bedroom_soft",
+        "price": 25
+      },
+      {
+        "id": "CatBedSet",
+        "nameVi": "Ổ đệm mèo ngủ",
+        "category": "bedroom_soft",
+        "price": 190
+      },
+      {
+        "id": "Slippers",
+        "nameVi": "Đôi dép đi trong nhà",
+        "category": "bedroom_soft",
+        "price": 15
+      },
+      {
+        "id": "RoundRug",
+        "nameVi": "Thảm tròn đan",
+        "category": "rugs_bath",
+        "price": 40
+      },
+      {
+        "id": "FloralRug",
+        "nameVi": "Thảm hoa phòng ngủ",
+        "category": "rugs_bath",
+        "price": 85
+      },
+      {
+        "id": "StudyRug",
+        "nameVi": "Thảm caro góc làm việc",
+        "category": "rugs_bath",
+        "price": 70
+      },
+      {
+        "id": "BathroomVanity",
+        "nameVi": "Lavabo phòng tắm",
+        "category": "rugs_bath",
+        "price": 130
+      },
+      {
+        "id": "TrailingPlant",
+        "nameVi": "Chậu cây dây rủ",
+        "category": "plants_accents",
+        "price": 45
+      },
+      {
+        "id": "FlowerVase",
+        "nameVi": "Lọ hoa cúc",
+        "category": "plants_accents",
+        "price": 25
+      },
+      {
+        "id": "SmallPlant",
+        "nameVi": "Chậu cây nhỏ",
+        "category": "plants_accents",
+        "price": 20
+      },
+      {
+        "id": "DoorMat",
+        "nameVi": "Thảm chùi chân",
+        "category": "plants_accents",
+        "price": 25
+      }
+    ],
+    "architectureAssetsNotSold": [
+      "DoorClosed",
+      "DoorOpen",
+      "CurtainedWindow",
+      "FenceSegment"
+    ]
+  },
+  "save": {
+    "schemaVersion": 9,
+    "mapRevision": "1.9-PF",
+    "periodicSeconds": 10,
+    "offlineProgress": false,
+    "atomicTempReplace": true
+  },
+  "pauseReasons": [
+    "seed_selection",
+    "shop",
+    "decor_mode",
+    "handbook",
+    "fish_catch_choice",
+    "aquarium_view",
+    "tutorial",
+    "confirm",
+    "pause_menu",
+    "settings",
+    "focus_lost"
+  ],
+  "decorRules": {
+    "allowRugStackingOnRug": false,
+    "allowFloorFurnitureOverRug": true,
+    "doorMatAllowPorchAndGardenEntry": true,
+    "bakedSetsWithoutTabletopSocket": [
+      "ComputerDesk",
+      "DiningTableSet",
+      "KitchenCounterSet",
+      "EntryConsoleSet",
+      "TVConsole"
+    ]
+  }
+}

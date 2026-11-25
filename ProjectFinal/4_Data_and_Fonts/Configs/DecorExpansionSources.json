@@ -1,0 +1,39 @@
+{
+  "generator": "Built-in imagegen",
+  "prompts": "Tools/decor-expansion.json",
+  "groups": [
+    {
+      "id": "work_media",
+      "file": "1_2D_Art/Environment/Source/DecorExpansion/work_media.png"
+    },
+    {
+      "id": "dining_kitchen",
+      "file": "1_2D_Art/Environment/Source/DecorExpansion/dining_kitchen.png"
+    },
+    {
+      "id": "small_decor",
+      "file": "1_2D_Art/Environment/Source/DecorExpansion/small_decor.png"
+    },
+    {
+      "id": "bedroom_soft",
+      "file": "1_2D_Art/Environment/Source/DecorExpansion/bedroom_soft.png"
+    },
+    {
+      "id": "rugs_bath",
+      "file": "1_2D_Art/Environment/Source/DecorExpansion/rugs_bath.png"
+    },
+    {
+      "id": "plants_accents",
+      "file": "1_2D_Art/Environment/Source/DecorExpansion/plants_accents.png"
+    },
+    {
+      "id": "architecture",
+      "file": "1_2D_Art/Environment/Source/DecorExpansion/architecture.png"
+    }
+  ],
+  "counts": {
+    "newEntries": 28,
+    "newDirectionalSprites": 112,
+    "newAtlases": 28
+  }
+}

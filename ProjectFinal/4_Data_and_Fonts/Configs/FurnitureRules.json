@@ -1,0 +1,7316 @@
+{
+  "schemaVersion": "1.9-PF",
+  "directions": [
+    "Down",
+    "Left",
+    "Right",
+    "Up"
+  ],
+  "rotationIsSpriteSwap": true,
+  "doNotRotateTextureInPlane": true,
+  "pivotConvention": "pixels measured from top left; normalized pivot measured from bottom left",
+  "collisionStatus": "Suggested footprints; verify in engine against desired actor clearance.",
+  "items": [
+    {
+      "id": "Bed",
+      "name": "Giường",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Bed_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3,
+        4
+      ],
+      "footprintLeftRight": [
+        4,
+        3
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Bed_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            62,
+            67,
+            132,
+            177
+          ],
+          "sourceRect": {
+            "left": 61,
+            "top": 33,
+            "width": 202,
+            "height": 271
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Bed_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            40,
+            95,
+            176,
+            149
+          ],
+          "sourceRect": {
+            "left": 648,
+            "top": 68,
+            "width": 269,
+            "height": 227
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Bed_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            40,
+            95,
+            176,
+            149
+          ],
+          "sourceRect": {
+            "left": 337,
+            "top": 68,
+            "width": 269,
+            "height": 227
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Bed_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            60,
+            93,
+            135,
+            151
+          ],
+          "sourceRect": {
+            "left": 998,
+            "top": 68,
+            "width": 206,
+            "height": 231
+          }
+        }
+      ],
+      "fixedInDefaultScene": true,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "Wardrobe",
+      "name": "Tủ quần áo",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Wardrobe_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        2,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        2
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Wardrobe_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            69,
+            80,
+            118,
+            164
+          ],
+          "sourceRect": {
+            "left": 54,
+            "top": 340,
+            "width": 213,
+            "height": 295
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Wardrobe_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            88,
+            80,
+            79,
+            164
+          ],
+          "sourceRect": {
+            "left": 713,
+            "top": 340,
+            "width": 143,
+            "height": 295
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Wardrobe_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            88,
+            80,
+            80,
+            164
+          ],
+          "sourceRect": {
+            "left": 398,
+            "top": 340,
+            "width": 144,
+            "height": 295
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Wardrobe_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            68,
+            80,
+            119,
+            164
+          ],
+          "sourceRect": {
+            "left": 987,
+            "top": 340,
+            "width": 214,
+            "height": 295
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false,
+      "sockets": [
+        {
+          "socketId": "SOCK_WARDROBE_EDGE",
+          "type": "cabinet_top_edge",
+          "offsetGrid": [
+            0.0,
+            -2.1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BedsideTable",
+      "name": "Tủ đầu giường",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_BedsideTable_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_BedsideTable_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            93,
+            174,
+            70,
+            70
+          ],
+          "sourceRect": {
+            "left": 75,
+            "top": 689,
+            "width": 173,
+            "height": 174
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_BedsideTable_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            98,
+            176,
+            60,
+            68
+          ],
+          "sourceRect": {
+            "left": 702,
+            "top": 694,
+            "width": 149,
+            "height": 169
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_BedsideTable_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            98,
+            176,
+            60,
+            68
+          ],
+          "sourceRect": {
+            "left": 404,
+            "top": 694,
+            "width": 148,
+            "height": 169
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_BedsideTable_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            93,
+            176,
+            70,
+            68
+          ],
+          "sourceRect": {
+            "left": 1008,
+            "top": 694,
+            "width": 173,
+            "height": 168
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false,
+      "sockets": [
+        {
+          "socketId": "SOCK_BEDSIDE_C",
+          "type": "tabletop",
+          "offsetGrid": [
+            0.0,
+            -0.85
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Bookshelf",
+      "name": "Kệ sách",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Bookshelf_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        2,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        2
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Bookshelf_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            80,
+            82,
+            95,
+            162
+          ],
+          "sourceRect": {
+            "left": 74,
+            "top": 906,
+            "width": 174,
+            "height": 298
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Bookshelf_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            98,
+            81,
+            60,
+            163
+          ],
+          "sourceRect": {
+            "left": 729,
+            "top": 909,
+            "width": 110,
+            "height": 300
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Bookshelf_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            98,
+            81,
+            60,
+            163
+          ],
+          "sourceRect": {
+            "left": 415,
+            "top": 909,
+            "width": 110,
+            "height": 300
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Bookshelf_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            81,
+            81,
+            93,
+            163
+          ],
+          "sourceRect": {
+            "left": 1009,
+            "top": 906,
+            "width": 172,
+            "height": 300
+          }
+        }
+      ],
+      "fixedInDefaultScene": true,
+      "shopItem": false,
+      "architectureAsset": false,
+      "sockets": [
+        {
+          "socketId": "SOCK_SHELF_EDGE",
+          "type": "cabinet_top_edge",
+          "offsetGrid": [
+            0.0,
+            -2.1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Sofa",
+      "name": "Sofa",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Sofa_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3.5,
+        1.8
+      ],
+      "footprintLeftRight": [
+        1.8,
+        3.5
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Sofa_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            33,
+            122,
+            190,
+            122
+          ],
+          "sourceRect": {
+            "left": 32,
+            "top": 121,
+            "width": 331,
+            "height": 212
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Sofa_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            80,
+            115,
+            96,
+            129
+          ],
+          "sourceRect": {
+            "left": 660,
+            "top": 117,
+            "width": 167,
+            "height": 224
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Sofa_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            80,
+            115,
+            96,
+            129
+          ],
+          "sourceRect": {
+            "left": 427,
+            "top": 117,
+            "width": 168,
+            "height": 224
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Sofa_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            34,
+            129,
+            188,
+            115
+          ],
+          "sourceRect": {
+            "left": 892,
+            "top": 134,
+            "width": 327,
+            "height": 200
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false,
+      "sockets": [
+        {
+          "socketId": "SOCK_SOFA_L",
+          "type": "seat",
+          "offsetGrid": [
+            -0.6,
+            -0.85
+          ]
+        },
+        {
+          "socketId": "SOCK_SOFA_R",
+          "type": "seat",
+          "offsetGrid": [
+            0.6,
+            -0.85
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CoffeeTable",
+      "name": "Bàn trà",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_CoffeeTable_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        2.4,
+        1.4
+      ],
+      "footprintLeftRight": [
+        1.4,
+        2.4
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_CoffeeTable_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            67,
+            185,
+            122,
+            59
+          ],
+          "sourceRect": {
+            "left": 44,
+            "top": 440,
+            "width": 305,
+            "height": 147
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_CoffeeTable_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            98,
+            181,
+            59,
+            63
+          ],
+          "sourceRect": {
+            "left": 671,
+            "top": 429,
+            "width": 148,
+            "height": 158
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_CoffeeTable_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            98,
+            181,
+            59,
+            63
+          ],
+          "sourceRect": {
+            "left": 435,
+            "top": 429,
+            "width": 147,
+            "height": 158
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_CoffeeTable_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            67,
+            185,
+            121,
+            59
+          ],
+          "sourceRect": {
+            "left": 905,
+            "top": 440,
+            "width": 303,
+            "height": 147
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false,
+      "sockets": [
+        {
+          "socketId": "SOCK_COF_C",
+          "type": "tabletop",
+          "offsetGrid": [
+            0.0,
+            -0.75
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Chair",
+      "name": "Ghế",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Chair_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Chair_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            98,
+            146,
+            59,
+            98
+          ],
+          "sourceRect": {
+            "left": 121,
+            "top": 660,
+            "width": 148,
+            "height": 245
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Chair_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            97,
+            139,
+            62,
+            105
+          ],
+          "sourceRect": {
+            "left": 672,
+            "top": 640,
+            "width": 155,
+            "height": 263
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Chair_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            97,
+            139,
+            62,
+            105
+          ],
+          "sourceRect": {
+            "left": 427,
+            "top": 640,
+            "width": 155,
+            "height": 263
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Chair_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            147,
+            55,
+            97
+          ],
+          "sourceRect": {
+            "left": 988,
+            "top": 660,
+            "width": 139,
+            "height": 244
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false,
+      "sockets": [
+        {
+          "socketId": "SOCK_CHAIR_C",
+          "type": "seat",
+          "offsetGrid": [
+            0.0,
+            -0.7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Desk",
+      "name": "Bàn làm việc",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Desk_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        3
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Desk_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            53,
+            161,
+            149,
+            83
+          ],
+          "sourceRect": {
+            "left": 31,
+            "top": 980,
+            "width": 331,
+            "height": 184
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Desk_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            90,
+            151,
+            75,
+            93
+          ],
+          "sourceRect": {
+            "left": 665,
+            "top": 966,
+            "width": 167,
+            "height": 206
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Desk_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            90,
+            152,
+            75,
+            92
+          ],
+          "sourceRect": {
+            "left": 423,
+            "top": 966,
+            "width": 167,
+            "height": 205
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Desk_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            52,
+            161,
+            152,
+            83
+          ],
+          "sourceRect": {
+            "left": 886,
+            "top": 980,
+            "width": 337,
+            "height": 183
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false,
+      "sockets": [
+        {
+          "socketId": "SOCK_DESK_L",
+          "type": "tabletop",
+          "offsetGrid": [
+            -0.7,
+            -0.9
+          ]
+        },
+        {
+          "socketId": "SOCK_DESK_R",
+          "type": "tabletop",
+          "offsetGrid": [
+            0.7,
+            -0.9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Fridge",
+      "name": "Tủ lạnh",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Fridge_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1.5,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        1.5
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Fridge_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            87,
+            105,
+            82,
+            139
+          ],
+          "sourceRect": {
+            "left": 114,
+            "top": 47,
+            "width": 162,
+            "height": 274
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Fridge_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            93,
+            105,
+            69,
+            139
+          ],
+          "sourceRect": {
+            "left": 713,
+            "top": 47,
+            "width": 136,
+            "height": 274
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Fridge_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            92,
+            105,
+            72,
+            139
+          ],
+          "sourceRect": {
+            "left": 420,
+            "top": 47,
+            "width": 143,
+            "height": 274
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Fridge_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            87,
+            105,
+            82,
+            139
+          ],
+          "sourceRect": {
+            "left": 979,
+            "top": 47,
+            "width": 162,
+            "height": 274
+          }
+        }
+      ],
+      "fixedInDefaultScene": true,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "Stove",
+      "name": "Bếp",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Stove_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1.8,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        1.8
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Stove_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            124,
+            89,
+            120
+          ],
+          "sourceRect": {
+            "left": 108,
+            "top": 372,
+            "width": 176,
+            "height": 237
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Stove_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            89,
+            126,
+            78,
+            118
+          ],
+          "sourceRect": {
+            "left": 690,
+            "top": 370,
+            "width": 155,
+            "height": 233
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Stove_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            88,
+            126,
+            79,
+            118
+          ],
+          "sourceRect": {
+            "left": 417,
+            "top": 370,
+            "width": 156,
+            "height": 233
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Stove_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            84,
+            126,
+            87,
+            118
+          ],
+          "sourceRect": {
+            "left": 973,
+            "top": 372,
+            "width": 172,
+            "height": 233
+          }
+        }
+      ],
+      "fixedInDefaultScene": true,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "Sink",
+      "name": "Bồn rửa",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Sink_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        2.2,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        2.2
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Sink_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            73,
+            120,
+            109,
+            124
+          ],
+          "sourceRect": {
+            "left": 87,
+            "top": 642,
+            "width": 216,
+            "height": 247
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Sink_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            91,
+            120,
+            74,
+            124
+          ],
+          "sourceRect": {
+            "left": 694,
+            "top": 643,
+            "width": 147,
+            "height": 247
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Sink_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            91,
+            120,
+            74,
+            124
+          ],
+          "sourceRect": {
+            "left": 417,
+            "top": 642,
+            "width": 147,
+            "height": 247
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Sink_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            73,
+            119,
+            110,
+            125
+          ],
+          "sourceRect": {
+            "left": 950,
+            "top": 641,
+            "width": 218,
+            "height": 248
+          }
+        }
+      ],
+      "fixedInDefaultScene": true,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "WashingMachine",
+      "name": "Máy giặt",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_WashingMachine_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1.7,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        1.7
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_WashingMachine_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            124,
+            89,
+            120
+          ],
+          "sourceRect": {
+            "left": 102,
+            "top": 945,
+            "width": 185,
+            "height": 249
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_WashingMachine_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            89,
+            125,
+            78,
+            119
+          ],
+          "sourceRect": {
+            "left": 694,
+            "top": 945,
+            "width": 161,
+            "height": 247
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_WashingMachine_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            89,
+            125,
+            78,
+            119
+          ],
+          "sourceRect": {
+            "left": 402,
+            "top": 945,
+            "width": 162,
+            "height": 247
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_WashingMachine_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            124,
+            89,
+            120
+          ],
+          "sourceRect": {
+            "left": 968,
+            "top": 945,
+            "width": 185,
+            "height": 248
+          }
+        }
+      ],
+      "fixedInDefaultScene": true,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "Bench",
+      "name": "Ghế sân vườn",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Bench_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        3
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Bench_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            40,
+            126,
+            175,
+            118
+          ],
+          "sourceRect": {
+            "left": 31,
+            "top": 83,
+            "width": 284,
+            "height": 192
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Bench_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            79,
+            112,
+            97,
+            132
+          ],
+          "sourceRect": {
+            "left": 700,
+            "top": 64,
+            "width": 158,
+            "height": 214
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Bench_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            79,
+            113,
+            97,
+            131
+          ],
+          "sourceRect": {
+            "left": 397,
+            "top": 66,
+            "width": 157,
+            "height": 212
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Bench_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            43,
+            133,
+            169,
+            111
+          ],
+          "sourceRect": {
+            "left": 946,
+            "top": 92,
+            "width": 275,
+            "height": 180
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "DecorPlant",
+      "name": "Chậu cây",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_DecorPlant_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_DecorPlant_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            95,
+            172,
+            66,
+            72
+          ],
+          "sourceRect": {
+            "left": 56,
+            "top": 334,
+            "width": 220,
+            "height": 241
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_DecorPlant_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            175,
+            56,
+            69
+          ],
+          "sourceRect": {
+            "left": 679,
+            "top": 346,
+            "width": 188,
+            "height": 229
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_DecorPlant_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            99,
+            175,
+            57,
+            69
+          ],
+          "sourceRect": {
+            "left": 381,
+            "top": 346,
+            "width": 190,
+            "height": 229
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_DecorPlant_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            95,
+            171,
+            66,
+            73
+          ],
+          "sourceRect": {
+            "left": 977,
+            "top": 332,
+            "width": 219,
+            "height": 243
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "Lamp",
+      "name": "Đèn đứng",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Lamp_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Lamp_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            96,
+            109,
+            63,
+            135
+          ],
+          "sourceRect": {
+            "left": 111,
+            "top": 650,
+            "width": 121,
+            "height": 259
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Lamp_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            112,
+            55,
+            132
+          ],
+          "sourceRect": {
+            "left": 732,
+            "top": 649,
+            "width": 105,
+            "height": 254
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Lamp_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            112,
+            55,
+            132
+          ],
+          "sourceRect": {
+            "left": 417,
+            "top": 649,
+            "width": 105,
+            "height": 254
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Lamp_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            96,
+            109,
+            63,
+            135
+          ],
+          "sourceRect": {
+            "left": 1023,
+            "top": 650,
+            "width": 120,
+            "height": 259
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "Rug",
+      "name": "Thảm",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Rug_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        4,
+        3
+      ],
+      "footprintLeftRight": [
+        3,
+        4
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Rug_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            9,
+            99,
+            238,
+            145
+          ],
+          "sourceRect": {
+            "left": 24,
+            "top": 1003,
+            "width": 292,
+            "height": 178
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Rug_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            26,
+            108,
+            204,
+            136
+          ],
+          "sourceRect": {
+            "left": 647,
+            "top": 1014,
+            "width": 250,
+            "height": 167
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Rug_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            25,
+            108,
+            205,
+            136
+          ],
+          "sourceRect": {
+            "left": 357,
+            "top": 1014,
+            "width": 251,
+            "height": 167
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Rug_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            9,
+            99,
+            237,
+            145
+          ],
+          "sourceRect": {
+            "left": 939,
+            "top": 1003,
+            "width": 291,
+            "height": 178
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false,
+      "allowRugStacking": false,
+      "allowFloorFurnitureAbove": true
+    },
+    {
+      "id": "SoilBed",
+      "name": "Luống trồng",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_SoilBed_4Directions.png",
+      "framePixels": [
+        384,
+        256
+      ],
+      "pivotPixels": [
+        192,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        7,
+        2
+      ],
+      "footprintLeftRight": [
+        2,
+        7
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_SoilBed_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            384,
+            256
+          ],
+          "contentRect": [
+            34,
+            120,
+            316,
+            124
+          ],
+          "sourceRect": {
+            "left": 38,
+            "top": 157,
+            "width": 352,
+            "height": 138
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_SoilBed_Left.png",
+          "atlasRect": [
+            384,
+            0,
+            384,
+            256
+          ],
+          "contentRect": [
+            123,
+            52,
+            138,
+            192
+          ],
+          "sourceRect": {
+            "left": 665,
+            "top": 94,
+            "width": 153,
+            "height": 214
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_SoilBed_Right.png",
+          "atlasRect": [
+            768,
+            0,
+            384,
+            256
+          ],
+          "contentRect": [
+            126,
+            48,
+            132,
+            196
+          ],
+          "sourceRect": {
+            "left": 436,
+            "top": 94,
+            "width": 147,
+            "height": 218
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_SoilBed_Up.png",
+          "atlasRect": [
+            1152,
+            0,
+            384,
+            256
+          ],
+          "contentRect": [
+            32,
+            120,
+            319,
+            124
+          ],
+          "sourceRect": {
+            "left": 865,
+            "top": 157,
+            "width": 355,
+            "height": 138
+          }
+        }
+      ],
+      "fixedInDefaultScene": true,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "PotEmpty",
+      "name": "Chậu trống",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_PotEmpty_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_PotEmpty_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            103,
+            192,
+            50,
+            52
+          ],
+          "sourceRect": {
+            "left": 141,
+            "top": 403,
+            "width": 145,
+            "height": 151
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_PotEmpty_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            107,
+            198,
+            42,
+            46
+          ],
+          "sourceRect": {
+            "left": 685,
+            "top": 411,
+            "width": 123,
+            "height": 133
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_PotEmpty_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            106,
+            198,
+            43,
+            46
+          ],
+          "sourceRect": {
+            "left": 446,
+            "top": 411,
+            "width": 124,
+            "height": 133
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_PotEmpty_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            103,
+            190,
+            49,
+            54
+          ],
+          "sourceRect": {
+            "left": 962,
+            "top": 393,
+            "width": 143,
+            "height": 157
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "WateringCan",
+      "name": "Bình tưới",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_WateringCan_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        1,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_WateringCan_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            111,
+            185,
+            34,
+            59
+          ],
+          "sourceRect": {
+            "left": 137,
+            "top": 635,
+            "width": 126,
+            "height": 218
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_WateringCan_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            95,
+            202,
+            65,
+            42
+          ],
+          "sourceRect": {
+            "left": 639,
+            "top": 679,
+            "width": 242,
+            "height": 157
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_WateringCan_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            95,
+            202,
+            65,
+            42
+          ],
+          "sourceRect": {
+            "left": 374,
+            "top": 680,
+            "width": 241,
+            "height": 156
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_WateringCan_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            112,
+            183,
+            32,
+            61
+          ],
+          "sourceRect": {
+            "left": 992,
+            "top": 631,
+            "width": 120,
+            "height": 226
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "Broom",
+      "name": "Chổi",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Broom_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.5,
+        1
+      ],
+      "footprintLeftRight": [
+        1,
+        0.5
+      ],
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Broom_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            104,
+            142,
+            47,
+            102
+          ],
+          "sourceRect": {
+            "left": 134,
+            "top": 897,
+            "width": 133,
+            "height": 291
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Broom_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            146,
+            56,
+            98
+          ],
+          "sourceRect": {
+            "left": 695,
+            "top": 905,
+            "width": 160,
+            "height": 279
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Broom_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            146,
+            56,
+            98
+          ],
+          "sourceRect": {
+            "left": 400,
+            "top": 905,
+            "width": 160,
+            "height": 279
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Broom_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            106,
+            147,
+            43,
+            97
+          ],
+          "sourceRect": {
+            "left": 995,
+            "top": 900,
+            "width": 123,
+            "height": 278
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": false
+    },
+    {
+      "id": "ComputerDesk",
+      "name": "Bàn làm việc + máy tính",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_ComputerDesk_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3.5,
+        1.8
+      ],
+      "footprintLeftRight": [
+        1.8,
+        3.5
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "desk",
+          "monitor",
+          "keyboard",
+          "mouse"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "desk",
+          "monitor",
+          "keyboard",
+          "mouse"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_ComputerDesk_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            49,
+            104,
+            158,
+            140
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 39,
+            "top": 97,
+            "width": 295,
+            "height": 261
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_ComputerDesk_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            86,
+            89,
+            84,
+            155
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 412,
+            "top": 71,
+            "width": 158,
+            "height": 290
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_ComputerDesk_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            85,
+            89,
+            86,
+            155
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 681,
+            "top": 71,
+            "width": 161,
+            "height": 290
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_ComputerDesk_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            48,
+            104,
+            159,
+            140
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 918,
+            "top": 94,
+            "width": 298,
+            "height": 261
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "work_media",
+      "shopPrice": 180,
+      "nameVi": "Bàn máy tính",
+      "architectureAsset": false,
+      "hasTabletopSocket": false
+    },
+    {
+      "id": "OfficeChair",
+      "name": "Ghế văn phòng",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_OfficeChair_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1.2,
+        1.2
+      ],
+      "footprintLeftRight": [
+        1.2,
+        1.2
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "single",
+        "includes": [
+          "chair"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "chair"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_OfficeChair_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            94,
+            150,
+            68,
+            94
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 93,
+            "top": 425,
+            "width": 180,
+            "height": 248
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_OfficeChair_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            97,
+            149,
+            61,
+            95
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 394,
+            "top": 423,
+            "width": 161,
+            "height": 250
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_OfficeChair_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            97,
+            149,
+            61,
+            95
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 692,
+            "top": 422,
+            "width": 161,
+            "height": 251
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_OfficeChair_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            93,
+            151,
+            70,
+            93
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 978,
+            "top": 426,
+            "width": 185,
+            "height": 247
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "work_media",
+      "shopPrice": 65,
+      "nameVi": "Ghế văn phòng",
+      "architectureAsset": false
+    },
+    {
+      "id": "TrashBin",
+      "name": "Thùng rác",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_TrashBin_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        0.65,
+        0.65
+      ],
+      "footprintLeftRight": [
+        0.65,
+        0.65
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "single",
+        "includes": [
+          "bin"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "bin"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_TrashBin_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            109,
+            197,
+            38,
+            47
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 120,
+            "top": 738,
+            "width": 123,
+            "height": 152
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_TrashBin_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            113,
+            197,
+            30,
+            47
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 431,
+            "top": 737,
+            "width": 98,
+            "height": 153
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_TrashBin_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            113,
+            197,
+            30,
+            47
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 719,
+            "top": 737,
+            "width": 97,
+            "height": 153
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_TrashBin_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            109,
+            197,
+            38,
+            47
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 1010,
+            "top": 738,
+            "width": 124,
+            "height": 152
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "work_media",
+      "shopPrice": 20,
+      "nameVi": "Thùng rác",
+      "architectureAsset": false
+    },
+    {
+      "id": "TVConsole",
+      "name": "Kệ + TV",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_TVConsole_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3.4,
+        1.4
+      ],
+      "footprintLeftRight": [
+        1.4,
+        3.4
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "cabinet",
+          "TV",
+          "shelf books"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "cabinet",
+          "TV",
+          "shelf books"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_TVConsole_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            39,
+            100,
+            178,
+            144
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 29,
+            "top": 949,
+            "width": 309,
+            "height": 249
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_TVConsole_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            93,
+            89,
+            70,
+            155
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 436,
+            "top": 929,
+            "width": 121,
+            "height": 269
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_TVConsole_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            93,
+            89,
+            70,
+            155
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 693,
+            "top": 929,
+            "width": 121,
+            "height": 269
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_TVConsole_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            38,
+            101,
+            180,
+            143
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 915,
+            "top": 949,
+            "width": 312,
+            "height": 248
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "work_media",
+      "shopPrice": 220,
+      "nameVi": "Kệ TV",
+      "architectureAsset": false,
+      "hasTabletopSocket": false
+    },
+    {
+      "id": "DiningTableSet",
+      "name": "Bàn ăn + khăn + lọ hoa",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_DiningTableSet_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3.2,
+        2.2
+      ],
+      "footprintLeftRight": [
+        2.2,
+        3.2
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "table",
+          "tablecloth",
+          "flower vase"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "table",
+          "tablecloth",
+          "flower vase"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_DiningTableSet_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            45,
+            116,
+            165,
+            128
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 31,
+            "top": 59,
+            "width": 310,
+            "height": 240
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_DiningTableSet_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            76,
+            116,
+            103,
+            128
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 399,
+            "top": 59,
+            "width": 194,
+            "height": 240
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_DiningTableSet_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            76,
+            116,
+            104,
+            128
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 669,
+            "top": 59,
+            "width": 195,
+            "height": 240
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_DiningTableSet_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            48,
+            116,
+            160,
+            128
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 923,
+            "top": 59,
+            "width": 300,
+            "height": 240
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "dining_kitchen",
+      "shopPrice": 160,
+      "nameVi": "Bộ bàn ăn",
+      "architectureAsset": false,
+      "hasTabletopSocket": false
+    },
+    {
+      "id": "KitchenCounterSet",
+      "name": "Tủ bếp + cốc + hũ",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_KitchenCounterSet_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        2.8,
+        1.5
+      ],
+      "footprintLeftRight": [
+        1.5,
+        2.8
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "counter cabinet",
+          "mug",
+          "jar"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "counter cabinet",
+          "mug",
+          "jar"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            59,
+            112,
+            138,
+            132
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 54,
+            "top": 350,
+            "width": 281,
+            "height": 268
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            92,
+            112,
+            72,
+            132
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 412,
+            "top": 350,
+            "width": 146,
+            "height": 267
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            91,
+            112,
+            73,
+            132
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 693,
+            "top": 350,
+            "width": 149,
+            "height": 267
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            59,
+            112,
+            137,
+            132
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 921,
+            "top": 350,
+            "width": 278,
+            "height": 268
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "dining_kitchen",
+      "shopPrice": 140,
+      "nameVi": "Tủ bếp có phụ kiện",
+      "architectureAsset": false,
+      "hasTabletopSocket": false
+    },
+    {
+      "id": "KitchenWallShelf",
+      "name": "Kệ bếp + chảo treo",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_KitchenWallShelf_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        2.8,
+        0.5
+      ],
+      "footprintLeftRight": [
+        0.5,
+        2.8
+      ],
+      "placement": {
+        "category": "wall",
+        "requiredSupport": "wall",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "shelf",
+          "rail",
+          "3 pans",
+          "2 cups",
+          "jar"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "shelf",
+          "rail",
+          "3 pans",
+          "2 cups",
+          "jar"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            56,
+            132,
+            143,
+            112
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 34,
+            "top": 670,
+            "width": 303,
+            "height": 237
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            108,
+            129,
+            39,
+            115
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 463,
+            "top": 664,
+            "width": 83,
+            "height": 243
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            108,
+            129,
+            39,
+            115
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 704,
+            "top": 664,
+            "width": 83,
+            "height": 243
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            56,
+            133,
+            144,
+            111
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 918,
+            "top": 670,
+            "width": 305,
+            "height": 234
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "dining_kitchen",
+      "shopPrice": 75,
+      "nameVi": "Kệ bếp treo tường",
+      "architectureAsset": false
+    },
+    {
+      "id": "EntryConsoleSet",
+      "name": "Bàn lối vào + bộ trang trí",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_EntryConsoleSet_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        3.4,
+        1.4
+      ],
+      "footprintLeftRight": [
+        1.4,
+        3.4
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "console",
+          "photo frame",
+          "books",
+          "2 potted plants"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "console",
+          "photo frame",
+          "books",
+          "2 potted plants"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            41,
+            129,
+            174,
+            115
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 33,
+            "top": 950,
+            "width": 345,
+            "height": 229
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            94,
+            125,
+            67,
+            119
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 443,
+            "top": 944,
+            "width": 133,
+            "height": 236
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            94,
+            125,
+            68,
+            119
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 679,
+            "top": 944,
+            "width": 134,
+            "height": 236
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            43,
+            133,
+            169,
+            111
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 885,
+            "top": 958,
+            "width": 336,
+            "height": 221
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "dining_kitchen",
+      "shopPrice": 150,
+      "nameVi": "Bàn console lối vào",
+      "architectureAsset": false,
+      "hasTabletopSocket": false
+    },
+    {
+      "id": "WallPainting",
+      "name": "Tranh lá treo tường",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_WallPainting_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        1,
+        0.2
+      ],
+      "footprintLeftRight": [
+        0.2,
+        1
+      ],
+      "placement": {
+        "category": "wall",
+        "requiredSupport": "wall",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "frame",
+          "botanical print"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "frame",
+          "botanical print"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_WallPainting_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            101,
+            184,
+            53,
+            60
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 65,
+            "top": 84,
+            "width": 205,
+            "height": 233
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_WallPainting_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            112,
+            176,
+            31,
+            68
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 420,
+            "top": 66,
+            "width": 120,
+            "height": 264
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_WallPainting_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            113,
+            176,
+            29,
+            68
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 709,
+            "top": 66,
+            "width": 113,
+            "height": 265
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_WallPainting_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            104,
+            186,
+            48,
+            58
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 1001,
+            "top": 91,
+            "width": 189,
+            "height": 226
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "small_decor",
+      "shopPrice": 35,
+      "nameVi": "Tranh lá treo tường",
+      "architectureAsset": false
+    },
+    {
+      "id": "PhotoFrame",
+      "name": "Khung ảnh để bàn",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_PhotoFrame_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.45,
+        0.3
+      ],
+      "footprintLeftRight": [
+        0.3,
+        0.45
+      ],
+      "placement": {
+        "category": "surface",
+        "requiredSupport": "tabletop",
+        "gridStepPixels": 4,
+        "rotateWithParent": true,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "frame",
+          "picture"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "frame",
+          "picture"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_PhotoFrame_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            114,
+            221,
+            27,
+            23
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 73,
+            "top": 430,
+            "width": 192,
+            "height": 160
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_PhotoFrame_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            116,
+            214,
+            23,
+            30
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 401,
+            "top": 405,
+            "width": 160,
+            "height": 215
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_PhotoFrame_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            116,
+            214,
+            23,
+            30
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 693,
+            "top": 405,
+            "width": 160,
+            "height": 215
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_PhotoFrame_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            115,
+            220,
+            26,
+            24
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 999,
+            "top": 433,
+            "width": 188,
+            "height": 171
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "small_decor",
+      "shopPrice": 20,
+      "nameVi": "Khung ảnh để bàn",
+      "architectureAsset": false
+    },
+    {
+      "id": "ReadingTray",
+      "name": "Khay sách + cốc + giấy",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_ReadingTray_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        1.1,
+        0.65
+      ],
+      "footprintLeftRight": [
+        0.65,
+        1.1
+      ],
+      "placement": {
+        "category": "surface",
+        "requiredSupport": "tabletop",
+        "gridStepPixels": 4,
+        "rotateWithParent": true,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "tray",
+          "2 books",
+          "mug",
+          "paper"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "tray",
+          "2 books",
+          "mug",
+          "paper"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_ReadingTray_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            97,
+            215,
+            62,
+            29
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 32,
+            "top": 714,
+            "width": 276,
+            "height": 127
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_ReadingTray_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            99,
+            217,
+            58,
+            27
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 347,
+            "top": 720,
+            "width": 259,
+            "height": 121
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_ReadingTray_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            99,
+            217,
+            58,
+            27
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 650,
+            "top": 720,
+            "width": 258,
+            "height": 121
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_ReadingTray_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            97,
+            216,
+            61,
+            28
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 953,
+            "top": 723,
+            "width": 271,
+            "height": 124
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "small_decor",
+      "shopPrice": 30,
+      "nameVi": "Khay đọc sách",
+      "architectureAsset": false
+    },
+    {
+      "id": "TableLamp",
+      "name": "Đèn ngủ để bàn",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_TableLamp_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.65,
+        0.65
+      ],
+      "footprintLeftRight": [
+        0.65,
+        0.65
+      ],
+      "placement": {
+        "category": "surface",
+        "requiredSupport": "tabletop",
+        "gridStepPixels": 4,
+        "rotateWithParent": true,
+        "independentCollision": false,
+        "groupMode": "single",
+        "includes": [
+          "lamp"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "lamp"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_TableLamp_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            108,
+            186,
+            39,
+            58
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 74,
+            "top": 919,
+            "width": 183,
+            "height": 269
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_TableLamp_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            109,
+            186,
+            38,
+            58
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 386,
+            "top": 919,
+            "width": 177,
+            "height": 269
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_TableLamp_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            109,
+            186,
+            38,
+            58
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 690,
+            "top": 919,
+            "width": 176,
+            "height": 269
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_TableLamp_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            108,
+            186,
+            40,
+            58
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 998,
+            "top": 919,
+            "width": 184,
+            "height": 269
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "small_decor",
+      "shopPrice": 45,
+      "nameVi": "Đèn ngủ để bàn",
+      "architectureAsset": false
+    },
+    {
+      "id": "LongSofa",
+      "name": "Sofa dài + gối",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_LongSofa_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        4.5,
+        1.8
+      ],
+      "footprintLeftRight": [
+        1.8,
+        4.5
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "sofa",
+          "sage pillow",
+          "mustard pillow"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "sofa",
+          "sage pillow",
+          "mustard pillow"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_LongSofa_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            8,
+            119,
+            239,
+            125
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 28,
+            "top": 146,
+            "width": 371,
+            "height": 193
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_LongSofa_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            74,
+            89,
+            170
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 444,
+            "top": 92,
+            "width": 138,
+            "height": 264
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_LongSofa_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            84,
+            74,
+            88,
+            170
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 674,
+            "top": 93,
+            "width": 136,
+            "height": 263
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_LongSofa_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            8,
+            128,
+            240,
+            116
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 861,
+            "top": 156,
+            "width": 372,
+            "height": 180
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "bedroom_soft",
+      "shopPrice": 240,
+      "nameVi": "Sofa dài kèm gối",
+      "architectureAsset": false
+    },
+    {
+      "id": "ThrowPillow",
+      "name": "Gối trang trí rời",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_ThrowPillow_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.6,
+        0.5
+      ],
+      "footprintLeftRight": [
+        0.5,
+        0.6
+      ],
+      "placement": {
+        "category": "seat",
+        "requiredSupport": "seat",
+        "gridStepPixels": 4,
+        "rotateWithParent": true,
+        "independentCollision": false,
+        "groupMode": "single",
+        "includes": [
+          "pillow"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "pillow"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_ThrowPillow_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            110,
+            213,
+            35,
+            31
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 113,
+            "top": 461,
+            "width": 189,
+            "height": 168
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_ThrowPillow_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            119,
+            206,
+            17,
+            38
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 476,
+            "top": 441,
+            "width": 90,
+            "height": 204
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_ThrowPillow_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            119,
+            206,
+            17,
+            38
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 689,
+            "top": 441,
+            "width": 90,
+            "height": 204
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_ThrowPillow_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            110,
+            213,
+            36,
+            31
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 957,
+            "top": 461,
+            "width": 191,
+            "height": 169
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "bedroom_soft",
+      "shopPrice": 25,
+      "nameVi": "Gối trang trí rời",
+      "architectureAsset": false
+    },
+    {
+      "id": "CatBedSet",
+      "name": "Ổ đệm + mèo ngủ",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_CatBedSet_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1.6,
+        1.4
+      ],
+      "footprintLeftRight": [
+        1.4,
+        1.6
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "pet bed",
+          "sleeping cat (static)"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "pet bed",
+          "sleeping cat (static)"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_CatBedSet_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            171,
+            89,
+            73
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 64,
+            "top": 710,
+            "width": 253,
+            "height": 208
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_CatBedSet_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            88,
+            188,
+            79,
+            56
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 369,
+            "top": 738,
+            "width": 226,
+            "height": 161
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_CatBedSet_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            88,
+            188,
+            80,
+            56
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 661,
+            "top": 738,
+            "width": 227,
+            "height": 161
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_CatBedSet_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            178,
+            89,
+            66
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 944,
+            "top": 722,
+            "width": 254,
+            "height": 188
+          }
+        }
+      ],
+      "animation": "none; sleeping cat is baked into this static decoration",
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "bedroom_soft",
+      "shopPrice": 190,
+      "nameVi": "Ổ đệm mèo ngủ",
+      "architectureAsset": false
+    },
+    {
+      "id": "Slippers",
+      "name": "Đôi dép",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_Slippers_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.65,
+        0.6
+      ],
+      "footprintLeftRight": [
+        0.6,
+        0.65
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "left slipper",
+          "right slipper"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "left slipper",
+          "right slipper"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_Slippers_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            110,
+            214,
+            35,
+            30
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 90,
+            "top": 1002,
+            "width": 186,
+            "height": 161
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_Slippers_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            110,
+            217,
+            36,
+            27
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 387,
+            "top": 1009,
+            "width": 193,
+            "height": 147
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_Slippers_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            110,
+            217,
+            36,
+            27
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 675,
+            "top": 1009,
+            "width": 193,
+            "height": 147
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_Slippers_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            109,
+            214,
+            37,
+            30
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 970,
+            "top": 1009,
+            "width": 197,
+            "height": 160
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "bedroom_soft",
+      "shopPrice": 15,
+      "nameVi": "Đôi dép đi trong nhà",
+      "architectureAsset": false
+    },
+    {
+      "id": "RoundRug",
+      "name": "Thảm tròn đan",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_RoundRug_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        1.8,
+        1.8
+      ],
+      "footprintLeftRight": [
+        1.8,
+        1.8
+      ],
+      "placement": {
+        "category": "ground",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": false,
+        "groupMode": "single",
+        "includes": [
+          "rug"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "rug"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_RoundRug_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            81,
+            162,
+            94,
+            82
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 55,
+            "top": 91,
+            "width": 226,
+            "height": 197
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_RoundRug_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            81,
+            162,
+            94,
+            82
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 361,
+            "top": 91,
+            "width": 225,
+            "height": 197
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_RoundRug_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            81,
+            162,
+            94,
+            82
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 668,
+            "top": 91,
+            "width": 225,
+            "height": 197
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_RoundRug_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            81,
+            162,
+            94,
+            82
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 974,
+            "top": 91,
+            "width": 226,
+            "height": 197
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "rugs_bath",
+      "shopPrice": 40,
+      "nameVi": "Thảm tròn đan",
+      "architectureAsset": false,
+      "allowRugStacking": false,
+      "allowFloorFurnitureAbove": true
+    },
+    {
+      "id": "FloralRug",
+      "name": "Thảm hoa phòng ngủ",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_FloralRug_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        4.5,
+        3.2
+      ],
+      "footprintLeftRight": [
+        3.2,
+        4.5
+      ],
+      "placement": {
+        "category": "ground",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": false,
+        "groupMode": "single",
+        "includes": [
+          "rug"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "rug"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_FloralRug_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            6,
+            111,
+            244,
+            133
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 13,
+            "top": 400,
+            "width": 312,
+            "height": 170
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_FloralRug_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            55,
+            42,
+            146,
+            202
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 387,
+            "top": 348,
+            "width": 187,
+            "height": 258
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_FloralRug_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            55,
+            42,
+            145,
+            202
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 682,
+            "top": 348,
+            "width": 185,
+            "height": 258
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_FloralRug_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            6,
+            111,
+            244,
+            133
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 929,
+            "top": 400,
+            "width": 312,
+            "height": 170
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "rugs_bath",
+      "shopPrice": 85,
+      "nameVi": "Thảm hoa phòng ngủ",
+      "architectureAsset": false,
+      "allowRugStacking": false,
+      "allowFloorFurnitureAbove": true
+    },
+    {
+      "id": "StudyRug",
+      "name": "Thảm caro góc làm việc",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_StudyRug_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        3.8,
+        2.8
+      ],
+      "footprintLeftRight": [
+        2.8,
+        3.8
+      ],
+      "placement": {
+        "category": "ground",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": false,
+        "groupMode": "single",
+        "includes": [
+          "rug"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "rug"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_StudyRug_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            25,
+            136,
+            205,
+            108
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 16,
+            "top": 708,
+            "width": 306,
+            "height": 161
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_StudyRug_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            65,
+            68,
+            125,
+            176
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 391,
+            "top": 655,
+            "width": 186,
+            "height": 262
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_StudyRug_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            65,
+            68,
+            125,
+            176
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 678,
+            "top": 655,
+            "width": 186,
+            "height": 262
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_StudyRug_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            25,
+            136,
+            205,
+            108
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 933,
+            "top": 708,
+            "width": 306,
+            "height": 161
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "rugs_bath",
+      "shopPrice": 70,
+      "nameVi": "Thảm caro góc làm việc",
+      "architectureAsset": false,
+      "allowRugStacking": false,
+      "allowFloorFurnitureAbove": true
+    },
+    {
+      "id": "BathroomVanity",
+      "name": "Lavabo phòng tắm",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_BathroomVanity_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1.5,
+        1.3
+      ],
+      "footprintLeftRight": [
+        1.3,
+        1.5
+      ],
+      "placement": {
+        "category": "floor",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "vanity",
+          "basin",
+          "faucet"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "vanity",
+          "basin",
+          "faucet"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_BathroomVanity_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            87,
+            136,
+            81,
+            108
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 83,
+            "top": 951,
+            "width": 173,
+            "height": 230
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_BathroomVanity_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            137,
+            55,
+            107
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 426,
+            "top": 951,
+            "width": 118,
+            "height": 229
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_BathroomVanity_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            100,
+            137,
+            55,
+            107
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 710,
+            "top": 951,
+            "width": 118,
+            "height": 229
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_BathroomVanity_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            87,
+            137,
+            81,
+            107
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 998,
+            "top": 951,
+            "width": 173,
+            "height": 229
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "rugs_bath",
+      "shopPrice": 130,
+      "nameVi": "Lavabo phòng tắm",
+      "architectureAsset": false
+    },
+    {
+      "id": "TrailingPlant",
+      "name": "Chậu cây dây rủ",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_TrailingPlant_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        173
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.32421875
+      ],
+      "pivotPerFrame": true,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.8,
+        0.65
+      ],
+      "footprintLeftRight": [
+        0.65,
+        0.8
+      ],
+      "placement": {
+        "category": "surface_edge",
+        "requiredSupport": "cabinet_top_edge",
+        "gridStepPixels": 4,
+        "rotateWithParent": true,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "pot",
+          "ivy vines"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "pot",
+          "ivy vines"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_TrailingPlant_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            101,
+            127,
+            54,
+            117
+          ],
+          "pivotPixels": [
+            128,
+            173
+          ],
+          "sourceRect": {
+            "left": 62,
+            "top": 62,
+            "width": 198,
+            "height": 428
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_TrailingPlant_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            106,
+            129,
+            44,
+            115
+          ],
+          "pivotPixels": [
+            128,
+            174
+          ],
+          "sourceRect": {
+            "left": 390,
+            "top": 70,
+            "width": 161,
+            "height": 420
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_TrailingPlant_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            106,
+            133,
+            44,
+            111
+          ],
+          "pivotPixels": [
+            128,
+            176
+          ],
+          "sourceRect": {
+            "left": 701,
+            "top": 76,
+            "width": 163,
+            "height": 407
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_TrailingPlant_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            101,
+            130,
+            53,
+            114
+          ],
+          "pivotPixels": [
+            128,
+            174
+          ],
+          "sourceRect": {
+            "left": 998,
+            "top": 70,
+            "width": 195,
+            "height": 417
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "plants_accents",
+      "shopPrice": 45,
+      "nameVi": "Chậu cây dây rủ",
+      "architectureAsset": false
+    },
+    {
+      "id": "FlowerVase",
+      "name": "Lọ hoa cúc",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_FlowerVase_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.5,
+        0.5
+      ],
+      "footprintLeftRight": [
+        0.5,
+        0.5
+      ],
+      "placement": {
+        "category": "surface",
+        "requiredSupport": "tabletop",
+        "gridStepPixels": 4,
+        "rotateWithParent": true,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "vase",
+          "daisies"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "vase",
+          "daisies"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_FlowerVase_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            110,
+            199,
+            36,
+            45
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 72,
+            "top": 532,
+            "width": 186,
+            "height": 234
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_FlowerVase_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            113,
+            200,
+            29,
+            44
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 399,
+            "top": 539,
+            "width": 149,
+            "height": 227
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_FlowerVase_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            114,
+            200,
+            27,
+            44
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 718,
+            "top": 539,
+            "width": 137,
+            "height": 226
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_FlowerVase_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            110,
+            200,
+            36,
+            44
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 999,
+            "top": 536,
+            "width": 184,
+            "height": 229
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "plants_accents",
+      "shopPrice": 25,
+      "nameVi": "Lọ hoa cúc",
+      "architectureAsset": false
+    },
+    {
+      "id": "SmallPlant",
+      "name": "Chậu cây nhỏ",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_SmallPlant_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        0.5,
+        0.5
+      ],
+      "footprintLeftRight": [
+        0.5,
+        0.5
+      ],
+      "placement": {
+        "category": "surface",
+        "requiredSupport": "tabletop",
+        "gridStepPixels": 4,
+        "rotateWithParent": true,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "pot",
+          "plant"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "pot",
+          "plant"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_SmallPlant_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            111,
+            211,
+            33,
+            33
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 62,
+            "top": 818,
+            "width": 196,
+            "height": 197
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_SmallPlant_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            112,
+            212,
+            31,
+            32
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 383,
+            "top": 824,
+            "width": 181,
+            "height": 191
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_SmallPlant_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            113,
+            212,
+            29,
+            32
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 688,
+            "top": 824,
+            "width": 172,
+            "height": 191
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_SmallPlant_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            111,
+            211,
+            34,
+            33
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 991,
+            "top": 818,
+            "width": 200,
+            "height": 197
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "plants_accents",
+      "shopPrice": 20,
+      "nameVi": "Chậu cây nhỏ",
+      "architectureAsset": false
+    },
+    {
+      "id": "DoorMat",
+      "name": "Thảm chùi chân",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_DoorMat_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        1.9,
+        1.1
+      ],
+      "footprintLeftRight": [
+        1.1,
+        1.9
+      ],
+      "placement": {
+        "category": "ground",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": false,
+        "groupMode": "single",
+        "includes": [
+          "mat"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "mat"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_DoorMat_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            77,
+            201,
+            102,
+            43
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 29,
+            "top": 1080,
+            "width": 282,
+            "height": 118
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_DoorMat_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            101,
+            193,
+            54,
+            51
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 398,
+            "top": 1068,
+            "width": 148,
+            "height": 140
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_DoorMat_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            101,
+            193,
+            53,
+            51
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 708,
+            "top": 1067,
+            "width": 147,
+            "height": 141
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_DoorMat_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            77,
+            201,
+            102,
+            43
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 943,
+            "top": 1080,
+            "width": 282,
+            "height": 118
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": true,
+      "shopCategory": "plants_accents",
+      "shopPrice": 25,
+      "nameVi": "Thảm chùi chân",
+      "architectureAsset": false,
+      "allowRugStacking": false,
+      "allowFloorFurnitureAbove": true,
+      "allowOutdoorPorch": true
+    },
+    {
+      "id": "DoorClosed",
+      "name": "Cửa gỗ — đóng",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_DoorClosed_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        1.8,
+        0.4
+      ],
+      "footprintLeftRight": [
+        0.4,
+        1.8
+      ],
+      "placement": {
+        "category": "doorway",
+        "requiredSupport": "doorway",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "door frame",
+          "closed leaf"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "door frame",
+          "closed leaf"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_DoorClosed_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            78,
+            108,
+            100,
+            136
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 79,
+            "top": 72,
+            "width": 185,
+            "height": 250
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_DoorClosed_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            88,
+            101,
+            79,
+            143
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 407,
+            "top": 67,
+            "width": 145,
+            "height": 264
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_DoorClosed_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            89,
+            101,
+            78,
+            143
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 703,
+            "top": 67,
+            "width": 144,
+            "height": 264
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_DoorClosed_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            78,
+            108,
+            100,
+            136
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 991,
+            "top": 72,
+            "width": 185,
+            "height": 251
+          }
+        }
+      ],
+      "stateFamily": "WoodDoor",
+      "state": "closed",
+      "stateTransitionNote": "Shared scale and origin; generated frame details may vary slightly. Not an animated door clip.",
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": true
+    },
+    {
+      "id": "DoorOpen",
+      "name": "Cửa gỗ — mở",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_DoorOpen_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        1.8,
+        0.4
+      ],
+      "footprintLeftRight": [
+        0.4,
+        1.8
+      ],
+      "placement": {
+        "category": "doorway",
+        "requiredSupport": "doorway",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "door frame",
+          "open leaf"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "door frame",
+          "open leaf"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_DoorOpen_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            77,
+            103,
+            101,
+            141
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 79,
+            "top": 376,
+            "width": 186,
+            "height": 260
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_DoorOpen_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            84,
+            100,
+            88,
+            144
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 407,
+            "top": 364,
+            "width": 162,
+            "height": 266
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_DoorOpen_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            100,
+            89,
+            144
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 685,
+            "top": 364,
+            "width": 163,
+            "height": 266
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_DoorOpen_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            77,
+            104,
+            101,
+            140
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 990,
+            "top": 376,
+            "width": 186,
+            "height": 258
+          }
+        }
+      ],
+      "stateFamily": "WoodDoor",
+      "state": "open",
+      "stateTransitionNote": "Shared scale and origin; generated frame details may vary slightly. Not an animated door clip.",
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": true
+    },
+    {
+      "id": "CurtainedWindow",
+      "name": "Cửa sổ + rèm",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_CurtainedWindow_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": false,
+      "footprintDownUp": [
+        2.5,
+        0.3
+      ],
+      "footprintLeftRight": [
+        0.3,
+        2.5
+      ],
+      "placement": {
+        "category": "wall",
+        "requiredSupport": "wall",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": false,
+        "groupMode": "baked_set",
+        "includes": [
+          "window frame",
+          "glass",
+          "curtain"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "window frame",
+          "glass",
+          "curtain"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_CurtainedWindow_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            67,
+            146,
+            121,
+            98
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 35,
+            "top": 694,
+            "width": 274,
+            "height": 222
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_CurtainedWindow_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            133,
+            89,
+            111
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 376,
+            "top": 677,
+            "width": 202,
+            "height": 252
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_CurtainedWindow_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            83,
+            133,
+            89,
+            111
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 676,
+            "top": 677,
+            "width": 203,
+            "height": 252
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_CurtainedWindow_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            67,
+            144,
+            121,
+            100
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 946,
+            "top": 693,
+            "width": 274,
+            "height": 227
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": true
+    },
+    {
+      "id": "FenceSegment",
+      "name": "Đoạn hàng rào",
+      "pack": "DecorExpansion",
+      "rotatable": true,
+      "rotationOrder": [
+        "Down",
+        "Right",
+        "Up",
+        "Left"
+      ],
+      "atlas": "1_2D_Art/Environment/Atlases/Object_FenceSegment_4Directions.png",
+      "framePixels": [
+        256,
+        256
+      ],
+      "pivotPixels": [
+        128,
+        244
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.046875
+      ],
+      "pivotPerFrame": false,
+      "pixelsPerUnit": 32,
+      "solid": true,
+      "footprintDownUp": [
+        2.5,
+        0.4
+      ],
+      "footprintLeftRight": [
+        0.4,
+        2.5
+      ],
+      "placement": {
+        "category": "boundary",
+        "requiredSupport": "ground",
+        "gridStepPixels": 16,
+        "rotateWithParent": false,
+        "independentCollision": true,
+        "groupMode": "baked_set",
+        "includes": [
+          "3 pickets",
+          "posts",
+          "rails"
+        ],
+        "excludeFromAutomaticAttachments": [
+          "3 pickets",
+          "posts",
+          "rails"
+        ],
+        "placementAnchor": "pivotPixels",
+        "note": "Data for implementing placement, not an engine component."
+      },
+      "frames": [
+        {
+          "direction": "Down",
+          "file": "1_2D_Art/Environment/Object_FenceSegment_Down.png",
+          "atlasRect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            62,
+            154,
+            131,
+            90
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 47,
+            "top": 1010,
+            "width": 251,
+            "height": 173
+          }
+        },
+        {
+          "direction": "Left",
+          "file": "1_2D_Art/Environment/Object_FenceSegment_Left.png",
+          "atlasRect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            77,
+            130,
+            102,
+            114
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 381,
+            "top": 974,
+            "width": 196,
+            "height": 219
+          }
+        },
+        {
+          "direction": "Right",
+          "file": "1_2D_Art/Environment/Object_FenceSegment_Right.png",
+          "atlasRect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            77,
+            130,
+            102,
+            114
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 677,
+            "top": 974,
+            "width": 196,
+            "height": 219
+          }
+        },
+        {
+          "direction": "Up",
+          "file": "1_2D_Art/Environment/Object_FenceSegment_Up.png",
+          "atlasRect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "contentRect": [
+            63,
+            154,
+            130,
+            90
+          ],
+          "pivotPixels": [
+            128,
+            244
+          ],
+          "sourceRect": {
+            "left": 958,
+            "top": 1011,
+            "width": 250,
+            "height": 172
+          }
+        }
+      ],
+      "fixedInDefaultScene": false,
+      "shopItem": false,
+      "architectureAsset": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Idle_Right",
+  "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+  "frames": [
+    16,
+    17
+  ],
+  "framePixels": [
+    96,
+    112
+  ],
+  "fps": 2,
+  "loop": true
+}

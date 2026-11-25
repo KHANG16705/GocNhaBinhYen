@@ -1,0 +1,373 @@
+{
+    "schemaVersion":  "1.1",
+    "sizePixels":  [
+                       1536,
+                       1152
+                   ],
+    "order":  [
+                  "Background_Base",
+                  "ground props",
+                  "Y-sorted wall segments / furniture / characters / plants"
+              ],
+    "base":  "1_2D_Art/Backgrounds/Background_Base.png",
+    "occlusion":  "1_2D_Art/Backgrounds/Background_Occlusion.png",
+    "source":  "1_2D_Art/Backgrounds/Background_EmptyMap.png",
+    "occluders":  [
+                      {
+                          "id":  "EntryHeader",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_EntryHeader.png",
+                          "rectPixels":  [
+                                             63,
+                                             416,
+                                             224,
+                                             30
+                                         ],
+                          "positionPixels":  [
+                                                 63,
+                                                 416
+                                             ],
+                          "pivotPixels":  [
+                                              112,
+                                              30
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   175,
+                                                   446
+                                               ]
+                      },
+                      {
+                          "id":  "EntryWindowWall",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_EntryWindowWall.png",
+                          "rectPixels":  [
+                                             66,
+                                             441,
+                                             192,
+                                             137
+                                         ],
+                          "positionPixels":  [
+                                                 66,
+                                                 441
+                                             ],
+                          "pivotPixels":  [
+                                              96,
+                                              137
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   162,
+                                                   578
+                                               ]
+                      },
+                      {
+                          "id":  "EntryPost",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_EntryPost.png",
+                          "rectPixels":  [
+                                             257,
+                                             435,
+                                             33,
+                                             145
+                                         ],
+                          "positionPixels":  [
+                                                 257,
+                                                 435
+                                             ],
+                          "pivotPixels":  [
+                                              16.5,
+                                              145
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   273.5,
+                                                   580
+                                               ]
+                      },
+                      {
+                          "id":  "EntrySteps",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_EntrySteps.png",
+                          "rectPixels":  [
+                                             290,
+                                             516,
+                                             208,
+                                             66
+                                         ],
+                          "positionPixels":  [
+                                                 290,
+                                                 516
+                                             ],
+                          "pivotPixels":  [
+                                              104,
+                                              66
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   394,
+                                                   582
+                                               ]
+                      },
+                      {
+                          "id":  "LivingLeft",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_LivingLeft.png",
+                          "rectPixels":  [
+                                             503,
+                                             379,
+                                             51,
+                                             279
+                                         ],
+                          "positionPixels":  [
+                                                 503,
+                                                 379
+                                             ],
+                          "pivotPixels":  [
+                                              25.5,
+                                              279
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   528.5,
+                                                   658
+                                               ]
+                      },
+                      {
+                          "id":  "FrontLeft",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_FrontLeft.png",
+                          "rectPixels":  [
+                                             506,
+                                             658,
+                                             186,
+                                             87
+                                         ],
+                          "positionPixels":  [
+                                                 506,
+                                                 658
+                                             ],
+                          "pivotPixels":  [
+                                              93,
+                                              87
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   599,
+                                                   745
+                                               ]
+                      },
+                      {
+                          "id":  "FrontRight",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_FrontRight.png",
+                          "rectPixels":  [
+                                             838,
+                                             658,
+                                             617,
+                                             90
+                                         ],
+                          "positionPixels":  [
+                                                 838,
+                                                 658
+                                             ],
+                          "pivotPixels":  [
+                                              308.5,
+                                              90
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   1146.5,
+                                                   748
+                                               ]
+                      },
+                      {
+                          "id":  "LivingRight",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_LivingRight.png",
+                          "rectPixels":  [
+                                             1000,
+                                             380,
+                                             37,
+                                             277
+                                         ],
+                          "positionPixels":  [
+                                                 1000,
+                                                 380
+                                             ],
+                          "pivotPixels":  [
+                                              18.5,
+                                              277
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   1018.5,
+                                                   657
+                                               ]
+                      },
+                      {
+                          "id":  "UtilityLeft",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_UtilityLeft.png",
+                          "rectPixels":  [
+                                             1141,
+                                             419,
+                                             34,
+                                             88
+                                         ],
+                          "positionPixels":  [
+                                                 1141,
+                                                 419
+                                             ],
+                          "pivotPixels":  [
+                                              17,
+                                              88
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   1158,
+                                                   507
+                                               ]
+                      },
+                      {
+                          "id":  "UtilityHeader",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_UtilityHeader.png",
+                          "rectPixels":  [
+                                             1167,
+                                             419,
+                                             283,
+                                             30
+                                         ],
+                          "positionPixels":  [
+                                                 1167,
+                                                 419
+                                             ],
+                          "pivotPixels":  [
+                                              141.5,
+                                              30
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   1308.5,
+                                                   449
+                                               ]
+                      },
+                      {
+                          "id":  "RearUpperBeam",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_RearUpperBeam.png",
+                          "rectPixels":  [
+                                             85,
+                                             0,
+                                             1363,
+                                             37
+                                         ],
+                          "positionPixels":  [
+                                                 85,
+                                                 0
+                                             ],
+                          "pivotPixels":  [
+                                              681.5,
+                                              37
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   766.5,
+                                                   37
+                                               ]
+                      },
+                      {
+                          "id":  "RearLowerTrimLeft",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_RearLowerTrimLeft.png",
+                          "rectPixels":  [
+                                             115,
+                                             143,
+                                             389,
+                                             53
+                                         ],
+                          "positionPixels":  [
+                                                 115,
+                                                 143
+                                             ],
+                          "pivotPixels":  [
+                                              194.5,
+                                              53
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   309.5,
+                                                   196
+                                               ]
+                      },
+                      {
+                          "id":  "RearLowerTrimCenter",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_RearLowerTrimCenter.png",
+                          "rectPixels":  [
+                                             546,
+                                             140,
+                                             381,
+                                             45
+                                         ],
+                          "positionPixels":  [
+                                                 546,
+                                                 140
+                                             ],
+                          "pivotPixels":  [
+                                              190.5,
+                                              45
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   736.5,
+                                                   185
+                                               ]
+                      },
+                      {
+                          "id":  "RearLowerTrimRight",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_RearLowerTrimRight.png",
+                          "rectPixels":  [
+                                             970,
+                                             145,
+                                             439,
+                                             51
+                                         ],
+                          "positionPixels":  [
+                                                 970,
+                                                 145
+                                             ],
+                          "pivotPixels":  [
+                                              219.5,
+                                              51
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   1189.5,
+                                                   196
+                                               ]
+                      },
+                      {
+                          "id":  "RearPartitionLeft",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_RearPartitionLeft.png",
+                          "rectPixels":  [
+                                             504,
+                                             0,
+                                             42,
+                                             285
+                                         ],
+                          "positionPixels":  [
+                                                 504,
+                                                 0
+                                             ],
+                          "pivotPixels":  [
+                                              21,
+                                              285
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   525,
+                                                   285
+                                               ]
+                      },
+                      {
+                          "id":  "RearPartitionRight",
+                          "file":  "1_2D_Art/Backgrounds/Walls/Wall_RearPartitionRight.png",
+                          "rectPixels":  [
+                                             927,
+                                             0,
+                                             42,
+                                             286
+                                         ],
+                          "positionPixels":  [
+                                                 927,
+                                                 0
+                                             ],
+                          "pivotPixels":  [
+                                              21,
+                                              286
+                                          ],
+                          "sortAnchorPixels":  [
+                                                   948,
+                                                   286
+                                               ]
+                      }
+                  ],
+    "sortConvention":  "Screen coordinates y down: draw smaller ground-anchor y first, larger y last. Keep tall wall pieces anchored at their ground edge.",
+    "combinedOcclusionUsage":  "Inspection and exact reconstruction only; do not draw the combined overlay AND the individual wall segments. Prefer individual segments for actors able to pass in front and behind.",
+    "collisionNote":  "Art separation does not block movement. Add wall colliders in engine; rectPixels describes artwork, not a ground collision footprint.",
+    "note":  "Base plus combined occlusion, or base plus all segments, recombines pixel-exactly. UtilityLeft shortened to upper doorway lintel [1141,419,34,88] so player can walk cleanly from hallway into utility/laundry room."
+}

@@ -1,0 +1,2940 @@
+{
+  "schemaVersion": "1.9-PF",
+  "pathBase": "ProjectFinal",
+  "assetCount": 419,
+  "assets": [
+    {
+      "file": "1_2D_Art/Backgrounds/Background_Base.png",
+      "width": 1536,
+      "height": 1152,
+      "alpha": true,
+      "sha256": "21c47d0b20d26ba29e955a5fb727dc3aef07ca498def80a578f50fa113ce8ba8"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Background_EmptyMap.png",
+      "width": 1536,
+      "height": 1152,
+      "alpha": true,
+      "sha256": "19402fd481ba2abeb4689458cb812e3f5d0989a50865057bc4d3b3771cf03092"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Background_Occlusion.png",
+      "width": 1536,
+      "height": 1152,
+      "alpha": true,
+      "sha256": "c30357184ed11142d9b1dcf8993b91372136f35a24f5dab746ec707651a8e622"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_EntryHeader.png",
+      "width": 224,
+      "height": 30,
+      "alpha": true,
+      "sha256": "adecb6a48efec9305bbc79fc88d33aff3ee6d81f6feb86c848f48440a6b35ebd"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_EntryPost.png",
+      "width": 33,
+      "height": 145,
+      "alpha": true,
+      "sha256": "b1eeb92908699fed748a6612dac242cc80680b9ff139bf6904253d77a4fd10bc"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_EntrySteps.png",
+      "width": 208,
+      "height": 66,
+      "alpha": true,
+      "sha256": "3bd6ef1de4ef423ccbe81ad9c0d85b17072d7e0b93040cb11c87689d92d8ce18"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_EntryWindowWall.png",
+      "width": 192,
+      "height": 137,
+      "alpha": true,
+      "sha256": "e30350c79f02d8f2d2e242f481f18bbdae98e397457184bd6923d7e4e47e81bc"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_FrontLeft.png",
+      "width": 186,
+      "height": 87,
+      "alpha": true,
+      "sha256": "9f72ed5f9c4c6e222592793d5619b3f8f1940a398b9ede6fab01746d274a86f2"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_FrontRight.png",
+      "width": 617,
+      "height": 90,
+      "alpha": true,
+      "sha256": "6299c01a3a6a22b62a080d5e2436e9d29d181ae53eb7edde6081f483deabefa3"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_LivingLeft.png",
+      "width": 51,
+      "height": 279,
+      "alpha": true,
+      "sha256": "5b2c8c03f2aa01e897d7c292564ce0a7eafa73aa9a3c1ccc83f2f39973446767"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_LivingRight.png",
+      "width": 37,
+      "height": 277,
+      "alpha": true,
+      "sha256": "36eb4a7be93057b9424d76e5c7b554aaf3ffc6d46fb9486582cd1ef1f353c026"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_RearLowerTrimCenter.png",
+      "width": 381,
+      "height": 45,
+      "alpha": true,
+      "sha256": "5623bda79566729a2286fb2d783c39633b760e65c3b666788b02d3cb7c2073d7"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_RearLowerTrimLeft.png",
+      "width": 389,
+      "height": 53,
+      "alpha": true,
+      "sha256": "46f2cb63a7f741b3b3dc4eb045a429e3b4aa61dee60293108ba0d3bc9edef97e"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_RearLowerTrimRight.png",
+      "width": 439,
+      "height": 51,
+      "alpha": true,
+      "sha256": "cf9863c8c0d6ca697dd3afa37c38bbbd97b52283733987da1cbcf491467b7d1b"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_RearPartitionLeft.png",
+      "width": 42,
+      "height": 285,
+      "alpha": true,
+      "sha256": "cfc3a61f9b5a4894bcf7070f035163cadd4903631cd86f10e14b9c4fb0461990"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_RearPartitionRight.png",
+      "width": 42,
+      "height": 286,
+      "alpha": true,
+      "sha256": "574264990d4562aacc9c23bf2e722b5c595c01ee468729d285f94e00c56bedc9"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_RearUpperBeam.png",
+      "width": 1363,
+      "height": 37,
+      "alpha": true,
+      "sha256": "f9e9e521723f601c4d0803cd583e8e08e146e38c512478de3ca70af465c90553"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_UtilityHeader.png",
+      "width": 283,
+      "height": 30,
+      "alpha": true,
+      "sha256": "3122acc9802b9b5646b0f95d01f7c1448464d5f7ff6c8d2137fa5604e5f340b8"
+    },
+    {
+      "file": "1_2D_Art/Backgrounds/Walls/Wall_UtilityLeft.png",
+      "width": 34,
+      "height": 88,
+      "alpha": true,
+      "sha256": "b737d3ea30b6b56546619dd5ceb824f7dd17ed7af4381334ec8dde5bc06f1333"
+    },
+    {
+      "file": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+      "width": 768,
+      "height": 448,
+      "alpha": true,
+      "sha256": "8b54ded7df5d2689ac8736e1ce3e45c47a3a462e07f6957cca093cfee100ba50"
+    },
+    {
+      "file": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+      "width": 768,
+      "height": 448,
+      "alpha": true,
+      "sha256": "41836241b06b19d46421ecdcebbff820957d7b361f6e135bd77a7400e91545a9"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_DirtyClothes_01.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "768842298626dc36392b8ec0aaea2f9d15fc31ae24cd5d46ebe1101ce79c6cbe"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_DirtyClothes_02.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "7d5716de3d0522d4849eb54f4ffdfc15151de4a8362abe8f675e2d93ff005b25"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_DryingRack_Drying.png",
+      "width": 160,
+      "height": 128,
+      "alpha": true,
+      "sha256": "e67a9734685e70ada99a28b70648bf7df01931d925af70a29fcbb9a6a456fea8"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_DryingRack_DryReady.png",
+      "width": 160,
+      "height": 128,
+      "alpha": true,
+      "sha256": "5be27c8acfb1004770ff55aac7ee889e4175180766d3620a0dab7413a89a8a30"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_DryingRack_Empty.png",
+      "width": 160,
+      "height": 128,
+      "alpha": true,
+      "sha256": "a3f6adf626d9ac2f56e385b9bd6d4264d5cbe3c3b28bbf113f19b188f61d5c25"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_Dust_01.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "b4da75c7e0450944897d1152434959f16520c95dd1e1fdb54097a99639a40308"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_Dust_02.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "2436c49abfaa679cccf623cabfa355acfe43c9014c17890c33cc0fd90d8f3dd0"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_KitchenStain_01.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "49c6bab71578f80a820f1514182f256110f3d50e6e04716b41e1cba54ea50ea1"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_KitchenStain_02.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "590ce03651dd9e2d18b73e7cf1458fb1057ccdf990f9973467d713f6fb6c8c24"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_LaundryBasket_Full.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "24427e282d1d74636bfd4e43cd1a604e0a23ac818880e9106383b119eb77dc79"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_LaundryBasket_Wet.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "99b7a9e4ee389c5a1e40a49d6db45f3547674f6c8c7abc4217b939959d82e6a1"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_Mop.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "fad3ff8cbcb05f649cbdd4a6ffeaaad55f79c4f3d5f18d1089bf43e2b433d4b9"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_WashingMachine_Ready.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f09ad3fbc7b838d4733d5953c56a9d62e8c3988b9ba77d4f977bcbb8aef3b6aa"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_WashingMachine_Washing.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "1a85b2bac1d09651712a41474e54d354a593c612f88509e127809be7bde1d510"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_WashingMachine_Washing_01.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "1a85b2bac1d09651712a41474e54d354a593c612f88509e127809be7bde1d510"
+    },
+    {
+      "file": "1_2D_Art/Chores/Object_WashingMachine_Washing_02.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3aafb09378397dd473196ba3590a94662c23eb5b048d3cae4f94c428fc349717"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_BathroomVanity_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7d679e90f581ae2661909c438dd4d0fafcd5bea05c08a408ed427a64da8f1e9c"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Bed_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9fc44e2e23b6e77520c03dfb59ad741123dbf7b5062257bde74f5ebf52232b89"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_BedsideTable_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "1cd870f25409482501d6426e98cbd63c12bde3b75b2629662bc22f63af9ec7f6"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Bench_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "23c37bc9f6d56a5ad9ee514f29e57b354dd66a7c5b72f94f3c9614a0e87cbea9"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Bookshelf_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "fcbdddd7c49412309b23c922b549b7c2be7d78d292e2858592aea2dfe61c16f3"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Broom_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0cfdbfbbdf9172602d708eb38646f282b94606d86bd6ab110f7b4c6502ecf242"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_CatBedSet_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "729d3250cfa7acdc419308e2bb6d7ed31d52963a8025a1675e94277e22564c78"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Chair_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c06af2aa73ba780ea422b643d730162c4d9fb9658113e2600963c87978bb1d9d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_CoffeeTable_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b735e06cf63a2ab128c29ecc96336803cc74a2221f8273287922817cd40a2538"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_ComputerDesk_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "425c1f420b915c2a9671a30f2db30dfe235949ec1ae94699f44a0210766fabdb"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_CurtainedWindow_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c4becb8ca822aaa8e317ba3964fcb255f0a118f26d55c4555f2987cf6cdcd60a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_DecorPlant_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9d5889a37b31fff6749384f24b6654b098db8f4ede7f2f2dd7eda4f2bbcd85f9"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Desk_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "10c3d76da9d84b25b39ecf5a2db6d60819cd104746c7184f7130e05de2dd3f6a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_DiningTableSet_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "18a6ea285adb7089018c70c051b68d1d92976be149d9dab705d982a1e95e03f9"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_DoorClosed_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "190b9c7426db8fb875863a7387a5201c8e94efcf2d4e96932a61f1ab2a60137e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_DoorMat_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "765d10997abbb830b8c634f09052e3e9c9b3cbcbc8af1bbfb35ef860cde08cad"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_DoorOpen_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0446444aada29f518b1e02407aac2f43834e20d42640cee5a9338df698ae847e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_EntryConsoleSet_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0c6cbdc4a9069d6dc175d1113a63dff87d6ba15e9ea027f2221e3fdc5f3892de"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_FenceSegment_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "96a25376c5ec2358fcc18c4f9864184266b6c8c49166323ad4c36b753e2944a9"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_FloralRug_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "fd83c27a1602f4621c566834c840f01c3fdded9e9cd4e04849ae6bae52e6a58f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_FlowerVase_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "6f2773e20cbf876950fe2fc8ac2e13d1c311bcc44deac5e3dba032caa045aa17"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Fridge_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0549fa54c73516016c1f18507a06f535cdcf612ff3f7097e15212d05871dc1ac"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_KitchenCounterSet_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "798035b21f3946ea83fd46e8746c9fac6c0245d9d6334925343fe33f68d09ca4"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_KitchenWallShelf_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f75351b1f03ea96023fc36e5ecbca8b7fabf7d3be1a58210acfc1def2eed16a6"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Lamp_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0690d6bcd4e299bf16edbfdeceb0cf61a7bfe63498c0e945840d195df93cd2a1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_LongSofa_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "6635b3e53ae3c8b8a09116b81eb8ab532504eb399efeb02992e4f8391ca5889f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_OfficeChair_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c37cf2d87cc339d7b9af9c0d57811981455263a6f8f7f2b40f26db4583a7f956"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_PhotoFrame_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "72c5308c830ceb25efdca367a4a755d37e0e74791e648780afcfdbac68a982f3"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_PotEmpty_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "dda03493785e14a2bb4f52497c77cd2b20e6a08e54206511df2d0a9bf0ecfbc1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_ReadingTray_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c1fddc735b138bc1759038c52498012ace6f90fefe5719dad1cdca2f37c5b90b"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_RoundRug_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7a9a19fa2599534cd923eac7e127c0632521bfdd9fa1e33db02244022b294973"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Rug_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "32f0bb56590863adc6d2123a781bda2e095be46b04c2774e3d7dea827f47c46a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Sink_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "78f295c81f10da64a75bd9a0a95a0f9528083d3ac740c2fe1029f876a78e2dc0"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Slippers_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "86d9cce83125b6c648b199da5285f93fd90154c6a446205a5ffe746bc7f998da"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_SmallPlant_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0f3dbbe19b10396ee92dab840f4ebc53bff2491f4734ce76816ddf4a86b02ee5"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Sofa_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "140c5faf4e66ac96c74764510124a11c92760356a167bb10b19bf79322b7a4db"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_SoilBed_4Directions.png",
+      "width": 1536,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2f057f2ddca206eb69f378bd442b6287db14e3e93e95e0bce5a01b71c836b126"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Stove_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d9fd66ea572fb64ffcbd59148f2ed7e4b7dd92de67801269c9de163b7794dfd7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_StudyRug_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f1855dbbd1d8873b79de0e58501b0ea1a7cd1cb8d698cec2d4d26c3a2ab10361"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_TableLamp_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e855998f03807edac5817218cbf4d327e82b8af1df317e03d4c45a297f973b6a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_ThrowPillow_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "944488d0d4131351ffe485a265e927435d5effc6556ca223fd5850125cbab6ad"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_TrailingPlant_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "429e9b5a312e5e69bb263c1e2998d22288bb68628ced3d6feafff6b29da0ad88"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_TrashBin_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "844e5ec1f186b1b63aa9980f7e22127bdeecde515edd932cbe2eb197740c3691"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_TVConsole_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "70292bf930d77e97146c4d45d7122c91aa317b992f7879235b2313d7a51d12f9"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_WallPainting_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b6eed146cabc13d35685428f6b98fa22137304b0b454a37b54a7326230917e38"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_Wardrobe_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "38d4308c4c7ecdca9835b593805abe60bd8943dd8d87c9072055cfd4fe3c7850"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_WashingMachine_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "70439a8141fb6e462727c596177c425580b8e729846c3a68ca880db9b9296196"
+    },
+    {
+      "file": "1_2D_Art/Environment/Atlases/Object_WateringCan_4Directions.png",
+      "width": 1024,
+      "height": 256,
+      "alpha": true,
+      "sha256": "90eefef91ad2247ebf678e07c382768978fa43f70fb63bbc443f7226e927dca0"
+    },
+    {
+      "file": "1_2D_Art/Environment/Garden/Object_Flowerbed.png",
+      "width": 145,
+      "height": 95,
+      "alpha": true,
+      "sha256": "74f19dba3baab2106ef407e24e042adbec0da335f32df03b92f7d5b46f0064f7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Garden/Object_PathStone.png",
+      "width": 75,
+      "height": 43,
+      "alpha": true,
+      "sha256": "458cf90aeac8cb17ef9f60f51791245aaf4d76fc99c6f3d0579b4c92a0e44091"
+    },
+    {
+      "file": "1_2D_Art/Environment/Garden/Object_Shrub.png",
+      "width": 105,
+      "height": 88,
+      "alpha": true,
+      "sha256": "a863745041be3cb05f1cc7760509eadd22fe54c6c67b78a1cbbfa46331a62592"
+    },
+    {
+      "file": "1_2D_Art/Environment/Garden/Object_Tree.png",
+      "width": 205,
+      "height": 230,
+      "alpha": true,
+      "sha256": "ddbb7c89d071148ac1f77f6b2afa3b13420f2fa9c64e22defc76b4631e3adc0d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BathroomVanity_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a623a4230a3657a8fec1c9daa3b6f34a7c75e055e672515920cde4d60b26f7fe"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BathroomVanity_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "bdfe9c8601565b9e7cf68b8590859fde3c12a24beb1b4298c22d628680b5050d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BathroomVanity_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "77baaf8874689235eb9cbe1ef0e99ebc534d2cc8bd1fe9705d168ee6d44b654f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BathroomVanity_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "54d7759d98ddf445ed5d2e2af8bc7b69322b14104ab2ce52e2d4ec618f80783e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bed_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0882f94a6020e65c2f5cac6e95c42ead883b32edfc527d8b5388ec4b0d2b3273"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bed_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "571df60077a6aa77646d973e59a63e65124b5a6df8e6bf8c9617397694407ed3"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bed_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "fed0c9b88079935f221d7b995c8f7a95a10f581654c170239cd9333525501d27"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bed_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "219566b4653df52af16bb2b4aad851fa8931442725339f9ab7ed52921d8dd7bb"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BedsideTable_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "20398862eb02ebb7d12a2a0ce2c12673e08a61b1162233f9eae0dfff16175b99"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BedsideTable_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "df9ace00665f04dfd4e40e948b6f06c48fcf5a7fa598839bd25c605b6511025c"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BedsideTable_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "6a94b9164c8c285982d5fa9a5c3c158f9addc9de27d4bd9be5edc9c042da18e8"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_BedsideTable_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "4b0e58759bd4336ce0f32091c0ee01e444160399acd17d8ea60f87166f5d70f6"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bench_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "732a97ee6fc4189d4219402c04259ece0444bb7c3a14d0b5df13bb6e8deb51e6"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bench_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "aebe90ce5ccd4b0bf6a65169d79a0252da750eb4d1d68f9a13f6dd4ee0472e96"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bench_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "24941177e56edecb6cf0c30d3b3e975e4edb6aa0ef1ff05536a19f8571d96edf"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bench_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "afc268be9e4d69bb89ef9c982332fbc05e21a85a240f7bd71a7d5cbeb9b45a0e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bookshelf_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ba9c6ed523e1e045c1e2cb1123f794c2743b763c044b302f557de7124e79c424"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bookshelf_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "278aff50f88cb3870f3b34a6dd4e9baff76c3d8865aeb91ee18cf59927c0d499"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bookshelf_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ded0b9c0b6bd84e2c87680502735e21f8406d7863a8346968153d0ae5282f2be"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Bookshelf_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b43c41c75f8a40d8fba927161375473afe9d184b51effa61dcf405ab7f2b0f65"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Broom_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "babc2dcfdbdaa62b0fed9b4efa6bf9c2240986beeb27601b36c4167accdd9aa6"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Broom_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "28ecbb659a7b3e990c755f3d9c2c7cbfd11c52576255847640fb7b2ab5492889"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Broom_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "eac95b5eb45dac47e80c19783d532f56d07108e5df769c3d91bde7e53313b048"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Broom_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a5e54e016072116977495f7fa566769b5d0e2f498507d2615dcae2b548f86fe1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CatBedSet_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "bd0485e2e4905e328bfa70b03355c6b62b7b48455511dee7389e7feee4d9c6a6"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CatBedSet_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "291080522c05cc13c207bae3fe7e8398cacd11b52e8ebab53c72b7adf70bdd24"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CatBedSet_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9d86ee8e70a7a28acca300a940778afe7922940de600418ddc08f850fe8d3315"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CatBedSet_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f5d36418bb66de04314e48ac6a19a8d6df8bfc09fbc342659b6e55560f536801"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Chair_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b84de38a020085bcd6edd1851556d1d97f509548af80221b624f89d8b5220bff"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Chair_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "db921e4990ded0ac01459e72522d1eb04c8d8f3a273562f87d82862ccb45e524"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Chair_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "4e154ca9d9cd6899508271f8d1dac976a0042f45101458009aee3482741c9f31"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Chair_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ee6e65c300518d532bb33468634734021ada0a37b2eebcfad6ce8d71ef15c72e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CoffeeTable_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "90b65a61d31802bf31106539d12b02c2a3b558f46f7c234056d5c0fe9636264c"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CoffeeTable_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "6693d774ec04a0da2a2869536b195ec342b4ceafc60df4d7ba14d13dd8acd4de"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CoffeeTable_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "18454a650f86425ebb03ac9546b7d96624ed72fdfb4d8f8ca13b9176fb98cf6a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CoffeeTable_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "444f390fe4a9071ca4c3a6df8a905e41428f3a8a06e7e16a85961246f797c959"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ComputerDesk_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ba6cc8cef2316d68d87a25d704df738db868f88ada940c2017d05fb79e41bc52"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ComputerDesk_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "49723f2f92086b274129354987c733d792b79e3baed9e92c4915f596d3d2a194"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ComputerDesk_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3f32695c35de03a63757c316821ea598e040c5d8e224326acb0c4da7b6011b3e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ComputerDesk_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "89651141433d4bcc29385dcbae01d4a59a21ff705db2a76c91ebc38d0898b725"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CurtainedWindow_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ec83b59f5a5af0f3a9d427a0a5f7159d7fd77e72c6cce4a415231f0a731b8147"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CurtainedWindow_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "5421d14a376fa83835455358a3cbd6abedde4583a562f814f935e6a1cf67e9a5"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CurtainedWindow_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7d0e61d0a7d9b698ff19ca96a8567cda7d2b6138bbf152adac10cf5ff280847e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_CurtainedWindow_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7121ed4b77757148f5afe9f91d90c3afb8f72ca1ca0ca986617327dafbba9e26"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DecorPlant_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "5e89d11300850573ba5d9af1eab0ff627eb7e4dba438af5fe52c1f708b321717"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DecorPlant_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2ec88cdbd8aa1befe699b5d0de97c2992596413792f5168b0cb925aeab1e49c4"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DecorPlant_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "4b8ac624c98e7b5d587ae74f411abded69dd84d10b6749b902bd1907bffd6e2e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DecorPlant_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f3987c038a0de92b2c6252c51b8a9e04047bf9c79261a1e3bcb43ed770522ed2"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Desk_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7ca31aa0f8b86e181c3eca7e9a6e346fe727d923325c2364b26bdd0e05409131"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Desk_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e9cde1b9fd6445116f7dff039fe8bec106396fd021b880436e1ff58d8517bdf8"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Desk_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b4c76297b5b49f5e8b02b2086bcd387d5d14cd069a89a3e7468aa7602342b658"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Desk_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "906d5b7715d1e3dd1ca684098dbf2221366848b8a235e2adb2063ebb9cc6ae5f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DiningTableSet_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "1b1f9d209e4b85e0cd7430e9cc3e3c303a47f0688dbd88ceed74dc34442914b3"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DiningTableSet_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c01d93d79ff5fb897d0d79d6ce6051dad3092dc4bcd79a15615d9fd15392f1f7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DiningTableSet_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "af48f4c65935c0562c59168e7a0bf80e9fd817d67103acb98c230f1dc8c2ea5c"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DiningTableSet_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3cd63f053dea7050af804ea7c2ff89d628d5a51ed6a2b1e15eaefb45694f3244"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorClosed_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "86a2e9e2752e5d7bdd261012cb321c9e4be7f3292dae3932647ead2ca77c0836"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorClosed_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d60d8574a3a62d42fd9db60c5fb469748ccb69cd2277a91ee9248dafe997fa35"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorClosed_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "955f7c9da59478bf8037e3fe9733c322aaea805918af2f0583cd53fadc0c0336"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorClosed_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d0e83d0cfc34d05686b6b732113a916a4e409c676b7aed466ba1343718a9f303"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorMat_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ba2f7378566ef3967853fb326caf644c0b0a5f3fea0c4b32a25e8bcd2566e2aa"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorMat_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e98d9b02664afcf455b31efd9c8de04fbc7410f8427bdce071324d884d4d2a06"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorMat_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "01c7dea09e17dab7fcd560ab735abbd69aedc422550aa71e49e15112304feccb"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorMat_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "417f0777402379fd8e052f94172056b3f8c0084cf110cf095049d4adc8f997c8"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorOpen_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e590dc911554781210cedc8a733768bb87ed8bf482a98adec001b4d4373a8627"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorOpen_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "79ca7d844e9bfa2bf655c147aa63a7a9cf0e4117cdbad70ad59e982cfaba060e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorOpen_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f32c25a71263b07b7096caee70f6fc4a2ca06053357eaca0a792b82eb1700901"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_DoorOpen_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a062275634bff77a9a981b1852b5db9031ff5ad4f824079934bd7a0570fe75ab"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2c05c060da890422b0af424232c032166f40e8a77d16dc98377be6cc153872a1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "10ec6649e48cf7721dec9030022a2ff5d615c40f1007ca9125e1f53ee10c2a75"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "66b852b12bbe6bc09de1cb502df3a6108efd22448537060d227be7d6ebbf2b09"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_EntryConsoleSet_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "643183e49b01dba4acdcc67b96aed3b41d27d35125b638b76efb1f209e1a7af1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FenceSegment_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2946e3c31df5dc976a15a26560020e99294041126ef694bf348c760ac2be60f8"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FenceSegment_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "8d76f9231217ed30de8542b00a99a9e14766a0ccf02cbd442ac249f5d8c08ede"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FenceSegment_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "8c6e0432065a6e3abe2aac6b89f209ae535730dc9704f765ddcbf3bcde8c0024"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FenceSegment_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e0d74a8821e6d58cbfebe6ede009753f5e234f8ad2c343021ed4b7e42659a13a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FloralRug_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9ac16937fc6a4e36dd348f1fce1c58053131eb34adb5891fd4eaa6527db9e204"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FloralRug_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e453edb0b62f1329c5b6985abf6a59d817a79d6f3a88dea73d6c252f59ef11e9"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FloralRug_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2e002d83aaf76cdef8382fae7eaf04fbb33b534eea6b7eb31112a0e883fe225e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FloralRug_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "cb192c9d6fa2c61f20a987fccb4a17eb4be6f1a0948bb4035672a85d5f06e677"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FlowerVase_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a379bc5fc42a81117b2d897144cf353504d77a3656fb2c7777ef4969f585e45d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FlowerVase_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "940095b209399fbad422164cacccefaf2f2bc23c08cc6191b37954b344c54ccc"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FlowerVase_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9b8cb9f6f10e864feeffb86334cb0822264b37ea665263fce0e81896e6b4ab85"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_FlowerVase_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "1d08176a10728d9a0a2e49038c6202ab8cb4e0d15324b1504ff817b618f59846"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Fridge_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "80d1554d4aee4f56a705ee1e82cb6cdd13ba209f47373dcfeb0b3c27820b3726"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Fridge_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c35bb3f9c6f70a149c2adfff1f72e44c9dc1bba5d4ccac61ab5da549c6868bdc"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Fridge_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f61438676aca8392739f71e99c6c3cbd73d2e86f231c10bf525ead4521d7532b"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Fridge_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "8e81fb4f50d82afd59b413a7247d5d882711caff725449a2bb7261ec5001403a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "39ff35a899f11304cff448014c97fd616efe3d04e0e49f2a6f09728ba255f3dc"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a7adb009109bb516403aa99f7909aa0b1eb7fd02d361f6336792cc57c7479260"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "32bddf506e82c289d2975d1d21f26b0e6f556e93a774b70a5c0613a50aa38173"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenCounterSet_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2266e68e68fda2afae2302578ddd25bf1eb9c58011ea8b061d164a1e2b4eaa90"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "981e8791aaa83e4ddff473374b09763b5cda17d00a34b2106672672027272f0e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "dea56658111222c4163865afae9df7ef8aced26629af049f543015af11e7ae57"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f911c300bab3ad025e9996d9eb1b0698717348742e0edffb6aafe1a0dbae3669"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_KitchenWallShelf_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d545c0a6eec2d1d45433acdfe71d1e3cd466ba2729cdc6f71e1ce51b000805a8"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Lamp_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e030e9e44604d88a729c1d9e38d8d3786ee089779c58f7a4180f92b2c7f4db1a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Lamp_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "1ddce021918a18028db056fb8e719ac19f246c31d6cdef799ce754f5025ab325"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Lamp_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c49dc42d145110ec5ef5648563d34da6f829e155fb25e3b1bce73564b5c4897b"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Lamp_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0349cfc97a86cdfef48ed5efc9668dd84a4ab3fdb2e3cc135109a6774e4f6b92"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_LongSofa_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "5b2cf833f3a21ee82c21dc47c734cc92cc4c68bcbe12759bb29c8fb27dcf12da"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_LongSofa_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3064ca99c37b15d9757c0e49876902ffb37f83e08df883535613e2b0675f858f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_LongSofa_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "66763353491675870b9fa9fabe4c290cbaaf9e660b3d2365e910c26074606517"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_LongSofa_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ec6c77a92318528ce9a078d1fd24a1eb4f4c6958424fc72675ca197ff5e6ca83"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_OfficeChair_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "32cbdc5478de841602fa7b892b86bf9647aa414361dd9e6cc5b0c80197085f7d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_OfficeChair_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e6124ff8cc0fe6180131f4a706b0aa987e020c47e529baa265a645b3b8557dd6"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_OfficeChair_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "bfb9f6d1ec0f7e1c55fe955707882d9d0ae351984432a94916a28e170758749a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_OfficeChair_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0997fe77b1fc02141ce36425fe4dd11ec7bd400ddaff47bcba386d3f13bad354"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PhotoFrame_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "bc3116e49fa32b67a3a80f85bbec39076b81e43ac5bf5f6804f9f984f4802292"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PhotoFrame_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "802be336a69a84ed01af6a0eb0a4368b10ed04010df776dced1b74a27b71121d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PhotoFrame_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "71ad9de04e0946388daa6c362f5070866a27ab4655a4b1b5c52ca8bd00704214"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PhotoFrame_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "40b077b36b32420be08a8bf8e20e994d5b5aea97ea109ca2a2c867d58d8e9fec"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PotEmpty_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "1bff8c356cb567fe8b77a931545e0482f09c4860dbc110a33665c6b3adada086"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PotEmpty_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c44fc7b0d05739acca2b57754024c7b08fcdc04f672963718a2f20212b5a0e57"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PotEmpty_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ef4ce4a22185ad7bd9d03386d25b326a25410477193d13d566995df2d0d5f7a1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_PotEmpty_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "63347e3b3e94c9e2773b0b3081b655e9c0220b9750bebd1dd6a1dd04d09193e8"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ReadingTray_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b7f088bbdbb525c59efd6bc14845fe9ad440c2433800160be7fb3d3dff8ab45f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ReadingTray_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "49743adc302fbef9e117dd8e5f29a37766ed59281a0b6e233de6b59329d3217f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ReadingTray_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3c5c08e32804f5a54976e809316c224895271547c38a7d891daf58d0de10fa2d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ReadingTray_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "50bae2c363b37a8eac1630cb924260bbffb024f75b1306cbe11132f01e18a2ae"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_RoundRug_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e616a4d7d478c68dc2f39b7158e23b03e1179b1b5c7155c30fd62c544d1de5f1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_RoundRug_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d1d31aa4a8467aff4c0fb916eba5bb61534ab52f107f3bd8ea6820d6cabbce4c"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_RoundRug_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a3b2b89c59bda8eef1e47174d37f386846cca37fe4cf6a4da8f707fa06f67fe7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_RoundRug_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ff8c8d56ccd8f2734f4aabe79e3df4c81e5bfcc0a99953dc295a6e30dbe25def"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Rug_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a338c2f10e501495bdd87bd246593439bc6d210e0ea92c6a1d1b8474a690506a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Rug_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "fe3b5331f150b024e055f9a79348fe3242129778c2ab4e6f3de0ef1d2e3b7307"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Rug_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "8429de47bac3c7dd388a036fb24c573d9f86a7762ca12a1a6467974b08edc603"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Rug_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "67ebc404debd7af6547bb86e77e03b71ab6a88850237abe92838b286587a8e53"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sink_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "fdfc8c3a400995c62f1a4b59542777e6e4e6c7f84fcd2db9b9854e1effc5542a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sink_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "6d7eb90b8a5e261a79716a60d39aeb374e296b8682b40caf979691eaa7e4319a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sink_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "92cdb469dac9d336f6d21e544aaf51db72b37b3ef71c91cc8e4415439cbf74d1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sink_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "6d96c216a3f2980000f24cc7d4ba4fffdb063dfdf42570d9b157760cf85d8148"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Slippers_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9ed9ffa61ca9035ebf863f08f184a7951b03df6460353ec4c6094c826781cf5e"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Slippers_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2e57e8113474e752945df7e4fd5af08cd2c36c259875d442e0b3316128f514a7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Slippers_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "acfa4709b4bbae493b18eef89bbb649da6835027550301a9e0dabac98364a148"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Slippers_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7a184ec1a83d090bab53857141a5f6097b7da21576dd57664a729b2c2d134d44"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SmallPlant_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e30c10fc001f1734c0586ee491e3bea0f6b5902028ff2499144986a160336b73"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SmallPlant_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "844eaa5f8f96279209d2536be4b71fe23b944aca2c0213e2e043ee30b8ccf954"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SmallPlant_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "535958dd7d1b5b09e529d141dcdf75825e8a816aacbf9461360e79d2c9423907"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SmallPlant_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "8d6b791dca098250ae4e8501de556e6b7767f0e688d587b3cc484a0134afc22d"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sofa_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "aa03e3b6410746371e90a43c1f5ffac8e631c17d104ec093ebac9736f5929db1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sofa_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "00ed40427c80d19426da2cb098596045eb01b3969bca3a4a35a5d66e7a7e11e7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sofa_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "97be28fdbd16ca313761a2689239acb7756cc93d49adcd4c2a2ed37616da8754"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Sofa_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "134dbd52b33006875496286a49263bba1bc8b85f0e64c5b8e57ecda786d020b1"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SoilBed_Down.png",
+      "width": 384,
+      "height": 256,
+      "alpha": true,
+      "sha256": "33f32730158d0ea3e5f96cdade823b2322d6f128e942cf82d2368540ef2e3643"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SoilBed_Left.png",
+      "width": 384,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9ebb225406f64b951fe14788a10ed85cf01d465fabbcae251da1f9b21e1d6baa"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SoilBed_Right.png",
+      "width": 384,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ce761b162aa3dcd84f025de85d1da77b82f2d648b99b6c59830080bec5053b8a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_SoilBed_Up.png",
+      "width": 384,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e26e3981adeed471e3c0fbb75467e8309b47b7268592a1a7f31633deed257c91"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Stove_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9aed9b7378a233db203ccaefc96c08c421774e31d47b389fc7d24b541801eb46"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Stove_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "87df69fb4594d52b4c7ea57c32f97a184e4eae4086b8e0441a1d856f2d32c17c"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Stove_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "703b6e54998ae46efbb2c8f903032e4857abb8dce4d4d5a323a5fe3d7ab0cca7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Stove_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7bd4ec44b54ba849df35fcdcfbebb49f97f5f9621cb8b6484ba08a12e1a4a311"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_StudyRug_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "ef7f194aee0cf4dd0e0eba30a1a769c2de7be3eee4a1cdd05c02448b7523db12"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_StudyRug_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2c60cbfbc5867ed9460272bfd9b7d05317a947c3a285cf8db651bbc2b8243e02"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_StudyRug_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7c5c965170b3a03d3cfe44e2e7cb8449bd71f31c893c2b876f18cc167236ac3b"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_StudyRug_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "5f99d08b19cff638242c7c1b93cb03525f375abbf5563a0655429c8cad35ccf0"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TableLamp_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2c8522187b132a82ca04c2e70ce9ac39ca38a8517e7f96e9119bfb21d27212df"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TableLamp_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "06b849206bac893bd3a7673f16ead4244d7e842088737a11ebfddd110528b949"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TableLamp_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9c9ded462c002e45e13c8b42258321037283466f710f59269867baa035ab031a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TableLamp_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "fabb77b07650d94dc3e9e06996df4eeeb33ceeaa2f2bef1054c8a53d2f7ff764"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ThrowPillow_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9056d1a9a48b6682679420e395371e8f0a2adc6f750c96542dda604a47978f51"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ThrowPillow_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "bb4e10f875e461415b4ee71b600e3bdcf7340341f03f07aad96fc7604b107143"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ThrowPillow_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a031dacffccce3283751b806d2cd585e850da6a0efb23dc5973fe40b215fe4a2"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_ThrowPillow_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3f1737cb50181f09732cabe0a16df9bd3915a4472b0f73217e9238f46a5be628"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrailingPlant_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7d5372d2c481c0f632f0fece29573e8b7f67bdb527e73b338b9c2e411a741d4a"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrailingPlant_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "5e10700808ee66e8728f414420c3854db93387b402b90578aef33962c4ecce62"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrailingPlant_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e6501375d5467f1448047043a2d018005d407702320a25bfb2cc3bda05e24f43"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrailingPlant_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "7a99d6941a8129e26b5560deca2557ab43afe437b1315a1fe181623698a734fa"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrashBin_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3c6cf7427535696d44d2b9d648125da981e515a1d3b41dbb51b64a1b17c36e51"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrashBin_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f52dbf08889aa64d47705eceff83ad16908676aac9a5b1885b56232fed21dcb5"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrashBin_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "73d526ea376a89b22b9a173f0beba84c51b55e6c848f1ed8721f60ca4d2503f3"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TrashBin_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "cde592c9a88599df97817bf56798046a94b30a45b44cdc0112b1037c36e45ed7"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TVConsole_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e68c371a54cae448b31669658aed169dd2943a67933c27fd93404feb06972e30"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TVConsole_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0d608be1e2588c7394b83128ed45d08580f129cc366b52e6f4b65ddc27ef1890"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TVConsole_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "8373bbdca0dd5766b5bd351c5b18e9017230139109e90682d6b6d3f76b7a2682"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_TVConsole_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "c1537e3896cd5710af70428878ff5360ab3e24d95825dfc49716c6f176dad9c9"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WallPainting_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "88f8ef371e777543cfea44564da7bfbb0569659fde3bd68e4541df43a3b34339"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WallPainting_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2f94487ade8a8cd860121e4f2d0bc3cab40ec280c1762738b482db75f2413362"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WallPainting_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "230bdc3e47c0fe5e88647c93f8c86c365b141b5d6db8a65a16976d5bbd62f339"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WallPainting_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "97ac231056c991a857908451adb4c8d7a588bfe7df91cdfbaecae9b079071812"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Wardrobe_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9ab3c70b22aef8923714e859b01baec39dee5ef02ad87e163211de2ccf627742"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Wardrobe_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "3b20330474902813639301f36efdd76b9ed8146c942b44594132a941b62bae6f"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Wardrobe_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "737e5a00378d3021edc3f9fa5f9f6fe72aaee96043519a45b19f528141b27444"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_Wardrobe_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b529aef51086c4c828724c0956ec4d805fa2b26dd2ea53a1dfa278f4cc8db025"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WashingMachine_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f5d50f7b5c019204f15fe9d9e5d37f8c157c30f3782aa0e5b042adb92971e285"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WashingMachine_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0ec44f84ac252b61d57fa7165db228df78c7e418257e45eb9a65e1bbbe40f9d5"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WashingMachine_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d90cece245e09d11607522144ff2b86045f8444ad018cf6cc5a78b8896d2daac"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WashingMachine_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "100baa670337ead11a29c5c968b6329c65f03e382af9add24716906be10f5547"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WateringCan_Down.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "9f63e463266a686e5b151f65beed628ec5b4385c5753c62e85fb51a9c8fe44ad"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WateringCan_Left.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "6d501bac14c123d7149131f013f3988360081cc88aed203e616a4000f97e2337"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WateringCan_Right.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "4ff569411bbf5336c54ffb2020c09310ed268d71fa0710059c228cc89df9d32c"
+    },
+    {
+      "file": "1_2D_Art/Environment/Object_WateringCan_Up.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "a1f1c4a66782fd5df917bb0fe3c4b7df57ac36392e3ea4235d5afd1f787c2e0e"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Fish_Octopus.png",
+      "width": 96,
+      "height": 64,
+      "alpha": true,
+      "sha256": "1b96fa90679a74c2d9585a4e232c01fec005ce3986da327c83701ebb44b6806f"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Fish_ParadiseFish.png",
+      "width": 96,
+      "height": 64,
+      "alpha": true,
+      "sha256": "9216c44cb47d9422f0dfc63c436f393163d9a0ec0a332cee641e26852290b67b"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Fish_Guppy.png",
+      "width": 96,
+      "height": 64,
+      "alpha": true,
+      "sha256": "1c48b377f1d79e44071c10d7b7db6ceb17ecd17822b7ee4329a93b36f134f34a"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Fish_Dolphin.png",
+      "width": 96,
+      "height": 64,
+      "alpha": true,
+      "sha256": "74b5a7d53ede3903251eb7dbdc359ae6bd667508b67908a4aeb1ee4f0c584356"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Fish_Seahorse.png",
+      "width": 96,
+      "height": 64,
+      "alpha": true,
+      "sha256": "40c123f1a4ae5d5e0a4941256a3f8227172455445e434775da9c66ad143be2de"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Fish_GoldCarp.png",
+      "width": 96,
+      "height": 64,
+      "alpha": true,
+      "sha256": "d6333aa3b75f58aa0c4133f44f88277c184ff3c25d7dc2a29baa7e452e2971b0"
+    },
+    {
+      "file": "1_2D_Art/Fishing/FX_AquariumBubbles.png",
+      "width": 48,
+      "height": 64,
+      "alpha": true,
+      "sha256": "f9dd01fdbcc53f35a89019833ed29b77d5f16e2509209b4f5656aea1679a6bb0"
+    },
+    {
+      "file": "1_2D_Art/Fishing/FX_FishingBobber.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "6a0d6e5805801a18b8df5d399c8de78f015f5ea31f169faa83e674f101b9c65b"
+    },
+    {
+      "file": "1_2D_Art/Fishing/FX_WaterRipple_01.png",
+      "width": 64,
+      "height": 48,
+      "alpha": true,
+      "sha256": "37316b4690b71656b4645bc0329a07b3279284119cf42ffaf4c25964e38b6259"
+    },
+    {
+      "file": "1_2D_Art/Fishing/FX_WaterRipple_02.png",
+      "width": 64,
+      "height": 48,
+      "alpha": true,
+      "sha256": "c5764f21bb64711dc03a58f6774ac1a0e9ef5ba8eb6e7f2e5aee12af441f757a"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Object_Aquarium_Down.png",
+      "width": 128,
+      "height": 128,
+      "alpha": true,
+      "sha256": "46ea244444e6b884c81f0a4187f889287347c942d703c84e3a6e738352afecf3"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Object_FishingRod.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true,
+      "sha256": "90a38596914a72bdb941fd8483f5ac5e951bcc35dd37a69aadd6ac71ac7d0b40"
+    },
+    {
+      "file": "1_2D_Art/Fishing/Object_FishPond.png",
+      "width": 256,
+      "height": 160,
+      "alpha": true,
+      "sha256": "a6fe0e96ccf66345a05251452de16568ca8ea3667e78af83113518a89cc8c644"
+    },
+    {
+      "file": "1_2D_Art/Fishing/UI_Aquarium_Background.png",
+      "width": 960,
+      "height": 500,
+      "alpha": true,
+      "sha256": "ccfbdf62752c91fe16c5f85434d5bf79e11398561bba2a7f1a3b08d24534e474"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Button_Danger.png",
+      "width": 160,
+      "height": 48,
+      "alpha": true,
+      "sha256": "df2b57bcb86b7b8804013c0903bc9454234dc608368ad7867d7340a446e4b262"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Button_Disabled.png",
+      "width": 160,
+      "height": 48,
+      "alpha": true,
+      "sha256": "9d64b7938d9ca27f540df88c0093ca3c0b9702436ff489865c8b1fc962ccfd32"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Button_Primary.png",
+      "width": 160,
+      "height": 48,
+      "alpha": true,
+      "sha256": "5616ad1b0d41cb4d78ef0634d68130dbdc131a78ea9ef36524ea251d9e6e0313"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Button_Primary_Hover.png",
+      "width": 160,
+      "height": 48,
+      "alpha": true,
+      "sha256": "dbeff57af6f26f40f776e14a9ad224324da5ed56f5172c76910575a7ba6ec8d0"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Button_Primary_Pressed.png",
+      "width": 160,
+      "height": 48,
+      "alpha": true,
+      "sha256": "fa19f454f8358342b6279ffe4276b9b0a9b59d88b56f4ada015d382b560ae13a"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Button_Secondary.png",
+      "width": 160,
+      "height": 48,
+      "alpha": true,
+      "sha256": "c9b6db7ed6635e585b0e623707f8554bc9b54cfbd0d78df49608c6d4ae58d8f8"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Focus_Ring.png",
+      "width": 172,
+      "height": 60,
+      "alpha": true,
+      "sha256": "4407c34061216af516559bf4e452caf1886ad448ae49d81a06d25454bfd2e59e"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Panel_Card.png",
+      "width": 200,
+      "height": 120,
+      "alpha": true,
+      "sha256": "c733ae54ac95bd642847a7b3f6b0c21cb86e0ebe1ea22c49e78585f80885ed69"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Panel_Cream.png",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "5990cfc22c7062009c2dac6ef8330a8e3acb97796834402c3806d1a53f53b6ef"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Panel_HUD.png",
+      "width": 320,
+      "height": 64,
+      "alpha": true,
+      "sha256": "e3f88aa4577bf7c385e4878f4b7a202ddf70cdbfc528e4b759e994fb68d09418"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Panel_Toast.png",
+      "width": 420,
+      "height": 52,
+      "alpha": true,
+      "sha256": "fe204b0f515ece4574706848002848d4d3979d2c470139146fc9a99d2fbae567"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Tab_Active.png",
+      "width": 144,
+      "height": 42,
+      "alpha": true,
+      "sha256": "da548eadcad791d4a5a8b3c2780d0a89cce2699a7e707923e8ddad77513c537d"
+    },
+    {
+      "file": "1_2D_Art/UI/Components/Tab_Inactive.png",
+      "width": 144,
+      "height": 42,
+      "alpha": true,
+      "sha256": "c93eba082ce168890f317d40d1af628b69a6c23c9dd79803cbbb968bc57535be"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Basket.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "03e66b88d9ed6d6a1cd29acc139a1661804bc7e004f6fa3f5862c51ff1add78a"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Book_Handbook.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "4476e2795b7d0750e72b7278fa0c029360b2ee83f8eada27c5143ad520475285"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Decor_Mode.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "af680873e2ec256a4d798c4ea7fb48912d24247e50b6b3f32cad0c99a10359b9"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Dryer.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "a48a92e07168f18958e6e00814abf22ded1efbbd94d2c843dd46ad2e42ee2c13"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Eye_View.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "c1bb946ce1bf6623d0c6d2bd625510f7263f984e78b01bc6ab477a0288eab2bb"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Fish_Badge.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "36de02d76c97e7e0d6aabd1c16568b3d0e5797611e65f6688f1d4b052dd157e8"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Phase_Afternoon.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "2ed9a8639a8f0e4a7580a82738e7672ad98e60f94f849a9128a42b01c8dfa86b"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Phase_Evening.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "6fa05dfddc3f163fab83a8930a6428e0a2ce0a54ea8ac460807461e30aaa3f8d"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Phase_Morning.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "269dd7beb38bc0eba7ff2a9e34a22d5cd78dbaec3acfcbaeb823ad4880b68ff2"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Phase_Night.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "720f2eb1877ea6b7ef99f4314fb7ed9358e795b725ee9a53bdc6cb5a624fa14a"
+    },
+    {
+      "file": "1_2D_Art/UI/Icons/Icon_Washer.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "b4fc280d2b9c2004735ff5b8d107740fb08621e1fe4927510edbbe43d3f6cc60"
+    },
+    {
+      "file": "1_2D_Art/UI/WorldIcons/Icon_Coin.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "1888b80e0488a3e5a3b9ee523a77269e08fc7f6c159fb02554bfb28ba0024c53"
+    },
+    {
+      "file": "1_2D_Art/UI/WorldIcons/Icon_Exclamation.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "c690660740be4bf964646f3500b3028e76170fa74dd4e7e320d905cf61c5d8e1"
+    },
+    {
+      "file": "1_2D_Art/UI/WorldIcons/Icon_KeyE.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "d61be2eafef1633c3b6e3f3cc82251e15875ff799bb935cd8eb5ab827332408a"
+    },
+    {
+      "file": "1_2D_Art/UI/WorldIcons/Icon_Pest.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "4f06a14d26fd48fb138af246350e7ffa300738049f4139d33d303d07e63f9af8"
+    },
+    {
+      "file": "1_2D_Art/UI/WorldIcons/Icon_Sparkle.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "fa46a252e700e8d85ab5d2294de475dc5d9486e5ded08e53af76ad2d2c9618c7"
+    },
+    {
+      "file": "1_2D_Art/UI/WorldIcons/Icon_WaterDrop.png",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "6b2daa7c2911f006e03d29e69d38868b9b6c20db3d097457746f3802b8f67597"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "811df33bc60ec14177986903df96d7a1dda07146a79a86665be18173cf986ff7"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "2522a5890a6384f6ace18dd2e2bf0033d62e1892c6df881462199f98477adc3f"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "bb6ab3223700721b1425de9e7f683a3d0d2b0d9fced1451333d61d758be72590"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "6f379db2e85318767355db79feb971333d0001a4688162ff07a8785d9e3387ff"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "25f9c01a2b56525d90ef0006575f110fa42194501cd34fe13df1f6c47048ef91"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "73003c4dcee8a046435ef01ee039ce5abfb91e47441cecf507eb9414e4e341d2"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "e3c6633b4912017a8cf9e76bbe1dac6fa02a8d5a2d977d1599656dc120bd97bc"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Down_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "88bc3bce13c06eef3ec94fde7bc4b891eee2788d729217a87dcff7dbba107fb9"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "af319e83e7cc863d8e1bdbde8057e8be465d6c493c1271f737e4307693e95601"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f12bbe808518dafd2e6b72fa8858edbe2f47ca86517e780c8818e8edbdcd374d"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "fb1d9295eadd3269f1e16120bf1e3510eb07e788f524c251dc4559e708b7ab27"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "953ac3cf69cf2447a0597d0fb764e87f12a06b821c151df7d270c1781e25be0a"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "856dbcb7675118056734241c498d2d5237749650b9a312a204845d0a0bc2f06a"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "adc33240b7d19b46ac1e2529c803c337008850d7be14d3e180ddf728274b0722"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "10aca30ebbed2e43557a69b8dced0494008f9d02470323300387627bfb9d9506"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Left_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "177e30ea1bea1957f820487d310f0907daf7b8db5c753733ec35f8bb87793c02"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "6e5a8a4ba7aa8b05f51ce7f7099e2837ad1769593e51b2c1d7eca9c1d936036e"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "7debca9c8a454c4378aed161866d9aeb13c847c609e6dffa8870294bc3008b17"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "2cba834b717eee03f1ad8652f54f669582f3ffa5c4b68c49366984e06c15f680"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "d494535afa6efd3ce6047da4478c1378ac01d0bda7de0ebe429b207fca8cd9ee"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "9b7482a50d91d302de133196ccef6ffa48b94db8be818641a54e258c6989983d"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "a3bc9b09cd2f95303b39c144f5ad8ce3f9b651a9855ebb07699ca6ecb50640e7"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "3c7c71ca0ea6c3d45986fd49387f48bdfa64fa636b988c1eb7f845bdfec09a30"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Right_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "b6db4a59d55e45e3f44391618e9c4c2d1651c78236477b6e84c989c34bca3cb9"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "8834aa295d984eecb7e28ef328a9e30e73c0841d583a1bbb4cf3656d59ca7132"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "d325acf66af753cc0be8078d6a1d20992c892f7cba251bd8ba26192e462099ee"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "0ee1da67281b825f8966a8d45a39a1cc1b082c97e7d50fc7d29522386baff951"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "5db9304c7012d0110276ddfd89c31e5b6b31d2197d5cc24513427ecb17730c1c"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "306ead9055579903a7e3626720e32e6073d5d58c713a86e336a851b0c48e05f5"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f810a92559a9976cab820d5a23d883965899bcb67fbf700bb8c8ee425c75857e"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "e222f9171a78679a93b322ea14c29559dfd7a481e9570daf19739f0f302a6761"
+    },
+    {
+      "file": "2_Animations/Characters/Female/Frames/Up_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f507ed1f9f60efd4964f64724f1bed57fcddba2ffa7c1008b94d59b28cf1f284"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "289b316d03c132e88a4dc061fb77902f03875f0c864023d6989bb897338cc578"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "e0306ea66d34cb4e7a9e0fbd93c33cebe3645580a1a236a54cddc4b86722e55f"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "6abd25a552e161cc1541500d616b65d6816b2137c65fd82557c10a0eb6f64742"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "5c88b4c298ed98dc43f376eac33d48782f794f0c22ef90edbcbc081d4db88008"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "fafc07074938a713c4df958c39535152b34b9dc9d9bb699525cf4f4e2e133718"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "46a155cf256c613661743ff7a33fc438bb1465b8679f1b7d69515ddf8e1a6ce7"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "0ef31b2889d8fd6d7db6abdf607d9f8ec1a025418237bdf83c9c0fd4f4c510f4"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Down_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f2d975e4d2a5f31b9790e28e4c1fadf551e69e8bbeee0dc44c5fb8735d9b0c75"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "66f448bec0a323439ee44880cc3c8848264971b90d0148756c9e1153045fc936"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "62b41a7b3900728d775dd3609c2077849043de9f536d75250076283095170234"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f2eec1f76b259794031911bb302b0f0a6bce4b965ea3f12c9fc67c559bbe82c6"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "6f5c1132b3ab20185c97059030043b67fcc7d5af65ba5f8dfdc0cf821f1d8021"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "e64960824b6188e374a55639b351be9027a81d3ec82b39b49dc50223a68b2398"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "15b087b87476c849a6736b2a37ed9ead0185b70e939e76f8553a6ba536e4477b"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "2e8043d260d18bf2319b202cfbf6c87cbcfe7b278690a5f3d2f88afd4eb822d1"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Left_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "dafa9c35fd11dbfeaf2213d03e208707375024da705b2484a4c7b0f533e635ce"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "ef08759e91db292d43ea953b152a97454cec720c00fe16dc5047efe7a365e149"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "b06224de7a98e842790b2b63a23a3846b4869ad802b0efb46d4aee5240fa5a42"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "e7a789110bd85d8de376c1dd11f20bdb76a1771c1077d5a749643174095127a0"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "30e788c1bc50d33c32692552db6d4d427dde3a680a0b943c62307b3993953323"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "8fa85008f46f410e13f8e4dda45d2b99a180fe61ead0c61c669d17e0a793617f"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f098313d164e366527a18d7179ed7ff6bca7534ef980c6b54c97fb870ff76270"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "c08d48e5c7ecc34eefb595d63bf76397ed65f435b188289f74653ca2e79ccd3a"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Right_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "d07c6f69c58e13e5b70011667b39e29f796383e7ea354a9bb71ac4718cdd2b01"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_00.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "2b1dad6d35e13903f1e5393c82f400a19dc0fc6616b6dc786abb4e74ce84a75f"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_01.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "cffb0aa590055c377cfcadff113118d2cbe3d23e46a357533ef8db752e86cda8"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_02.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "a6ed47dec877d401b9a1e6abb1e6ab470742543debe8bca2de31553547b66cbb"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_03.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "b96dfdc5a79e926f23d70d8a7c0446a9be2f9ddc3a8986320d02779db3149875"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_04.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "997e6153d4352ec23d12a671a23856c6f66d0b7d01d12a6d82fb8ac34408dab4"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_05.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "c66ddec0c7183613c9b5641233a11ac28854a9a48223a968680680776e6170e0"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_06.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "de2e42149f729c4815f71ab805aa9d569ba55993b147f9d6acf17611959955be"
+    },
+    {
+      "file": "2_Animations/Characters/Male/Frames/Up_07.png",
+      "width": 96,
+      "height": 112,
+      "alpha": true,
+      "sha256": "271e85023fbe6ce15e01a65ac1a45d5c24c2ca86d49f9483decab547c3591f94"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Apple_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "ecb603d33393d9cccc1dc955961bb39255f5910d4a34536cac7643fd5ce4e6d6"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Apple_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "8478e226993b3e76baaf1a352215116a6d272d0f2db71434b36cb37d8528edcc"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Apple_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "0418fa47420966ed8a55c3d393e61cf3c50e1ba700ccc1d4a9b28c0a7006a8e9"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Bonsai_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "2b52f5c9852bee9a8a0b2a8f97df274aaa7d32dc4caaf758d5be638e0b0850ab"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Bonsai_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "8e6a9e0b2e6746861b311d5dc58e0cdec39be6b55cb2116f5f26fcb406902a8e"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Bonsai_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "0d9c7db96d4d388bead78d7fedaea48d03d41af10e019455cea22343d00dbda3"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Daisy_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "784210b34e2a94bc5e28fe0ecb58eae5cfb4df60dd32defe1ef00baec1ae1bd8"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Daisy_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "7f4124311c885ec59d6d0a0747fec867bdbe3f85021a0edcbaa5544a73df8bc2"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Daisy_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "492fb5840fdaeb2836e82ce56b249ad4a389b7c1c6f1a26fdd1ed279ec3cc8c7"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Mango_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "018bd4729657d4f8e0384aa0379f1997ef16ab0cc30ffa0ad7bffeb25a81a3c6"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Mango_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "b8d39551528235262a1989189f086ca8b60e4ce4e63f2da8a45513d335a6df52"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Mango_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "5117e1d6d62dfa9281a3ee30bf4a5eda55560aa7616da6fc8211a1f1e8abe258"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_MoneyTree_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "b2fdbf1a828ab7e093f6407ed6629b6bdf81644099d7737f77f992616806e4d9"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_MoneyTree_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "5f898d93bad38b59c54ca87d0b819f33eedc97060f69ebfd89d5e6c5b7bf3f10"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_MoneyTree_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "28aee0f9c139b53e3202d2060c7eb83b16c087d619b0d3c65d6de44fa9b311f0"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_MutantOrchid_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "1bc7d2da441fde0c20a68f10b9bc48011e5e6c79ff0390cc0104c4a9a8894217"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_MutantOrchid_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "a5dbbc72246b7ef431598de8546c8bccbea4be3c6653accd6ccdff54001abc90"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_MutantOrchid_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "7f2e2fceecd0137214a6fe86f5e5c14afa0cf9a35ef600260e59c17df047e365"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Ornamental_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "ae318a1323a60e1e75565ec27ea8c2bc4bc07473c038318ce39446eb3dc3c6f3"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Ornamental_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f54fafb027c4ac03ab99ab1e7019f5d303b8819fb168e96d3b1e7a0446d8b5a3"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Ornamental_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "6cc00dc48d15e0a0b323acd139e277649bca7969224207be6a8c36b140c62de5"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Pear_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "820f2b38314d95e012bca6aa8519268b3ceba16c4421c0249fa4cf24db727db7"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Pear_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "1683e0de61b84edd4da951f92af4bc8c9a7efea8998acfca66e4a0e63c59aada"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Pear_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "b41b5ed100f300c022a77e97788a15caabea70ee4f728d4cdd42009ad19296c2"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Rose_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "f3a756f0e2b0dae831e678a1bc001c494f8637ee9e94c54bbeaeed970b531f9a"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Rose_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "8e8c1d1e3f729f523bb5c8ba72d110bd2f579deaf370fbef036863102eb41a66"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Rose_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "50e6365016cce89da8bc700275c4ebb1a782323248d8c4acadd854bcd00e16e5"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Sunflower_Growing.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "415b6a96ca1e3116220dd747f149ead9c056241486e34c05fd30f4c59376bf57"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Sunflower_Mature.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "aec90322a27332f4b66916246bbb4b8143d6d0f8c3a98732fcbf0c552162c57b"
+    },
+    {
+      "file": "2_Animations/Plants/Plant_Sunflower_Seedling.png",
+      "width": 112,
+      "height": 112,
+      "alpha": true,
+      "sha256": "dd89581f628eded59c8f1d5884ee8f8b26630dc41f4db8b97f5325d9df616970"
+    }
+  ]
+}

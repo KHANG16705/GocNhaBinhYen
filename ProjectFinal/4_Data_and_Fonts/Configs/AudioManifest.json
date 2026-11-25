@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.9-PF",
+  "count": 14,
+  "clips": [
+    {
+      "id": "BGM_HOME",
+      "file": "3_Audio/BGM/HomeLoop.ogg",
+      "loop": true,
+      "trigger": "Màn sinh hoạt; loop ở âm lượng thấp.",
+      "bytes": 364542,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 72.0,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "id": "SFX_UI",
+      "file": "3_Audio/SFX/Click.wav",
+      "loop": false,
+      "trigger": "Nút UI hợp lệ.",
+      "bytes": 7982,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.09,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.52
+    },
+    {
+      "id": "SFX_COIN",
+      "file": "3_Audio/SFX/Coin.wav",
+      "loop": false,
+      "trigger": "Nhận tiền thưởng việc nhà, bán cây hoặc bán cá.",
+      "bytes": 39734,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.45,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.52
+    },
+    {
+      "id": "SFX_PLACE",
+      "file": "3_Audio/SFX/Place.wav",
+      "loop": false,
+      "trigger": "Đặt, xoay hoặc cất đồ trang trí.",
+      "bytes": 19448,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.22,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.52
+    },
+    {
+      "id": "SFX_SWEEP",
+      "file": "3_Audio/SFX/Sweep.wav",
+      "loop": false,
+      "trigger": "Bắt đầu quét bụi hợp lệ.",
+      "bytes": 39734,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.45,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.52
+    },
+    {
+      "id": "SFX_WATER",
+      "file": "3_Audio/SFX/Water.wav",
+      "loop": false,
+      "trigger": "Bắt đầu tưới cây hợp lệ.",
+      "bytes": 39734,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.45,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.52
+    },
+    {
+      "id": "SFX_PEST",
+      "file": "3_Audio/SFX/PestCatch.wav",
+      "loop": false,
+      "trigger": "Bắt sâu hợp lệ.",
+      "bytes": 24740,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.28,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    },
+    {
+      "id": "SFX_WIPE",
+      "file": "3_Audio/SFX/Wipe.wav",
+      "loop": false,
+      "trigger": "Bắt đầu lau vết bẩn bếp hợp lệ.",
+      "bytes": 37088,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.42,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    },
+    {
+      "id": "SFX_CLOTH",
+      "file": "3_Audio/SFX/Cloth.wav",
+      "loop": false,
+      "trigger": "Gom, nạp, lấy, treo hoặc thu đồ giặt hợp lệ.",
+      "bytes": 28268,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.32,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    },
+    {
+      "id": "SFX_WASH",
+      "file": "3_Audio/SFX/WashLoop.wav",
+      "loop": true,
+      "trigger": "Lặp khi máy đang giặt; dừng cùng mô phỏng, giảm âm theo khoảng cách.",
+      "bytes": 176444,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 2.0,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    },
+    {
+      "id": "SFX_READY",
+      "file": "3_Audio/SFX/Ready.wav",
+      "loop": false,
+      "trigger": "Một lần khi máy giặt xong hoặc đồ phơi khô.",
+      "bytes": 54728,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.62,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    },
+    {
+      "id": "SFX_CAST",
+      "file": "3_Audio/SFX/Cast.wav",
+      "loop": false,
+      "trigger": "Thả dây câu xuống ao cá.",
+      "bytes": 37088,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.42,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    },
+    {
+      "id": "SFX_BITE",
+      "file": "3_Audio/SFX/FishBite.wav",
+      "loop": false,
+      "trigger": "Phao động và hiện dấu ! báo cá cắn mồi.",
+      "bytes": 26504,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.3,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    },
+    {
+      "id": "SFX_CATCH",
+      "file": "3_Audio/SFX/CatchFish.wav",
+      "loop": false,
+      "trigger": "Giật cá lên thành công.",
+      "bytes": 48554,
+      "origin": "Synthesized for Góc Nhà Bình Yên, no external samples.",
+      "seconds": 0.55,
+      "sampleRate": 44100,
+      "channels": 1,
+      "peak": 0.55
+    }
+  ]
+}

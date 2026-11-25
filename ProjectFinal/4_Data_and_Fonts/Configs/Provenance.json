@@ -1,0 +1,8 @@
+{
+  "generator": "Built-in imagegen",
+  "artwork": "All map, furniture, character and plant artwork newly generated for ProjectFinal.",
+  "reference": "User supplied cutaway screenshot, style reference only.",
+  "oldProjectArtCopied": false,
+  "processing": "Alpha-edge cleanup, content extraction, uniform per-item scale, transparent padding, sprite/atlas assembly with sharp.",
+  "sourcePrompts": "Tools/source-assets.json"
+}

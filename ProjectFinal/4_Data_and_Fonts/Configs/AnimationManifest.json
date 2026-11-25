@@ -1,0 +1,1470 @@
+{
+  "schemaVersion": "1.0",
+  "characters": [
+    {
+      "id": "Male",
+      "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+      "framePixels": [
+        96,
+        112
+      ],
+      "columns": 8,
+      "rows": [
+        "Down",
+        "Left",
+        "Right",
+        "Up"
+      ],
+      "pivotPixels": [
+        48,
+        104
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.07142857142857142
+      ],
+      "pixelsPerUnit": 32,
+      "clips": [
+        {
+          "name": "Idle_Down",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            0,
+            1
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Down",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Idle_Left",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            8,
+            9
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Left",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Idle_Right",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            16,
+            17
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Right",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Idle_Up",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            24,
+            25
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Up",
+          "sheet": "1_2D_Art/Characters/Player_Male_SpriteSheet.png",
+          "frames": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        }
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "direction": "Down",
+          "column": 0,
+          "file": "2_Animations/Characters/Male/Frames/Down_00.png",
+          "rect": [
+            0,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 56,
+            "top": 52,
+            "width": 102,
+            "height": 196
+          }
+        },
+        {
+          "index": 1,
+          "direction": "Down",
+          "column": 1,
+          "file": "2_Animations/Characters/Male/Frames/Down_01.png",
+          "rect": [
+            96,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 245,
+            "top": 52,
+            "width": 102,
+            "height": 196
+          }
+        },
+        {
+          "index": 2,
+          "direction": "Down",
+          "column": 2,
+          "file": "2_Animations/Characters/Male/Frames/Down_02.png",
+          "rect": [
+            192,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 437,
+            "top": 55,
+            "width": 101,
+            "height": 200
+          }
+        },
+        {
+          "index": 3,
+          "direction": "Down",
+          "column": 3,
+          "file": "2_Animations/Characters/Male/Frames/Down_03.png",
+          "rect": [
+            288,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 628,
+            "top": 55,
+            "width": 102,
+            "height": 200
+          }
+        },
+        {
+          "index": 4,
+          "direction": "Down",
+          "column": 4,
+          "file": "2_Animations/Characters/Male/Frames/Down_04.png",
+          "rect": [
+            384,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 811,
+            "top": 53,
+            "width": 102,
+            "height": 202
+          }
+        },
+        {
+          "index": 5,
+          "direction": "Down",
+          "column": 5,
+          "file": "2_Animations/Characters/Male/Frames/Down_05.png",
+          "rect": [
+            480,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1004,
+            "top": 53,
+            "width": 102,
+            "height": 201
+          }
+        },
+        {
+          "index": 6,
+          "direction": "Down",
+          "column": 6,
+          "file": "2_Animations/Characters/Male/Frames/Down_06.png",
+          "rect": [
+            576,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1193,
+            "top": 53,
+            "width": 103,
+            "height": 202
+          }
+        },
+        {
+          "index": 7,
+          "direction": "Down",
+          "column": 7,
+          "file": "2_Animations/Characters/Male/Frames/Down_07.png",
+          "rect": [
+            672,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1377,
+            "top": 54,
+            "width": 102,
+            "height": 201
+          }
+        },
+        {
+          "index": 8,
+          "direction": "Left",
+          "column": 0,
+          "file": "2_Animations/Characters/Male/Frames/Left_00.png",
+          "rect": [
+            0,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 55,
+            "top": 296,
+            "width": 103,
+            "height": 200
+          }
+        },
+        {
+          "index": 9,
+          "direction": "Left",
+          "column": 1,
+          "file": "2_Animations/Characters/Male/Frames/Left_01.png",
+          "rect": [
+            96,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 245,
+            "top": 297,
+            "width": 103,
+            "height": 199
+          }
+        },
+        {
+          "index": 10,
+          "direction": "Left",
+          "column": 2,
+          "file": "2_Animations/Characters/Male/Frames/Left_02.png",
+          "rect": [
+            192,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 432,
+            "top": 297,
+            "width": 107,
+            "height": 199
+          }
+        },
+        {
+          "index": 11,
+          "direction": "Left",
+          "column": 3,
+          "file": "2_Animations/Characters/Male/Frames/Left_03.png",
+          "rect": [
+            288,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 618,
+            "top": 297,
+            "width": 108,
+            "height": 199
+          }
+        },
+        {
+          "index": 12,
+          "direction": "Left",
+          "column": 4,
+          "file": "2_Animations/Characters/Male/Frames/Left_04.png",
+          "rect": [
+            384,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 805,
+            "top": 297,
+            "width": 108,
+            "height": 199
+          }
+        },
+        {
+          "index": 13,
+          "direction": "Left",
+          "column": 5,
+          "file": "2_Animations/Characters/Male/Frames/Left_05.png",
+          "rect": [
+            480,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 995,
+            "top": 297,
+            "width": 109,
+            "height": 199
+          }
+        },
+        {
+          "index": 14,
+          "direction": "Left",
+          "column": 6,
+          "file": "2_Animations/Characters/Male/Frames/Left_06.png",
+          "rect": [
+            576,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1188,
+            "top": 297,
+            "width": 108,
+            "height": 199
+          }
+        },
+        {
+          "index": 15,
+          "direction": "Left",
+          "column": 7,
+          "file": "2_Animations/Characters/Male/Frames/Left_07.png",
+          "rect": [
+            672,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1373,
+            "top": 297,
+            "width": 107,
+            "height": 199
+          }
+        },
+        {
+          "index": 16,
+          "direction": "Right",
+          "column": 0,
+          "file": "2_Animations/Characters/Male/Frames/Right_00.png",
+          "rect": [
+            0,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 55,
+            "top": 539,
+            "width": 106,
+            "height": 200
+          }
+        },
+        {
+          "index": 17,
+          "direction": "Right",
+          "column": 1,
+          "file": "2_Animations/Characters/Male/Frames/Right_01.png",
+          "rect": [
+            96,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 245,
+            "top": 539,
+            "width": 106,
+            "height": 199
+          }
+        },
+        {
+          "index": 18,
+          "direction": "Right",
+          "column": 2,
+          "file": "2_Animations/Characters/Male/Frames/Right_02.png",
+          "rect": [
+            192,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 431,
+            "top": 539,
+            "width": 110,
+            "height": 199
+          }
+        },
+        {
+          "index": 19,
+          "direction": "Right",
+          "column": 3,
+          "file": "2_Animations/Characters/Male/Frames/Right_03.png",
+          "rect": [
+            288,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 622,
+            "top": 539,
+            "width": 106,
+            "height": 199
+          }
+        },
+        {
+          "index": 20,
+          "direction": "Right",
+          "column": 4,
+          "file": "2_Animations/Characters/Male/Frames/Right_04.png",
+          "rect": [
+            384,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 811,
+            "top": 539,
+            "width": 109,
+            "height": 199
+          }
+        },
+        {
+          "index": 21,
+          "direction": "Right",
+          "column": 5,
+          "file": "2_Animations/Characters/Male/Frames/Right_05.png",
+          "rect": [
+            480,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1002,
+            "top": 539,
+            "width": 108,
+            "height": 199
+          }
+        },
+        {
+          "index": 22,
+          "direction": "Right",
+          "column": 6,
+          "file": "2_Animations/Characters/Male/Frames/Right_06.png",
+          "rect": [
+            576,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1193,
+            "top": 539,
+            "width": 108,
+            "height": 199
+          }
+        },
+        {
+          "index": 23,
+          "direction": "Right",
+          "column": 7,
+          "file": "2_Animations/Characters/Male/Frames/Right_07.png",
+          "rect": [
+            672,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1376,
+            "top": 539,
+            "width": 110,
+            "height": 199
+          }
+        },
+        {
+          "index": 24,
+          "direction": "Up",
+          "column": 0,
+          "file": "2_Animations/Characters/Male/Frames/Up_00.png",
+          "rect": [
+            0,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 55,
+            "top": 779,
+            "width": 104,
+            "height": 196
+          }
+        },
+        {
+          "index": 25,
+          "direction": "Up",
+          "column": 1,
+          "file": "2_Animations/Characters/Male/Frames/Up_01.png",
+          "rect": [
+            96,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 244,
+            "top": 779,
+            "width": 104,
+            "height": 196
+          }
+        },
+        {
+          "index": 26,
+          "direction": "Up",
+          "column": 2,
+          "file": "2_Animations/Characters/Male/Frames/Up_02.png",
+          "rect": [
+            192,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 431,
+            "top": 779,
+            "width": 103,
+            "height": 202
+          }
+        },
+        {
+          "index": 27,
+          "direction": "Up",
+          "column": 3,
+          "file": "2_Animations/Characters/Male/Frames/Up_03.png",
+          "rect": [
+            288,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 622,
+            "top": 779,
+            "width": 104,
+            "height": 203
+          }
+        },
+        {
+          "index": 28,
+          "direction": "Up",
+          "column": 4,
+          "file": "2_Animations/Characters/Male/Frames/Up_04.png",
+          "rect": [
+            384,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 811,
+            "top": 779,
+            "width": 104,
+            "height": 204
+          }
+        },
+        {
+          "index": 29,
+          "direction": "Up",
+          "column": 5,
+          "file": "2_Animations/Characters/Male/Frames/Up_05.png",
+          "rect": [
+            480,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1002,
+            "top": 779,
+            "width": 103,
+            "height": 203
+          }
+        },
+        {
+          "index": 30,
+          "direction": "Up",
+          "column": 6,
+          "file": "2_Animations/Characters/Male/Frames/Up_06.png",
+          "rect": [
+            576,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1192,
+            "top": 779,
+            "width": 105,
+            "height": 204
+          }
+        },
+        {
+          "index": 31,
+          "direction": "Up",
+          "column": 7,
+          "file": "2_Animations/Characters/Male/Frames/Up_07.png",
+          "rect": [
+            672,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1376,
+            "top": 779,
+            "width": 104,
+            "height": 202
+          }
+        }
+      ]
+    },
+    {
+      "id": "Female",
+      "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+      "framePixels": [
+        96,
+        112
+      ],
+      "columns": 8,
+      "rows": [
+        "Down",
+        "Left",
+        "Right",
+        "Up"
+      ],
+      "pivotPixels": [
+        48,
+        104
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.07142857142857142
+      ],
+      "pixelsPerUnit": 32,
+      "clips": [
+        {
+          "name": "Idle_Down",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            0,
+            1
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Down",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Idle_Left",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            8,
+            9
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Left",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Idle_Right",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            16,
+            17
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Right",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Idle_Up",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            24,
+            25
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Walk_Up",
+          "sheet": "1_2D_Art/Characters/Player_Female_SpriteSheet.png",
+          "frames": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "framePixels": [
+            96,
+            112
+          ],
+          "fps": 8,
+          "loop": true
+        }
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "direction": "Down",
+          "column": 0,
+          "file": "2_Animations/Characters/Female/Frames/Down_00.png",
+          "rect": [
+            0,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 65,
+            "top": 55,
+            "width": 95,
+            "height": 201
+          }
+        },
+        {
+          "index": 1,
+          "direction": "Down",
+          "column": 1,
+          "file": "2_Animations/Characters/Female/Frames/Down_01.png",
+          "rect": [
+            96,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 251,
+            "top": 54,
+            "width": 95,
+            "height": 202
+          }
+        },
+        {
+          "index": 2,
+          "direction": "Down",
+          "column": 2,
+          "file": "2_Animations/Characters/Female/Frames/Down_02.png",
+          "rect": [
+            192,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 435,
+            "top": 54,
+            "width": 96,
+            "height": 206
+          }
+        },
+        {
+          "index": 3,
+          "direction": "Down",
+          "column": 3,
+          "file": "2_Animations/Characters/Female/Frames/Down_03.png",
+          "rect": [
+            288,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 623,
+            "top": 52,
+            "width": 96,
+            "height": 206
+          }
+        },
+        {
+          "index": 4,
+          "direction": "Down",
+          "column": 4,
+          "file": "2_Animations/Characters/Female/Frames/Down_04.png",
+          "rect": [
+            384,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 814,
+            "top": 52,
+            "width": 96,
+            "height": 207
+          }
+        },
+        {
+          "index": 5,
+          "direction": "Down",
+          "column": 5,
+          "file": "2_Animations/Characters/Female/Frames/Down_05.png",
+          "rect": [
+            480,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1004,
+            "top": 54,
+            "width": 96,
+            "height": 204
+          }
+        },
+        {
+          "index": 6,
+          "direction": "Down",
+          "column": 6,
+          "file": "2_Animations/Characters/Female/Frames/Down_06.png",
+          "rect": [
+            576,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1192,
+            "top": 54,
+            "width": 95,
+            "height": 206
+          }
+        },
+        {
+          "index": 7,
+          "direction": "Down",
+          "column": 7,
+          "file": "2_Animations/Characters/Female/Frames/Down_07.png",
+          "rect": [
+            672,
+            0,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1379,
+            "top": 52,
+            "width": 96,
+            "height": 208
+          }
+        },
+        {
+          "index": 8,
+          "direction": "Left",
+          "column": 0,
+          "file": "2_Animations/Characters/Female/Frames/Left_00.png",
+          "rect": [
+            0,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 62,
+            "top": 303,
+            "width": 112,
+            "height": 185
+          }
+        },
+        {
+          "index": 9,
+          "direction": "Left",
+          "column": 1,
+          "file": "2_Animations/Characters/Female/Frames/Left_01.png",
+          "rect": [
+            96,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 243,
+            "top": 303,
+            "width": 111,
+            "height": 185
+          }
+        },
+        {
+          "index": 10,
+          "direction": "Left",
+          "column": 2,
+          "file": "2_Animations/Characters/Female/Frames/Left_02.png",
+          "rect": [
+            192,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 430,
+            "top": 305,
+            "width": 113,
+            "height": 185
+          }
+        },
+        {
+          "index": 11,
+          "direction": "Left",
+          "column": 3,
+          "file": "2_Animations/Characters/Female/Frames/Left_03.png",
+          "rect": [
+            288,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 618,
+            "top": 303,
+            "width": 113,
+            "height": 187
+          }
+        },
+        {
+          "index": 12,
+          "direction": "Left",
+          "column": 4,
+          "file": "2_Animations/Characters/Female/Frames/Left_04.png",
+          "rect": [
+            384,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 806,
+            "top": 304,
+            "width": 114,
+            "height": 187
+          }
+        },
+        {
+          "index": 13,
+          "direction": "Left",
+          "column": 5,
+          "file": "2_Animations/Characters/Female/Frames/Left_05.png",
+          "rect": [
+            480,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 996,
+            "top": 305,
+            "width": 115,
+            "height": 185
+          }
+        },
+        {
+          "index": 14,
+          "direction": "Left",
+          "column": 6,
+          "file": "2_Animations/Characters/Female/Frames/Left_06.png",
+          "rect": [
+            576,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1187,
+            "top": 304,
+            "width": 112,
+            "height": 184
+          }
+        },
+        {
+          "index": 15,
+          "direction": "Left",
+          "column": 7,
+          "file": "2_Animations/Characters/Female/Frames/Left_07.png",
+          "rect": [
+            672,
+            112,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1375,
+            "top": 304,
+            "width": 113,
+            "height": 184
+          }
+        },
+        {
+          "index": 16,
+          "direction": "Right",
+          "column": 0,
+          "file": "2_Animations/Characters/Female/Frames/Right_00.png",
+          "rect": [
+            0,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 56,
+            "top": 546,
+            "width": 116,
+            "height": 186
+          }
+        },
+        {
+          "index": 17,
+          "direction": "Right",
+          "column": 1,
+          "file": "2_Animations/Characters/Female/Frames/Right_01.png",
+          "rect": [
+            96,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 243,
+            "top": 546,
+            "width": 113,
+            "height": 186
+          }
+        },
+        {
+          "index": 18,
+          "direction": "Right",
+          "column": 2,
+          "file": "2_Animations/Characters/Female/Frames/Right_02.png",
+          "rect": [
+            192,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 429,
+            "top": 545,
+            "width": 115,
+            "height": 188
+          }
+        },
+        {
+          "index": 19,
+          "direction": "Right",
+          "column": 3,
+          "file": "2_Animations/Characters/Female/Frames/Right_03.png",
+          "rect": [
+            288,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 617,
+            "top": 546,
+            "width": 114,
+            "height": 186
+          }
+        },
+        {
+          "index": 20,
+          "direction": "Right",
+          "column": 4,
+          "file": "2_Animations/Characters/Female/Frames/Right_04.png",
+          "rect": [
+            384,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 803,
+            "top": 545,
+            "width": 117,
+            "height": 189
+          }
+        },
+        {
+          "index": 21,
+          "direction": "Right",
+          "column": 5,
+          "file": "2_Animations/Characters/Female/Frames/Right_05.png",
+          "rect": [
+            480,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 993,
+            "top": 545,
+            "width": 116,
+            "height": 187
+          }
+        },
+        {
+          "index": 22,
+          "direction": "Right",
+          "column": 6,
+          "file": "2_Animations/Characters/Female/Frames/Right_06.png",
+          "rect": [
+            576,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1181,
+            "top": 544,
+            "width": 116,
+            "height": 188
+          }
+        },
+        {
+          "index": 23,
+          "direction": "Right",
+          "column": 7,
+          "file": "2_Animations/Characters/Female/Frames/Right_07.png",
+          "rect": [
+            672,
+            224,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1370,
+            "top": 545,
+            "width": 115,
+            "height": 184
+          }
+        },
+        {
+          "index": 24,
+          "direction": "Up",
+          "column": 0,
+          "file": "2_Animations/Characters/Female/Frames/Up_00.png",
+          "rect": [
+            0,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 64,
+            "top": 783,
+            "width": 98,
+            "height": 187
+          }
+        },
+        {
+          "index": 25,
+          "direction": "Up",
+          "column": 1,
+          "file": "2_Animations/Characters/Female/Frames/Up_01.png",
+          "rect": [
+            96,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 250,
+            "top": 783,
+            "width": 97,
+            "height": 187
+          }
+        },
+        {
+          "index": 26,
+          "direction": "Up",
+          "column": 2,
+          "file": "2_Animations/Characters/Female/Frames/Up_02.png",
+          "rect": [
+            192,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 434,
+            "top": 783,
+            "width": 99,
+            "height": 192
+          }
+        },
+        {
+          "index": 27,
+          "direction": "Up",
+          "column": 3,
+          "file": "2_Animations/Characters/Female/Frames/Up_03.png",
+          "rect": [
+            288,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 622,
+            "top": 782,
+            "width": 97,
+            "height": 192
+          }
+        },
+        {
+          "index": 28,
+          "direction": "Up",
+          "column": 4,
+          "file": "2_Animations/Characters/Female/Frames/Up_04.png",
+          "rect": [
+            384,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 813,
+            "top": 782,
+            "width": 96,
+            "height": 193
+          }
+        },
+        {
+          "index": 29,
+          "direction": "Up",
+          "column": 5,
+          "file": "2_Animations/Characters/Female/Frames/Up_05.png",
+          "rect": [
+            480,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1003,
+            "top": 782,
+            "width": 98,
+            "height": 193
+          }
+        },
+        {
+          "index": 30,
+          "direction": "Up",
+          "column": 6,
+          "file": "2_Animations/Characters/Female/Frames/Up_06.png",
+          "rect": [
+            576,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1191,
+            "top": 783,
+            "width": 98,
+            "height": 192
+          }
+        },
+        {
+          "index": 31,
+          "direction": "Up",
+          "column": 7,
+          "file": "2_Animations/Characters/Female/Frames/Up_07.png",
+          "rect": [
+            672,
+            336,
+            96,
+            112
+          ],
+          "sourceRect": {
+            "left": 1377,
+            "top": 782,
+            "width": 98,
+            "height": 192
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Art clips only. Import these frame rectangles into your engine; movement/controller not included."
+}

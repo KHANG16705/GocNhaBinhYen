@@ -1,0 +1,971 @@
+{
+  "schemaVersion": "1.9-PF",
+  "status": "gameplay_and_art_synced_v1.9",
+  "mapSizeTiles": [
+    48,
+    36
+  ],
+  "sizePixels": [
+    1536,
+    1152
+  ],
+  "pixelsPerUnit": 32,
+  "coordinateSystem": {
+    "origin": "top_left",
+    "x": "right",
+    "y": "down",
+    "worldX": "gridX - 24",
+    "worldY": "18 - gridY",
+    "pixelToGrid": "pixel / 32"
+  },
+  "background": "1_2D_Art/Backgrounds/Background_EmptyMap.png",
+  "backgroundBase": "1_2D_Art/Backgrounds/Background_Base.png",
+  "wallLayersConfig": "4_Data_and_Fonts/Configs/MapLayers.json",
+  "preview": "5_Previews/Map_Demo.png",
+  "rooms": {
+    "bedroom": [
+      3.6,
+      6.1,
+      15.7,
+      13.8
+    ],
+    "study_hall": [
+      17.1,
+      5.8,
+      29.0,
+      11.9
+    ],
+    "hall_corridor": [
+      15.7,
+      11.9,
+      35.6,
+      13.8
+    ],
+    "living": [
+      17.3,
+      11.9,
+      31.2,
+      20.5
+    ],
+    "kitchen": [
+      30.3,
+      6.1,
+      44.4,
+      13.1
+    ],
+    "utility": [
+      36.7,
+      17.4,
+      44.8,
+      20.5
+    ],
+    "garden_upper_left": [
+      3.0,
+      18.8,
+      15.7,
+      23.4
+    ],
+    "garden_main": [
+      3.0,
+      23.4,
+      45.0,
+      32.2
+    ]
+  },
+  "wallCollidersGrid": [
+    {
+      "id": "W_REAR_TOP",
+      "rect": [
+        2.6,
+        0.0,
+        45.4,
+        6.1
+      ]
+    },
+    {
+      "id": "W_OUTER_LEFT_HOUSE",
+      "rect": [
+        2.0,
+        6.1,
+        3.6,
+        18.2
+      ]
+    },
+    {
+      "id": "W_OUTER_RIGHT_HOUSE",
+      "rect": [
+        44.8,
+        6.1,
+        46.2,
+        23.4
+      ]
+    },
+    {
+      "id": "W_REAR_PART_LEFT",
+      "rect": [
+        15.75,
+        5.8,
+        17.06,
+        9.0
+      ]
+    },
+    {
+      "id": "W_REAR_PART_RIGHT",
+      "rect": [
+        28.97,
+        5.8,
+        30.28,
+        9.0
+      ]
+    },
+    {
+      "id": "W_ENTRY_WINDOW",
+      "rect": [
+        2.1,
+        13.0,
+        9.0,
+        18.1
+      ]
+    },
+    {
+      "id": "W_LIVING_LEFT",
+      "rect": [
+        15.7,
+        11.9,
+        17.3,
+        23.3
+      ]
+    },
+    {
+      "id": "W_LIVING_RIGHT",
+      "rect": [
+        31.25,
+        11.9,
+        32.4,
+        20.6
+      ]
+    },
+    {
+      "id": "W_UTILITY_HEADER",
+      "rect": [
+        35.65,
+        13.1,
+        45.3,
+        17.3
+      ]
+    },
+    {
+      "id": "W_UTILITY_LINTEL",
+      "rect": [
+        35.65,
+        13.1,
+        36.7,
+        15.8
+      ]
+    },
+    {
+      "id": "W_FRONT_LEFT",
+      "rect": [
+        15.8,
+        20.56,
+        21.6,
+        23.3
+      ]
+    },
+    {
+      "id": "W_FRONT_RIGHT",
+      "rect": [
+        26.2,
+        20.56,
+        45.5,
+        23.4
+      ]
+    },
+    {
+      "id": "FENCE_LEFT",
+      "rect": [
+        1.8,
+        18.2,
+        3.0,
+        33.4
+      ]
+    },
+    {
+      "id": "FENCE_RIGHT",
+      "rect": [
+        45.0,
+        23.4,
+        46.2,
+        33.4
+      ]
+    },
+    {
+      "id": "FENCE_BOTTOM_BOUND",
+      "rect": [
+        2.0,
+        32.2,
+        46.0,
+        33.6
+      ]
+    }
+  ],
+  "openPassagesGrid": [
+    {
+      "id": "PASS_BED_HALL",
+      "rect": [
+        15.7,
+        9.0,
+        17.1,
+        13.8
+      ]
+    },
+    {
+      "id": "PASS_HALL_KITCHEN",
+      "rect": [
+        29.0,
+        9.0,
+        30.3,
+        13.1
+      ]
+    },
+    {
+      "id": "PASS_HALL_UTILITY",
+      "rect": [
+        35.65,
+        17.3,
+        36.7,
+        20.5
+      ]
+    },
+    {
+      "id": "PASS_PORCH_GARDEN",
+      "rect": [
+        9.0,
+        13.8,
+        15.6,
+        18.8
+      ]
+    },
+    {
+      "id": "PASS_LIVING_GARDEN",
+      "rect": [
+        21.6,
+        20.5,
+        26.2,
+        23.4
+      ]
+    }
+  ],
+  "spawnGrid": [
+    8.8,
+    11.6
+  ],
+  "spawnPixels": [
+    282,
+    371
+  ],
+  "stations": {
+    "sleep": {
+      "id": "SLEEP_01",
+      "furnitureId": "Bed",
+      "anchorGrid": [
+        8.8,
+        10.7
+      ],
+      "interactionGrid": [
+        8.8,
+        11.6
+      ],
+      "label": "E · Nghỉ ngơi sang ngày mới"
+    },
+    "shop": {
+      "id": "SHOP_01",
+      "furnitureId": "Bookshelf",
+      "anchorGrid": [
+        27.1,
+        9.1
+      ],
+      "interactionGrid": [
+        27.1,
+        9.9
+      ],
+      "label": "E · Mở Cửa hàng (24 món)"
+    },
+    "aquarium": {
+      "id": "AQUARIUM_01",
+      "asset": "1_2D_Art/Fishing/Object_Aquarium_Down.png",
+      "viewBackground": "1_2D_Art/Fishing/UI_Aquarium_Background.png",
+      "anchorGrid": [
+        28.8,
+        15.0
+      ],
+      "footprint": [
+        2.6,
+        1.1
+      ],
+      "interactionGrid": [
+        28.8,
+        15.8
+      ],
+      "capacity": 8,
+      "fixed": true,
+      "label": "E · Xem Bể cá"
+    },
+    "washer": {
+      "id": "WASH01",
+      "assetIdle": "1_2D_Art/Environment/Object_WashingMachine_Down.png",
+      "assetWashing": "1_2D_Art/Chores/Object_WashingMachine_Washing.png",
+      "assetReady": "1_2D_Art/Chores/Object_WashingMachine_Ready.png",
+      "anchorGrid": [
+        42.5,
+        18.6
+      ],
+      "footprint": [
+        1.7,
+        1.3
+      ],
+      "interactionGrid": [
+        42.5,
+        19.7
+      ],
+      "fixed": true,
+      "label": "E · Máy giặt"
+    },
+    "dryingRack": {
+      "id": "DRY01",
+      "assetEmpty": "1_2D_Art/Chores/Object_DryingRack_Empty.png",
+      "assetDrying": "1_2D_Art/Chores/Object_DryingRack_Drying.png",
+      "assetDryReady": "1_2D_Art/Chores/Object_DryingRack_DryReady.png",
+      "anchorGrid": [
+        10.8,
+        24.1
+      ],
+      "footprint": [
+        4.0,
+        1.2
+      ],
+      "interactionGrid": [
+        10.8,
+        25
+      ],
+      "fixed": true,
+      "label": "E · Giàn phơi"
+    },
+    "fishPond": {
+      "id": "POND_01",
+      "asset": "1_2D_Art/Fishing/Object_FishPond.png",
+      "anchorGrid": [
+        14.5,
+        30.2
+      ],
+      "footprint": [
+        6.5,
+        3.2
+      ],
+      "interactionPointsGrid": [
+        [
+          14.5,
+          26.6
+        ],
+        [
+          18.2,
+          28.8
+        ]
+      ],
+      "fixed": true,
+      "label": "E · Câu cá"
+    }
+  },
+  "choreSpawnPoints": {
+    "dust": [
+      {
+        "id": "D01",
+        "room": "living_hall",
+        "grid": [
+          19.0,
+          13.0
+        ]
+      },
+      {
+        "id": "D02",
+        "room": "living_hall",
+        "grid": [
+          24.0,
+          13.5
+        ]
+      },
+      {
+        "id": "D03",
+        "room": "living_hall",
+        "grid": [
+          28.5,
+          13.0
+        ]
+      },
+      {
+        "id": "D04",
+        "room": "living_hall",
+        "grid": [
+          20.5,
+          19.8
+        ]
+      },
+      {
+        "id": "D05",
+        "room": "living_hall",
+        "grid": [
+          26.8,
+          19.8
+        ]
+      }
+    ],
+    "dirtyClothes": [
+      {
+        "id": "C01",
+        "room": "bedroom",
+        "grid": [
+          6.5,
+          12.2
+        ]
+      },
+      {
+        "id": "C02",
+        "room": "bedroom",
+        "grid": [
+          11.5,
+          8.5
+        ]
+      },
+      {
+        "id": "C03",
+        "room": "bedroom",
+        "grid": [
+          14.2,
+          9.5
+        ]
+      }
+    ],
+    "kitchenStain": [
+      {
+        "id": "K01",
+        "room": "kitchen",
+        "grid": [
+          34.5,
+          10.6
+        ]
+      },
+      {
+        "id": "K02",
+        "room": "kitchen",
+        "grid": [
+          38.5,
+          10.6
+        ]
+      },
+      {
+        "id": "K03",
+        "room": "kitchen",
+        "grid": [
+          42.5,
+          10.8
+        ]
+      }
+    ]
+  },
+  "wallSockets": [
+    {
+      "id": "WALL_01",
+      "room": "bedroom",
+      "grid": [
+        4.8,
+        5.0
+      ],
+      "clearWidthTiles": 2.0,
+      "allowedItems": [
+        "WallPainting"
+      ],
+      "recommendedScaleByItem": {
+        "WallPainting": 1.0
+      }
+    },
+    {
+      "id": "WALL_02",
+      "room": "study",
+      "grid": [
+        18.4,
+        5.0
+      ],
+      "shelfPivotGridY": 5.3,
+      "clearWidthTiles": 2.8,
+      "allowedItems": [
+        "WallPainting",
+        "KitchenWallShelf"
+      ],
+      "recommendedScaleByItem": {
+        "WallPainting": 1.0,
+        "KitchenWallShelf": 0.62
+      }
+    },
+    {
+      "id": "WALL_03",
+      "room": "study",
+      "grid": [
+        27.6,
+        5.0
+      ],
+      "shelfPivotGridY": 5.3,
+      "clearWidthTiles": 2.8,
+      "allowedItems": [
+        "WallPainting",
+        "KitchenWallShelf"
+      ],
+      "recommendedScaleByItem": {
+        "WallPainting": 1.0,
+        "KitchenWallShelf": 0.62
+      }
+    },
+    {
+      "id": "WALL_04",
+      "room": "kitchen",
+      "grid": [
+        34.15,
+        5.0
+      ],
+      "clearWidthTiles": 2.3,
+      "allowedItems": [
+        "WallPainting"
+      ],
+      "recommendedScaleByItem": {
+        "WallPainting": 1.0
+      }
+    },
+    {
+      "id": "WALL_05",
+      "room": "kitchen",
+      "grid": [
+        43.0,
+        5.0
+      ],
+      "shelfPivotGridY": 5.3,
+      "clearWidthTiles": 2.4,
+      "allowedItems": [
+        "WallPainting",
+        "KitchenWallShelf"
+      ],
+      "recommendedScaleByItem": {
+        "WallPainting": 1.0,
+        "KitchenWallShelf": 0.62
+      }
+    }
+  ],
+  "soilBeds": [
+    {
+      "id": "BED_1",
+      "orientation": "Down",
+      "anchorPixels": [
+        1133,
+        854
+      ],
+      "anchorGrid": [
+        35.4,
+        26.7
+      ],
+      "slots": [
+        {
+          "id": "BED_1_S1",
+          "plantAnchorGrid": [
+            32.3,
+            24.9
+          ],
+          "interactionGrid": [
+            32.3,
+            27.25
+          ],
+          "plantAnchorPixels": [
+            1033,
+            798
+          ],
+          "interactionPixels": [
+            1033,
+            872
+          ]
+        },
+        {
+          "id": "BED_1_S2",
+          "plantAnchorGrid": [
+            35.4,
+            24.9
+          ],
+          "interactionGrid": [
+            35.4,
+            27.25
+          ],
+          "plantAnchorPixels": [
+            1133,
+            798
+          ],
+          "interactionPixels": [
+            1133,
+            872
+          ]
+        },
+        {
+          "id": "BED_1_S3",
+          "plantAnchorGrid": [
+            38.5,
+            24.9
+          ],
+          "interactionGrid": [
+            38.5,
+            27.25
+          ],
+          "plantAnchorPixels": [
+            1233,
+            798
+          ],
+          "interactionPixels": [
+            1233,
+            872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BED_2",
+      "orientation": "Down",
+      "anchorPixels": [
+        1133,
+        1002
+      ],
+      "anchorGrid": [
+        35.4,
+        31.3
+      ],
+      "slots": [
+        {
+          "id": "BED_2_S1",
+          "plantAnchorGrid": [
+            32.3,
+            29.6
+          ],
+          "interactionGrid": [
+            32.3,
+            31.9
+          ],
+          "plantAnchorPixels": [
+            1033,
+            946
+          ],
+          "interactionPixels": [
+            1033,
+            1020
+          ]
+        },
+        {
+          "id": "BED_2_S2",
+          "plantAnchorGrid": [
+            35.4,
+            29.6
+          ],
+          "interactionGrid": [
+            35.4,
+            31.9
+          ],
+          "plantAnchorPixels": [
+            1133,
+            946
+          ],
+          "interactionPixels": [
+            1133,
+            1020
+          ]
+        },
+        {
+          "id": "BED_2_S3",
+          "plantAnchorGrid": [
+            38.5,
+            29.6
+          ],
+          "interactionGrid": [
+            38.5,
+            31.9
+          ],
+          "plantAnchorPixels": [
+            1233,
+            946
+          ],
+          "interactionPixels": [
+            1233,
+            1020
+          ]
+        }
+      ]
+    }
+  ],
+  "initialPlacements": [
+    {
+      "instanceId": "FURN_RUG_BED",
+      "id": "Rug",
+      "direction": "Down",
+      "anchorGrid": [
+        9.6,
+        11.3
+      ],
+      "scale": 0.92,
+      "layer": "ground",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_RUG_LIV",
+      "id": "Rug",
+      "direction": "Down",
+      "anchorGrid": [
+        23.4,
+        19.3
+      ],
+      "scale": 1.15,
+      "layer": "ground",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_BED",
+      "id": "Bed",
+      "direction": "Down",
+      "anchorGrid": [
+        8.8,
+        10.7
+      ],
+      "scale": 1.03,
+      "layer": "objects",
+      "fixed": true
+    },
+    {
+      "instanceId": "FURN_BEDSIDE",
+      "id": "BedsideTable",
+      "direction": "Down",
+      "anchorGrid": [
+        5.25,
+        8.9
+      ],
+      "scale": 0.9,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_WARDROBE",
+      "id": "Wardrobe",
+      "direction": "Down",
+      "anchorGrid": [
+        13.2,
+        13.1
+      ],
+      "scale": 0.95,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_PLANT_1",
+      "id": "DecorPlant",
+      "direction": "Down",
+      "anchorGrid": [
+        5.3,
+        11.6
+      ],
+      "scale": 0.7,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_DESK",
+      "id": "Desk",
+      "direction": "Down",
+      "anchorGrid": [
+        22.2,
+        8.9
+      ],
+      "scale": 1.0,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_CHAIR_1",
+      "id": "Chair",
+      "direction": "Up",
+      "anchorGrid": [
+        21.9,
+        11.0
+      ],
+      "scale": 0.78,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_BOOKSHELF",
+      "id": "Bookshelf",
+      "direction": "Down",
+      "anchorGrid": [
+        27.1,
+        9.1
+      ],
+      "scale": 0.9,
+      "layer": "objects",
+      "fixed": true
+    },
+    {
+      "instanceId": "FURN_FRIDGE",
+      "id": "Fridge",
+      "direction": "Down",
+      "anchorGrid": [
+        34.4,
+        9.2
+      ],
+      "scale": 1.0,
+      "layer": "objects",
+      "fixed": true
+    },
+    {
+      "instanceId": "FURN_SINK",
+      "id": "Sink",
+      "direction": "Down",
+      "anchorGrid": [
+        38.1,
+        9.3
+      ],
+      "scale": 1.0,
+      "layer": "objects",
+      "fixed": true
+    },
+    {
+      "instanceId": "FURN_STOVE",
+      "id": "Stove",
+      "direction": "Down",
+      "anchorGrid": [
+        42.1,
+        9.3
+      ],
+      "scale": 1.0,
+      "layer": "objects",
+      "fixed": true
+    },
+    {
+      "instanceId": "FURN_DIN_TBL",
+      "id": "CoffeeTable",
+      "direction": "Down",
+      "anchorGrid": [
+        39.4,
+        12.8
+      ],
+      "scale": 1.05,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_CHAIR_2",
+      "id": "Chair",
+      "direction": "Right",
+      "anchorGrid": [
+        36.0,
+        12.8
+      ],
+      "scale": 0.75,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_CHAIR_3",
+      "id": "Chair",
+      "direction": "Left",
+      "anchorGrid": [
+        42.8,
+        12.8
+      ],
+      "scale": 0.75,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_SOFA",
+      "id": "Sofa",
+      "direction": "Right",
+      "anchorGrid": [
+        19.6,
+        18.7
+      ],
+      "scale": 1.12,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_COF_TBL",
+      "id": "CoffeeTable",
+      "direction": "Down",
+      "anchorGrid": [
+        23.9,
+        18.3
+      ],
+      "scale": 1.08,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_LAMP",
+      "id": "Lamp",
+      "direction": "Down",
+      "anchorGrid": [
+        29.4,
+        19.2
+      ],
+      "scale": 0.87,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_PLANT_2",
+      "id": "DecorPlant",
+      "direction": "Down",
+      "anchorGrid": [
+        18.5,
+        14.3
+      ],
+      "scale": 0.75,
+      "layer": "objects",
+      "fixed": false
+    },
+    {
+      "instanceId": "FURN_BENCH",
+      "id": "Bench",
+      "direction": "Down",
+      "anchorGrid": [
+        5.8,
+        23
+      ],
+      "scale": 0.88,
+      "layer": "objects",
+      "fixed": true
+    }
+  ],
+  "protectedClearanceRadiusTiles": 0.4,
+  "navigation": {
+    "sampleStepTiles": 0.25,
+    "playerColliderTiles": [
+      0.5,
+      0.4
+    ],
+    "fourNeighbours": true
+  },
+  "notes": "Synced with GDD v1.9 (ProjectFinal): 2 soil beds (6 slots) on right garden, Fish Pond POND_01 on lower-left garden, Drying Rack DRY01 on upper-left garden, Aquarium AQUARIUM_01 in living room, Washing Machine WASH01 in utility room with open hallway doorway.",
+  "doorMatAllowedRectsGrid": [
+    [
+      9.0,
+      13.8,
+      15.6,
+      20.0
+    ],
+    [
+      21.2,
+      20.5,
+      26.6,
+      24.5
+    ]
+  ]
+}

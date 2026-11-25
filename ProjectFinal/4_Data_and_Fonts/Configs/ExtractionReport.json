@@ -1,0 +1,1061 @@
+{
+  "sources": [
+    {
+      "source": "1_2D_Art/Environment/Source/bedroom.png",
+      "rows": [
+        [
+          {
+            "left": 59,
+            "top": 31,
+            "width": 206,
+            "height": 275
+          },
+          {
+            "left": 336,
+            "top": 31,
+            "width": 272,
+            "height": 275
+          },
+          {
+            "left": 647,
+            "top": 31,
+            "width": 272,
+            "height": 275
+          },
+          {
+            "left": 997,
+            "top": 31,
+            "width": 209,
+            "height": 275
+          }
+        ],
+        [
+          {
+            "left": 52,
+            "top": 338,
+            "width": 217,
+            "height": 298
+          },
+          {
+            "left": 397,
+            "top": 338,
+            "width": 146,
+            "height": 298
+          },
+          {
+            "left": 711,
+            "top": 338,
+            "width": 147,
+            "height": 298
+          },
+          {
+            "left": 986,
+            "top": 338,
+            "width": 217,
+            "height": 298
+          }
+        ],
+        [
+          {
+            "left": 73,
+            "top": 687,
+            "width": 177,
+            "height": 178
+          },
+          {
+            "left": 402,
+            "top": 687,
+            "width": 151,
+            "height": 178
+          },
+          {
+            "left": 700,
+            "top": 687,
+            "width": 152,
+            "height": 178
+          },
+          {
+            "left": 1006,
+            "top": 687,
+            "width": 177,
+            "height": 178
+          }
+        ],
+        [
+          {
+            "left": 72,
+            "top": 904,
+            "width": 178,
+            "height": 307
+          },
+          {
+            "left": 414,
+            "top": 904,
+            "width": 113,
+            "height": 307
+          },
+          {
+            "left": 728,
+            "top": 904,
+            "width": 113,
+            "height": 307
+          },
+          {
+            "left": 1007,
+            "top": 904,
+            "width": 176,
+            "height": 307
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Environment/Source/living.png",
+      "rows": [
+        [
+          {
+            "left": 30,
+            "top": 115,
+            "width": 335,
+            "height": 228
+          },
+          {
+            "left": 425,
+            "top": 115,
+            "width": 171,
+            "height": 228
+          },
+          {
+            "left": 658,
+            "top": 115,
+            "width": 171,
+            "height": 228
+          },
+          {
+            "left": 890,
+            "top": 115,
+            "width": 331,
+            "height": 228
+          }
+        ],
+        [
+          {
+            "left": 42,
+            "top": 427,
+            "width": 309,
+            "height": 162
+          },
+          {
+            "left": 433,
+            "top": 427,
+            "width": 150,
+            "height": 162
+          },
+          {
+            "left": 670,
+            "top": 427,
+            "width": 150,
+            "height": 162
+          },
+          {
+            "left": 903,
+            "top": 427,
+            "width": 307,
+            "height": 162
+          }
+        ],
+        [
+          {
+            "left": 119,
+            "top": 639,
+            "width": 152,
+            "height": 268
+          },
+          {
+            "left": 425,
+            "top": 639,
+            "width": 159,
+            "height": 268
+          },
+          {
+            "left": 671,
+            "top": 639,
+            "width": 158,
+            "height": 268
+          },
+          {
+            "left": 986,
+            "top": 639,
+            "width": 143,
+            "height": 268
+          }
+        ],
+        [
+          {
+            "left": 29,
+            "top": 964,
+            "width": 335,
+            "height": 209
+          },
+          {
+            "left": 421,
+            "top": 964,
+            "width": 171,
+            "height": 209
+          },
+          {
+            "left": 663,
+            "top": 964,
+            "width": 170,
+            "height": 209
+          },
+          {
+            "left": 885,
+            "top": 964,
+            "width": 340,
+            "height": 209
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Environment/Source/kitchen.png",
+      "rows": [
+        [
+          {
+            "left": 113,
+            "top": 45,
+            "width": 165,
+            "height": 278
+          },
+          {
+            "left": 419,
+            "top": 45,
+            "width": 146,
+            "height": 278
+          },
+          {
+            "left": 712,
+            "top": 45,
+            "width": 139,
+            "height": 278
+          },
+          {
+            "left": 977,
+            "top": 45,
+            "width": 165,
+            "height": 278
+          }
+        ],
+        [
+          {
+            "left": 106,
+            "top": 369,
+            "width": 180,
+            "height": 241
+          },
+          {
+            "left": 415,
+            "top": 369,
+            "width": 160,
+            "height": 241
+          },
+          {
+            "left": 688,
+            "top": 369,
+            "width": 159,
+            "height": 241
+          },
+          {
+            "left": 971,
+            "top": 369,
+            "width": 176,
+            "height": 241
+          }
+        ],
+        [
+          {
+            "left": 85,
+            "top": 640,
+            "width": 220,
+            "height": 251
+          },
+          {
+            "left": 415,
+            "top": 640,
+            "width": 151,
+            "height": 251
+          },
+          {
+            "left": 692,
+            "top": 640,
+            "width": 151,
+            "height": 251
+          },
+          {
+            "left": 949,
+            "top": 640,
+            "width": 221,
+            "height": 251
+          }
+        ],
+        [
+          {
+            "left": 100,
+            "top": 943,
+            "width": 189,
+            "height": 252
+          },
+          {
+            "left": 401,
+            "top": 943,
+            "width": 165,
+            "height": 252
+          },
+          {
+            "left": 692,
+            "top": 943,
+            "width": 165,
+            "height": 252
+          },
+          {
+            "left": 966,
+            "top": 943,
+            "width": 188,
+            "height": 252
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Environment/Source/decor.png",
+      "rows": [
+        [
+          {
+            "left": 29,
+            "top": 62,
+            "width": 288,
+            "height": 218
+          },
+          {
+            "left": 396,
+            "top": 62,
+            "width": 160,
+            "height": 218
+          },
+          {
+            "left": 698,
+            "top": 62,
+            "width": 162,
+            "height": 218
+          },
+          {
+            "left": 944,
+            "top": 62,
+            "width": 279,
+            "height": 218
+          }
+        ],
+        [
+          {
+            "left": 55,
+            "top": 330,
+            "width": 223,
+            "height": 247
+          },
+          {
+            "left": 379,
+            "top": 330,
+            "width": 194,
+            "height": 247
+          },
+          {
+            "left": 677,
+            "top": 330,
+            "width": 191,
+            "height": 247
+          },
+          {
+            "left": 976,
+            "top": 330,
+            "width": 222,
+            "height": 247
+          }
+        ],
+        [
+          {
+            "left": 109,
+            "top": 647,
+            "width": 124,
+            "height": 264
+          },
+          {
+            "left": 415,
+            "top": 647,
+            "width": 109,
+            "height": 264
+          },
+          {
+            "left": 730,
+            "top": 647,
+            "width": 108,
+            "height": 264
+          },
+          {
+            "left": 1021,
+            "top": 647,
+            "width": 124,
+            "height": 264
+          }
+        ],
+        [
+          {
+            "left": 23,
+            "top": 1002,
+            "width": 295,
+            "height": 181
+          },
+          {
+            "left": 356,
+            "top": 1002,
+            "width": 253,
+            "height": 181
+          },
+          {
+            "left": 645,
+            "top": 1002,
+            "width": 253,
+            "height": 181
+          },
+          {
+            "left": 937,
+            "top": 1002,
+            "width": 295,
+            "height": 181
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Environment/Source/garden_rotations.png",
+      "rows": [
+        [
+          {
+            "left": 37,
+            "top": 93,
+            "width": 354,
+            "height": 221
+          },
+          {
+            "left": 434,
+            "top": 93,
+            "width": 150,
+            "height": 221
+          },
+          {
+            "left": 663,
+            "top": 93,
+            "width": 157,
+            "height": 221
+          },
+          {
+            "left": 863,
+            "top": 93,
+            "width": 359,
+            "height": 221
+          }
+        ],
+        [
+          {
+            "left": 140,
+            "top": 391,
+            "width": 147,
+            "height": 165
+          },
+          {
+            "left": 444,
+            "top": 391,
+            "width": 127,
+            "height": 165
+          },
+          {
+            "left": 683,
+            "top": 391,
+            "width": 127,
+            "height": 165
+          },
+          {
+            "left": 960,
+            "top": 391,
+            "width": 147,
+            "height": 165
+          }
+        ],
+        [
+          {
+            "left": 136,
+            "top": 630,
+            "width": 128,
+            "height": 228
+          },
+          {
+            "left": 373,
+            "top": 630,
+            "width": 244,
+            "height": 228
+          },
+          {
+            "left": 638,
+            "top": 630,
+            "width": 244,
+            "height": 228
+          },
+          {
+            "left": 991,
+            "top": 630,
+            "width": 123,
+            "height": 228
+          }
+        ],
+        [
+          {
+            "left": 133,
+            "top": 895,
+            "width": 135,
+            "height": 295
+          },
+          {
+            "left": 398,
+            "top": 895,
+            "width": 163,
+            "height": 295
+          },
+          {
+            "left": 693,
+            "top": 895,
+            "width": 164,
+            "height": 295
+          },
+          {
+            "left": 994,
+            "top": 895,
+            "width": 125,
+            "height": 295
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Characters/Source/Male.png",
+      "rows": [
+        [
+          {
+            "left": 54,
+            "top": 51,
+            "width": 105,
+            "height": 206
+          },
+          {
+            "left": 244,
+            "top": 51,
+            "width": 105,
+            "height": 206
+          },
+          {
+            "left": 436,
+            "top": 51,
+            "width": 104,
+            "height": 206
+          },
+          {
+            "left": 627,
+            "top": 51,
+            "width": 104,
+            "height": 206
+          },
+          {
+            "left": 809,
+            "top": 51,
+            "width": 106,
+            "height": 206
+          },
+          {
+            "left": 1002,
+            "top": 51,
+            "width": 106,
+            "height": 206
+          },
+          {
+            "left": 1192,
+            "top": 51,
+            "width": 106,
+            "height": 206
+          },
+          {
+            "left": 1375,
+            "top": 51,
+            "width": 106,
+            "height": 206
+          }
+        ],
+        [
+          {
+            "left": 53,
+            "top": 295,
+            "width": 107,
+            "height": 202
+          },
+          {
+            "left": 243,
+            "top": 295,
+            "width": 106,
+            "height": 202
+          },
+          {
+            "left": 430,
+            "top": 295,
+            "width": 111,
+            "height": 202
+          },
+          {
+            "left": 616,
+            "top": 295,
+            "width": 112,
+            "height": 202
+          },
+          {
+            "left": 804,
+            "top": 295,
+            "width": 110,
+            "height": 202
+          },
+          {
+            "left": 994,
+            "top": 295,
+            "width": 112,
+            "height": 202
+          },
+          {
+            "left": 1186,
+            "top": 295,
+            "width": 111,
+            "height": 202
+          },
+          {
+            "left": 1372,
+            "top": 295,
+            "width": 110,
+            "height": 202
+          }
+        ],
+        [
+          {
+            "left": 54,
+            "top": 537,
+            "width": 109,
+            "height": 203
+          },
+          {
+            "left": 243,
+            "top": 537,
+            "width": 109,
+            "height": 203
+          },
+          {
+            "left": 429,
+            "top": 537,
+            "width": 113,
+            "height": 203
+          },
+          {
+            "left": 620,
+            "top": 537,
+            "width": 110,
+            "height": 203
+          },
+          {
+            "left": 810,
+            "top": 537,
+            "width": 112,
+            "height": 203
+          },
+          {
+            "left": 1000,
+            "top": 537,
+            "width": 112,
+            "height": 203
+          },
+          {
+            "left": 1191,
+            "top": 537,
+            "width": 112,
+            "height": 203
+          },
+          {
+            "left": 1375,
+            "top": 537,
+            "width": 113,
+            "height": 203
+          }
+        ],
+        [
+          {
+            "left": 53,
+            "top": 777,
+            "width": 107,
+            "height": 208
+          },
+          {
+            "left": 243,
+            "top": 777,
+            "width": 106,
+            "height": 208
+          },
+          {
+            "left": 429,
+            "top": 777,
+            "width": 107,
+            "height": 208
+          },
+          {
+            "left": 620,
+            "top": 777,
+            "width": 107,
+            "height": 208
+          },
+          {
+            "left": 810,
+            "top": 777,
+            "width": 107,
+            "height": 208
+          },
+          {
+            "left": 1000,
+            "top": 777,
+            "width": 107,
+            "height": 208
+          },
+          {
+            "left": 1191,
+            "top": 777,
+            "width": 107,
+            "height": 208
+          },
+          {
+            "left": 1374,
+            "top": 777,
+            "width": 108,
+            "height": 208
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Characters/Source/Female.png",
+      "rows": [
+        [
+          {
+            "left": 63,
+            "top": 51,
+            "width": 99,
+            "height": 211
+          },
+          {
+            "left": 249,
+            "top": 51,
+            "width": 99,
+            "height": 211
+          },
+          {
+            "left": 433,
+            "top": 51,
+            "width": 100,
+            "height": 211
+          },
+          {
+            "left": 622,
+            "top": 51,
+            "width": 99,
+            "height": 211
+          },
+          {
+            "left": 812,
+            "top": 51,
+            "width": 99,
+            "height": 211
+          },
+          {
+            "left": 1002,
+            "top": 51,
+            "width": 99,
+            "height": 211
+          },
+          {
+            "left": 1190,
+            "top": 51,
+            "width": 99,
+            "height": 211
+          },
+          {
+            "left": 1378,
+            "top": 51,
+            "width": 98,
+            "height": 211
+          }
+        ],
+        [
+          {
+            "left": 60,
+            "top": 301,
+            "width": 115,
+            "height": 191
+          },
+          {
+            "left": 242,
+            "top": 301,
+            "width": 114,
+            "height": 191
+          },
+          {
+            "left": 429,
+            "top": 301,
+            "width": 116,
+            "height": 191
+          },
+          {
+            "left": 616,
+            "top": 301,
+            "width": 117,
+            "height": 191
+          },
+          {
+            "left": 804,
+            "top": 301,
+            "width": 117,
+            "height": 191
+          },
+          {
+            "left": 995,
+            "top": 301,
+            "width": 117,
+            "height": 191
+          },
+          {
+            "left": 1185,
+            "top": 301,
+            "width": 116,
+            "height": 191
+          },
+          {
+            "left": 1374,
+            "top": 301,
+            "width": 115,
+            "height": 191
+          }
+        ],
+        [
+          {
+            "left": 54,
+            "top": 543,
+            "width": 120,
+            "height": 192
+          },
+          {
+            "left": 241,
+            "top": 543,
+            "width": 117,
+            "height": 192
+          },
+          {
+            "left": 427,
+            "top": 543,
+            "width": 118,
+            "height": 192
+          },
+          {
+            "left": 615,
+            "top": 543,
+            "width": 118,
+            "height": 192
+          },
+          {
+            "left": 802,
+            "top": 543,
+            "width": 119,
+            "height": 192
+          },
+          {
+            "left": 991,
+            "top": 543,
+            "width": 119,
+            "height": 192
+          },
+          {
+            "left": 1180,
+            "top": 543,
+            "width": 119,
+            "height": 192
+          },
+          {
+            "left": 1368,
+            "top": 543,
+            "width": 119,
+            "height": 192
+          }
+        ],
+        [
+          {
+            "left": 62,
+            "top": 780,
+            "width": 101,
+            "height": 197
+          },
+          {
+            "left": 249,
+            "top": 780,
+            "width": 100,
+            "height": 197
+          },
+          {
+            "left": 433,
+            "top": 780,
+            "width": 101,
+            "height": 197
+          },
+          {
+            "left": 621,
+            "top": 780,
+            "width": 100,
+            "height": 197
+          },
+          {
+            "left": 812,
+            "top": 780,
+            "width": 99,
+            "height": 197
+          },
+          {
+            "left": 1002,
+            "top": 780,
+            "width": 100,
+            "height": 197
+          },
+          {
+            "left": 1189,
+            "top": 780,
+            "width": 102,
+            "height": 197
+          },
+          {
+            "left": 1376,
+            "top": 780,
+            "width": 100,
+            "height": 197
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Environment/Source/garden.png",
+      "rows": [
+        [
+          {
+            "left": 26,
+            "top": 76,
+            "width": 360,
+            "height": 404
+          },
+          {
+            "left": 417,
+            "top": 76,
+            "width": 282,
+            "height": 404
+          },
+          {
+            "left": 740,
+            "top": 76,
+            "width": 412,
+            "height": 404
+          },
+          {
+            "left": 1192,
+            "top": 76,
+            "width": 318,
+            "height": 404
+          }
+        ],
+        [
+          {
+            "left": 116,
+            "top": 550,
+            "width": 151,
+            "height": 409
+          },
+          {
+            "left": 425,
+            "top": 550,
+            "width": 295,
+            "height": 409
+          },
+          {
+            "left": 837,
+            "top": 550,
+            "width": 164,
+            "height": 409
+          },
+          {
+            "left": 1166,
+            "top": 550,
+            "width": 308,
+            "height": 409
+          }
+        ]
+      ]
+    },
+    {
+      "source": "1_2D_Art/Environment/Source/plants.png",
+      "rows": [
+        [
+          {
+            "left": 173,
+            "top": 60,
+            "width": 202,
+            "height": 371
+          },
+          {
+            "left": 615,
+            "top": 60,
+            "width": 305,
+            "height": 371
+          },
+          {
+            "left": 1071,
+            "top": 60,
+            "width": 358,
+            "height": 371
+          }
+        ],
+        [
+          {
+            "left": 196,
+            "top": 481,
+            "width": 169,
+            "height": 455
+          },
+          {
+            "left": 599,
+            "top": 481,
+            "width": 320,
+            "height": 455
+          },
+          {
+            "left": 1039,
+            "top": 481,
+            "width": 437,
+            "height": 455
+          }
+        ]
+      ]
+    }
+  ]
+}
